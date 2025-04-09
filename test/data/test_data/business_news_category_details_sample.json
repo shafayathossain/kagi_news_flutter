@@ -1,0 +1,3149 @@
+{
+  "category": "Business",
+  "timestamp": 1744043225,
+  "read": 778,
+  "clusters": [
+    {
+      "cluster_number": 1,
+      "unique_domains": 24,
+      "number_of_titles": 79,
+      "category": "Tariffs",
+      "title": "Global markets react to Trump's tariff expansion",
+      "short_summary": "President Trump has announced sweeping new tariffs on imports from most countries, with baseline rates of 10% and significantly higher rates for major trading partners like China, Japan, and Vietnam. Global markets have responded with sharp sell-offs, while Trump has threatened an additional 50% tariff on China if they don't withdraw their retaliatory measures. Despite market turmoil, the administration maintains these tariffs will ultimately benefit the US economy by addressing trade imbalances.",
+      "did_you_know": "The newly announced tariffs have raised the weighted average US tariff to 29% – its highest rate since 1900.",
+      "talking_points": [
+        "Market volatility: Global stock markets have experienced significant turbulence with Hong Kong's Hang Seng index plunging over 13% and Wall Street indexes entering bear market territory.",
+        "China's response: Beijing has already retaliated with 34% tariffs on US products and President Xi Jinping has vowed to \"fully unleash\" China's consumption potential to counter the impact.",
+        "Business concerns: Small business owners across America are doing alarming calculations as they face higher costs on imported goods with many unable to shift manufacturing to the US.",
+        "Economic debate: Federal Reserve Governor Adriana Kugler noted that the tariffs currently have more pressing implications for inflation than for economic growth.",
+        "Negotiation uncertainty: World leaders have been attempting to make offers to lower tariffs across the board, but many are unsure if Trump is actually interested in making deals."
+      ],
+      "quote": "I don't want anything to go down, but sometimes you have to take medicine to fix something.",
+      "quote_author": "Donald Trump",
+      "quote_source_url": "https://www.bbc.com/news/articles/c2093qgx14po",
+      "quote_source_domain": "bbc.com",
+      "location": "Washington DC, USA",
+      "perspectives": [
+        {
+          "text": "Trump administration: The tariffs are necessary to rebalance global trade and rebuild domestic manufacturing despite short-term market turbulence.",
+          "sources": [
+            {
+              "name": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/politics/trump-tells-americans-to-be-patient-as-global-markets-keep-dropping-over-tariffs"
+            }
+          ]
+        },
+        {
+          "text": "Business leaders: Many executives see the tariffs as destructive to confidence in the US as a trading partner and place to do business, with Bill Ackman suggesting a 90-day timeout to negotiate.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2025/04/07/trump-tariffs-recession-off-ramps/"
+            }
+          ]
+        },
+        {
+          "text": "Federal Reserve: The immediate concern with tariffs is their impact on inflation rather than economic growth, suggesting monetary policy may need adjustment.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2025-04-07/fed-s-kugler-says-inflation-more-urgent-tariff-issue-right-now"
+            }
+          ]
+        },
+        {
+          "text": "China: Beijing views this as an opportunity to strengthen internal consumption and believes it has sufficient tools to weather US trade pressure.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2025-04-07/xi-vows-to-fully-unleash-consumption-in-face-of-trump-tariffs"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "The current tariff escalation echoes aspects of the Smoot-Hawley tariffs of 1930, which many economists believe contributed to the deepening of the Great Depression by reducing global trade. This marks the second major trade confrontation between the US and China under Trump's leadership, following the initial trade disputes during his first administration.",
+      "international_reactions": [
+        "🇨🇳 China: Immediately implemented 34% retaliatory tariffs on US products and accused the US of \"economic bullying\"",
+        "🇩🇪 Germany: Economy Minister Robert Habeck called the premise of the tariffs \"nonsense\" and stated Europe should remain united in its response",
+        "🇻🇳 Vietnam: Urged the United States to delay imposing tariffs as the country has been working to forge stronger strategic and economic links with the US"
+      ],
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "April 3, 2025:: Trump announces \"Liberation Day\" sweeping tariffs on global imports",
+        "April 5, 2025:: China retaliates with 34% tariffs on US products",
+        "April 7, 2025:: Trump threatens additional 50% tariffs on China if they don't withdraw retaliatory measures"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "Looking past the immediate market volatility, investors should consider several fundamental impacts of these tariff policies. First, companies with complex global supply chains face meaningful margin pressure as input costs rise, particularly those unable to quickly shift production. Second, while some domestic manufacturers may benefit from reduced foreign competition, many American businesses rely heavily on imported components with no domestic alternatives.",
+      "business_angle_points": [],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Retail sector: Retailers that rely heavily on imported goods from China and other high-tariff countries face significant margin pressure and difficult pricing decisions.",
+        "US manufacturing: Some domestic manufacturers could benefit from reduced foreign competition, though those relying on imported components face higher input costs.",
+        "Financial services: Banks are postponing leveraged finance deals as investors become more risk-averse amid market volatility.",
+        "Technology companies: Tech firms with significant exposure to China, like Apple and many semiconductor companies, face potential supply chain disruptions and retaliatory measures.",
+        "Consumer goods: Companies may accelerate diversification of supply chains away from high-tariff countries, potentially benefiting manufacturing hubs in countries with lower tariff rates."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Xi Vows to ‘Fully Unleash’ Consumption in Face of Trump Tariffs",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/xi-vows-to-fully-unleash-consumption-in-face-of-trump-tariffs",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T12:52:18+00:00",
+          "image": "https://kagiproxy.com/img/ovrk1QM-YsnAbzaxuZQnhPbyw5Q-J1ugbYAA_uvISO9wse7-ALk5kN2RZAheXNaHXt_DyogPm4-483hEbs-KKeF8HC9u8bai6L6yfQoL0iMOVL_nRuEv-lhdT9vf7U-mWx5Y5PpvY0I",
+          "image_caption": "Shoppers on Nanjing East Road in Shanghai. Photographer: Qilai Shen/Bloomberg"
+        },
+        {
+          "title": "Trump’s Tariff Stance Set for Test in Meeting With Israel’s Netanyahu",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/trump-s-tariff-stance-set-for-test-in-meeting-with-israel-s-netanyahu",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T09:09:38+00:00",
+          "image": "https://kagiproxy.com/img/M8fcmYxriR0wGsK64uikkXcEtP4rEuL1JTlsMtLWwY2bT7pf3m83QCDXnYS2extT_EBtrxwxUYBoXr6RS-voLguh07my1MEkU0akawavmqLzrijFKp9fNW8VQVadMtxFHGoLq6VuGxU",
+          "image_caption": "Benjamin Netanyahu and Howard Lutnick on Sunday in Washington."
+        },
+        {
+          "title": "Trump threatens additional 50% tariff on China",
+          "link": "https://www.ft.com/content/44ea27d8-f166-41e5-b347-dbd39dc9b7de",
+          "domain": "ft.com",
+          "date": "2025-04-07T15:39:03+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump and the mob boss approach to global markets",
+          "link": "https://www.ft.com/content/994616da-d637-48aa-8599-cbcf1c88d0d4",
+          "domain": "ft.com",
+          "date": "2025-04-07T10:33:50+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "China reserves firepower for Trump trade battle",
+          "link": "https://www.ft.com/content/1898c2a1-bf46-46a7-97e6-d51cb6c73c02",
+          "domain": "ft.com",
+          "date": "2025-04-07T04:00:34+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The dark days after the tariff apocalypse",
+          "link": "https://www.ft.com/content/3a6c0561-0628-43e4-86f0-bd3db881667b",
+          "domain": "ft.com",
+          "date": "2025-04-07T11:31:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Inflation More Urgent Tariff Issue Right Now, Fed’s Kugler Says",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/fed-s-kugler-says-inflation-more-urgent-tariff-issue-right-now",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T16:11:07+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Frustrated World Leaders Wonder If Trump Even Wants a Deal",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/frustrated-world-leaders-wonder-if-trump-even-wants-a-deal",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T12:30:42+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Xi Switches to Fight Mode as Trump Trade Deal Looks Unlikely",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/china-s-retaliation-signals-xi-s-growing-frustration-with-trump-tariffs",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T12:30:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump’s Emergency Tariffs Go From ‘Liberation’ to Litigation",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/supply-chain-latest-court-challenges-to-trump-tariffs",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T11:00:05+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Between tariffs and survival, American business owners are doing alarming math",
+          "link": "https://www.npr.org/2025/04/07/nx-s1-5352833/trump-tariffs-china-manufacturing-businesses",
+          "domain": "npr.org",
+          "date": "2025-04-07T09:00:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Tariffied! We check in on businesses",
+          "link": "https://www.npr.org/2025/04/07/1243303429/tariffied-we-check-in-on-businesses",
+          "domain": "npr.org",
+          "date": "2025-04-07T07:00:59+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Small Businesses Face a ‘Tornado’ of Challenges: Cuts, Freezes and Now Tariffs",
+          "link": "https://www.nytimes.com/2025/04/06/business/economy/trump-tariffs-small-business.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-06T14:08:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump’s Tariffs Will Wound Free Trade, but the Blow May Not Be Fatal",
+          "link": "https://www.nytimes.com/2025/04/06/world/europe/trade-trump-tariffs-brexit.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-06T13:06:10+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump Says His Tariffs Will Address Unfair Global Trade. Is He Right?",
+          "link": "https://www.nytimes.com/2025/04/02/us/politics/trump-tariffs-global-trade.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-06T21:11:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stock Selling Spree, Trump Threatens 50% More China Tariff, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/stock-selling-spree-trump-threatens-50-more-china-tariff-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T16:11:14+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Tariff Headlines Spark Volatility and Stock Swings",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/tariff-headlines-spark-volatility-and-stock-swings",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T16:06:40+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump Threatens 50% China Tariff, Wall Street Swoons, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/trump-threatens-50-china-tariff-wall-street-swoons-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T15:36:54+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stocks Swing on Tariff Angst, Trump Orders US Steel Review, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/stocks-swing-on-tariff-angst-trump-orders-us-steel-review-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T14:39:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "S&P Opens in Bear Market Territory, Trump Holds Firm, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/s-p-opens-in-bear-market-territory-trump-holds-firm-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T13:48:05+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump Draws Line in Sand on Trade War",
+          "link": "https://www.bloomberg.com/news/videos/2025-04-07/trump-draws-line-in-sand-on-trade-war-video",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T13:32:53+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Futures Fall as Trump Defends Tariffs, Netanyahu Meeting, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/futures-fall-as-trump-defends-tariffs-netanyahu-meeting-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T12:39:13+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "China Can Help China Weather the Impact of Trump’s Tariff Deluge",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/trade-war-china-can-help-china-weather-the-impact-of-trump-s-tariff-deluge",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T11:48:20+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump Team Defends Tariffs, Bets on Fed Rate Cuts Grow, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/trump-team-defends-tariffs-bets-on-fed-rate-cuts-grow-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T11:37:34+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "China Dusts Off Doomsday Plans After Trump’s Tariff Barrage",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/china-dusts-off-doomsday-plans-after-trump-s-tariff-barrage",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T11:28:42+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump Takes Unapologetic Stand on Tariffs as Markets Collapse",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/donald-trump-takes-unapologetic-stand-on-tariffs-as-markets-collapse",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T11:24:28+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stocks Set For Further Plunge, Tariff Turmoil, More",
+          "link": "https://www.bloomberg.com/news/audio/2025-04-07/stocks-set-for-further-plunge-tariff-turmoil-more",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T10:26:19+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Nations debate response to U.S. trade war as global markets roiled",
+          "link": "https://www.pbs.org/newshour/world/nations-debate-response-to-u-s-trade-war-as-global-markets-roiled",
+          "domain": "pbs.org",
+          "date": "2025-04-07T15:49:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump tells Americans to be patient as global markets keep dropping over tariffs",
+          "link": "https://www.pbs.org/newshour/politics/trump-tells-americans-to-be-patient-as-global-markets-keep-dropping-over-tariffs",
+          "domain": "pbs.org",
+          "date": "2025-04-07T15:01:01+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "WATCH: Trump compares tariff policy to &#8216;medicine&#8217; as market futures crash",
+          "link": "https://www.pbs.org/newshour/politics/watch-trump-compares-tariff-policy-to-medicine-as-market-futures-crash",
+          "domain": "pbs.org",
+          "date": "2025-04-07T14:30:07+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "What to know about the effect of Trump&rsquo;s tariffs on globalization",
+          "link": "https://www.pbs.org/newshour/show/what-to-know-about-the-effect-of-trumps-tariffs-on-globalization",
+          "domain": "pbs.org",
+          "date": "2025-04-06T21:50:51+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "As markets implode, US trading partners puzzle over whether there’s room for negotiations",
+          "link": "https://apnews.com/article/trump-tariffs-china-trade-4e130e740f3955feccec226d6c0084d9",
+          "domain": "apnews.com",
+          "date": "2025-04-07T15:13:25+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "US Commerce Secretary Lutnick, bank CEOs discussed tariffs one day after announcement",
+          "link": "https://www.investing.com/news/world-news/us-commerce-secretary-lutnick-discussed-tariffs-with-bank-ceos-one-day-after-announcement-source-says-3971630",
+          "domain": "investing.com",
+          "date": "2025-04-07T16:01:51+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Wall Street’s Decision Makers Brace for More Chaos After Markets Plunge",
+          "link": "https://www.nytimes.com/2025/04/06/business/stock-market-plunge-investment-bank-impact.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T02:56:25+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Does Trump Have an ‘Off Ramp’ From His Trade Fight?",
+          "link": "https://www.nytimes.com/2025/04/07/business/dealbook/trump-tariffs-off-ramp.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T12:12:27+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Europe Gears Up to Make Its First Countermove to Trump Tariffs",
+          "link": "https://www.nytimes.com/2025/04/07/world/europe/europe-tariffs-trump-response.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T15:34:55+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "‘The Tsunami Is Coming’: China’s Global Exports Are Just Getting Started",
+          "link": "https://www.nytimes.com/2025/04/07/business/china-manufacturing-exports-trump-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T09:03:32+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "China Tries to Downplay the Trade War’s Effects on Its Economy",
+          "link": "https://www.nytimes.com/2025/04/07/world/asia/china-trade-war-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T10:37:09+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Vietnam Urges United States to Delay Imposing Tariffs On It",
+          "link": "https://www.nytimes.com/2025/04/06/world/asia/vietnam-trump-tariff-delay.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-06T17:27:34+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump theatens additional 50% tariff on China",
+          "link": "https://seekingalpha.com/news/4429183-trump-theatens-additional-50-percent-tariff-on-china",
+          "domain": "seekingalpha.com",
+          "date": "2025-04-07T15:39:55+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "How Does This Crash Compare to 2020 and 2008?",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/us-tariffs-how-does-this-stock-market-crash-compare-to-2008-and-2020",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T12:56:59+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump claims tariffs are working",
+          "link": "https://www.rt.com/business/615352-trump-claims-tariffs-working/",
+          "domain": "rt.com",
+          "date": "2025-04-07T14:53:02+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Market carnage goes global",
+          "link": "https://www.economist.com/finance-and-economics/2025/04/07/market-carnage-goes-global",
+          "domain": "economist.com",
+          "date": "2025-04-07T12:05:32+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump’s trade war threatens a global recession",
+          "link": "https://www.economist.com/finance-and-economics/2025/04/06/trumps-trade-war-threatens-a-global-recession",
+          "domain": "economist.com",
+          "date": "2025-04-06T15:51:26+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Even Trump’s allies fear he’s leading America into a recession with his tariffs. Here are some off-ramps",
+          "link": "https://fortune.com/2025/04/07/trump-tariffs-recession-off-ramps/",
+          "domain": "fortune.com",
+          "date": "2025-04-07T16:14:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Donald Trump shares video claiming he’s ‘purposefully crashing the market’—but then insists ‘he doesn’t want anything to go down’",
+          "link": "https://fortune.com/2025/04/07/donald-trump-hard-reset-theory-video-truth-social/",
+          "domain": "fortune.com",
+          "date": "2025-04-07T11:17:15+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "BYD Electronic, Lenovo sink over 20% as Trump tariffs hit exporters, equity markets",
+          "link": "https://www.scmp.com/business/china-business/article/3305492/byd-electronic-lenovo-sink-20-trump-tariffs-hit-exporters-equity-markets",
+          "domain": "scmp.com",
+          "date": "2025-04-07T07:50:47+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "One Wall Street bull still sees a stock market rally: 'These levies will eventually be negotiated lower'",
+          "link": "https://finance.yahoo.com/news/one-wall-street-bull-still-sees-a-stock-market-rally-these-levies-will-eventually-be-negotiated-lower-160859105.html",
+          "domain": "yahoo.com",
+          "date": "2025-04-07T16:09:16+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Top banking chiefs held talks over Trump tariff fallout, sources say",
+          "link": "https://finance.yahoo.com/news/top-banking-chiefs-held-talks-154056244.html",
+          "domain": "yahoo.com",
+          "date": "2025-04-07T15:40:56+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Emerging Assets Plunge as Trump Tariffs Roil Markets",
+          "link": "https://finance.yahoo.com/news/emerging-equities-sink-most-since-075351351.html",
+          "domain": "yahoo.com",
+          "date": "2025-04-07T15:52:42+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Why Investors Need To Keep Tabs On Global Supply Chains Amid Trump's Trade War",
+          "link": "https://www.investors.com/news/trump-tariffs-stock-market-investors-global-supply-chains-trade-war/",
+          "domain": "investors.com",
+          "date": "2025-04-07T15:18:26+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stocks Whipsaw on Tariff Headlines",
+          "link": "https://www.wsj.com/livecoverage/stock-market-trump-tariffs-trade-war-04-07-25/card/stocks-whipsaw-on-tariff-headlines-4SxxC2bT68QzUPsiimme",
+          "domain": "wsj.com",
+          "date": "2025-04-07T15:12:31+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Which Trump-supporting billionaires have lost the most in tariff markets turmoil?",
+          "link": "https://www.theguardian.com/us-news/2025/apr/07/stock-market-loss-elon-musk-mark-zuckerberg-jeff-bezos",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T14:28:25+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Here’s one key thing you should know about Trump’s shock to the world economy: it could work | James Meadway",
+          "link": "https://www.theguardian.com/commentisfree/2025/apr/07/donald-trump-world-economy-shock-us",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T15:25:37+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Corporate America won’t stop Trump’s tariffs. Here’s why | Alex Bronzini-Vender",
+          "link": "https://www.theguardian.com/commentisfree/2025/apr/07/corportate-trump-tariffs-backlash",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T10:00:15+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Donald Trump shrugs off tariff turmoil as ‘medicine’ – video",
+          "link": "https://www.theguardian.com/us-news/video/2025/apr/07/donald-trump-digs-in-on-tariffs-calls-them-medicine-video",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T05:27:48+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The China fiasco is about to get worse",
+          "link": "https://www.reddit.com/r/investing/comments/1jto7tj/the_china_fiasco_is_about_to_get_worse/",
+          "domain": "reddit.com",
+          "date": "2025-04-07T15:36:35+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Banks Postpone Loans as Tariffs Stoke Fears of ‘Hung’ Debt",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/banks-postpone-leveraged-loan-sale-for-hig-s-us-canada-it-merger",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T13:54:16+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Wall Street Gripped by Wild Swings on Tariff Chaos: Markets Wrap",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-06/s-p-500-futures-slump-as-tariff-turmoil-deepens-markets-wrap",
+          "domain": "bloomberg.com",
+          "date": "2025-04-06T22:40:25+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump administration to markets: Don't expect a rescue",
+          "link": "https://www.reddit.com/r/Economics/comments/1jswt4j/trump_administration_to_markets_dont_expect_a/",
+          "domain": "reddit.com",
+          "date": "2025-04-06T15:33:09+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump administration to markets: Don't expect a rescue - Axios",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EbnVORjEzYXFTcFpiYktxLTIwLW1ZMkJGSFg4U0l2cF9LRHkyZGhHbEgyc3ZuQWNLZzN3S0drLXJYY2VoV2JqYm1rY2JiVXlMMXlOcFBIX2hNcnZTQ2xvc1hScGp2ZWJPVXc4",
+          "domain": "google.com",
+          "date": "2025-04-06T15:36:44+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Donald Trump's brutal nine-word advice after US tariffs send global economy into meltdown and billions are wip - Daily Mail",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSExLYjVuZmpVT3pQV1lQcGRkNkN2X2ZBa1hwTzN6V0JNNzMwa1dBWmQ5X2ZVX21TMXA1NUZ2WUdDUDFieVdSb1ZxOVpnbXUyeHE0WlI2SFNld2VMdmdjWEdxQ09hZ0FYZmtTamhRLVRiRU1kRTQtcVNlLVFTY1BzdlZVcEh3S0pkOEduOU9IUDhkZkpwZ0NPU1NxcHRHZ0NURlZiTTJ0YjBGSUZUM0V0WUN4aEpGakNCR0tSc19GQ0VzY1JMNkl0TUZBdVo",
+          "domain": "google.com",
+          "date": "2025-04-06T22:15:18+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Is the world heading into recession? - BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IendUeXBEZXVYNnltcjdoYkZLc0pncElSZDdZSklyMXotdkZkeHhqQ013RVBQWF9PUlZ3SzVsc3BNRVVHeG9QdElrSVNfOUQ2U195OURXeldvcTNX0gFiQVVfeXFMTURzLXlEVERFaEVpNmZRTFRLc0hKRk5hSTNXSGV2VXF1T2VVb0xlN25qV1RjOTFDRkI4eDZoaUJicXNhUXVWM2MtM0R3R2p4Y01Md1BENWdOX19tMDNRYjdLTHc",
+          "domain": "google.com",
+          "date": "2025-04-07T12:30:11+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Is A U.S. Recession Inevitable?",
+          "link": "https://seekingalpha.com/article/4773477-is-us-recession-inevitable",
+          "domain": "seekingalpha.com",
+          "date": "2025-04-07T14:50:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump threatens to impose an additional 50% tariff on China",
+          "link": "https://www.cbsnews.com/news/trump-tariffs-china-50-percent-tariff-retaliatory/",
+          "domain": "cbsnews.com",
+          "date": "2025-04-07T16:07:47+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump tells Americans to \"hang tough\" as 10% universal tariffs take effect",
+          "link": "https://www.cbsnews.com/news/trump-universal-tariff-take-effect/",
+          "domain": "cbsnews.com",
+          "date": "2025-04-06T23:50:33+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Who’s getting hit by Trump's tariffs? Breaking down ‘Liberation Day’",
+          "link": "https://www.euronews.com/business/2025/04/07/whos-getting-hit-by-trumps-tariffs-breaking-down-liberation-day",
+          "domain": "euronews.com",
+          "date": "2025-04-07T13:40:39+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Week ahead: Investors brace for a major trade war as China retaliates",
+          "link": "https://www.euronews.com/business/2025/04/07/week-ahead-investors-brace-for-a-major-trade-war-as-china-retaliates",
+          "domain": "euronews.com",
+          "date": "2025-04-07T11:20:27+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump officials vow to ‘hold the course’ on tariffs, predict economic ‘boom’ as markets roil - New York Post",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN2xOT3dUQU9TWjRsSlJsVFB4QjNuaE92Ry1VSE5rcjBDMnJocHJRT0MwcldkWkd1WHZsQW90ZnNzUkFHMm93ZWY1Z2VPcmtzTmo5SkNKaUdHZFZRUGJ1d3gwV3NadFZQSktyWXhLSVpGNWhUN05XaktVR1A3cXUwVGkzdFlMdmdzVmswLXgwdzI2TWFWNXJHNDhuLVQwZFdpSXJZZEFrc2lRZw",
+          "domain": "google.com",
+          "date": "2025-04-06T16:59:22+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Tariffs have us heading for a “do nothing” economy - Sherwood News",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOamNzMzFvemZycU1HME9QM19wSEs5bF9uTUdoSElKbjVJRk01bHlQR2tiQ19HeXktbW14RTh6Vy1VRUZjX1hBcWNzeUlYbWNuWWJOMnZfT0VINDQxdGhJcFM2bXZoZEVZX2V2N1BhZXhDZ0w1SmtXM2pUV1RtWml0eXR6R3ZKUQ",
+          "domain": "google.com",
+          "date": "2025-04-07T10:30:33+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The dark days after the tariff apocalypse - Financial Times",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SMkNPT2tTZGc4RXR1cGs3czVxRWE0WU5TMG1Kd0thcXNWTTVySV93SDBsamVOUlVhMnFhTHNUaTFvYnZKbXlzalRJMHM1aTRJUFZOM2lTaDhqUmpNUlgxQ2ZYV3cweGpZcDZqX0stOGM",
+          "domain": "google.com",
+          "date": "2025-04-07T11:31:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "China plans to turn Trump tariff ‘crisis into opportunity’ - CNN",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYXMwSEN6MDBYdkFuanlOSG4xemFzaDIyRUJJdFhWRnd6REVQSGhtYXliWE9KRTdvd1hxMjhJTVBaWTNVdU5pMG9NU1dxTmZmZzNvc1Baa0dPQ1hCV19mN0xtdDRjTUg2VTdLeTRnMldoYWFjbDAwWFZ2S0pURE5uVVVaT0hDSUVMNUpiMS1oZ0NIX3hhMHFCc2dzYTByRG8yQ3fSAZgBQVVfeXFMTWh3U0RNblYyZnBHSWhBOE56Q2phTGd5cnNoZGJfc25iRXhiRUg3a3JjWGY0bTNyV2JpTW9paDR6b1ZqeUtFN216YXRneWtEMGItaFBiSmVHUDYwSGhYOGU4alZrMTNaNVhlcHhQYkhGN0hZeWw1ME45R2xxZFZub1dfU2tHUC02ZFNjdXFraVNEejZGZGh4T2s",
+          "domain": "google.com",
+          "date": "2025-04-07T08:12:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump not trying to crash market with tariffs, says White House economic advisor - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU2JNQmdBVk93UWw1dmdwaTI0WnE0WnR0OGVIMmtwQmMzSVNsa0dJV2h4QkJDY1dHeXZKNUZVN05qZTFiX2VCZnBON19jTF92ZnJHeDNITzN1UXU5RDBmNXBsOG9pZnBQT240SHE1ZlJRWnBHSjhjbFMxQWlJZUZWamFaRDlSVHlRVkZBRGY5dllBWlBKd1hhdnN6WGJCd9IBowFBVV95cUxOcjJpcFl2Z2p1R2gxLXdvYUNNYldmMzl1LUpmQkNzVGdoSldmRFNGenBidkNWcjhnc0JJUzlQa0V6dlpiY29jT0VXeDc1R3Yyb0dGZkpES1RJWTZCNFJrbzZEOVcxT1c4ZVZqeHcyaHJEdzR1WndzaHRrM3MwZHlSOXlPTEJFS0xxUVMzX0FCcWtrVUh4SHFCUXhxTmV0dzcxOHBn",
+          "domain": "google.com",
+          "date": "2025-04-06T15:46:09+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Alarms are going off within Trump camp against tariffs",
+          "link": "https://economictimes.indiatimes.com/news/international/global-trends/alarms-are-going-off-within-trump-camp-against-tariffs/articleshow/120068733.cms",
+          "domain": "indiatimes.com",
+          "date": "2025-04-07T14:53:59+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "'This is the Trump recession,' CEOs say, with tariff price increases, job losses coming: CNBC survey",
+          "link": "https://www.cnbc.com/2025/04/07/trump-recession-inflation-job-losses-coming-ceos-say-cnbc-survey.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-07T15:20:15+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump not trying to crash market with tariffs, says White House economic advisor",
+          "link": "https://www.cnbc.com/2025/04/06/kevin-hassett-stock-market-crash-not-part-of-trumps-strategy.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-06T18:57:55+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Commerce Secretary Lutnick doesn't back down in face of market sell-off: 'The tariffs are coming'",
+          "link": "https://www.cnbc.com/2025/04/06/commerce-secretary-lutnick-tariffs-are-coming.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-07T10:17:22+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Is the world heading into recession?",
+          "link": "https://www.bbc.com/news/articles/c24q15d9yq0o",
+          "domain": "bbc.com",
+          "date": "2025-04-07T12:45:49+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "'Sometimes you have to take medicine': Trump defends sweeping tariffs",
+          "link": "https://www.bbc.com/news/articles/c2093qgx14po",
+          "domain": "bbc.com",
+          "date": "2025-04-07T03:49:38+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "US trading partners puzzle over whether there's room for negotiations",
+          "link": "https://abcnews.go.com/Business/wireStory/markets-implode-us-trading-partners-puzzle-room-negotiations-120552300",
+          "domain": "abcnews.go.com",
+          "date": "2025-04-07T12:43:24+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump says he's not backing down on tariffs, calls them 'medicine' as markets reel",
+          "link": "https://abcnews.go.com/Business/wireStory/trump-backing-tariffs-calls-medicine-markets-reel-120541143",
+          "domain": "abcnews.go.com",
+          "date": "2025-04-07T04:06:19+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "abcnews.go.com",
+          "favicon": "https://kagiproxy.com/img/RqU8YGlKKwtO2O9nYtBWgDwzeHJmk2ojspi_NVNq0IX1875S9Fl0jXWiBO374H36mrBrB2oN91sLbU-FNuC5NTtx71pcDLNAZcZxeThnaOY7CAFe"
+        },
+        {
+          "name": "investing.com",
+          "favicon": "https://kagiproxy.com/img/1gZXrN6T5Th7c7nfiBkugc0j4t-7X5UcrT8VNOMw4tAqY9rgl5RZW68Sgh1WrlWhtGi02uvx6-pGEar6Lc2B2Ywe1s11dd8PrqD8cNTqQ4i--Ew"
+        },
+        {
+          "name": "cbsnews.com",
+          "favicon": "https://kagiproxy.com/img/LcVbGK0GGhw3BmQjeL-lp-CKYhej6wE5fMd4ni0hI-2-9vy071L8QPyxjqH6deEvO3bfc5EpFtZGRTNAYTuwjVpu1F5ebV_iJKGtQIxFcmdY"
+        },
+        {
+          "name": "fortune.com",
+          "favicon": "https://kagiproxy.com/img/aYEbQn9mgbQIQdKTDV98jtBAdoYYcxKdbq9h7XZsQPj_WjvU8E3tg9RaYNQWtfzV7ILHfsjn4u4zXbUi4c3I_pGuqHJQ_74bpjPdGDd6ILEr"
+        },
+        {
+          "name": "npr.org",
+          "favicon": "https://kagiproxy.com/img/fByHNNXKhmfzosJfYvFKlr6YrpROZ8suVzN0yNHgrM_PlXdAsY4vbXX98P_KdovdxFSjIfMV53nCptRIDY_9-YaGt6GebfJzh56zZ1E"
+        },
+        {
+          "name": "yahoo.com",
+          "favicon": "https://kagiproxy.com/img/RubPwoREDecCVgyWmYrTVSkCe-yBJcTDaAO6F44ZvSXWWbhxL8_aLKFzzm-0T5ysVcAoJSnvgnHtW1XBEvqqN8ruAnN1t2uKwvQ7mOIVOg"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/aWo60cLe0P0Nje3J8VCRdERk_WxIwo2AtaNUDqcnUfngJORMOpaQxkNyV1K-fFiXzluT5NmDYtzC1H2KWrPCfILRtakje01T-R8dXyOMHhY"
+        },
+        {
+          "name": "scmp.com",
+          "favicon": "https://kagiproxy.com/img/MRTeiBXoG_RvL847rml1hKXwn_GwwKP2upyyMLOVEcG4F6OcTrscAiqJE3Pz-2ResxJFjHzWXM0upL2GBb7Eb7Hz69t7yFMSW-9aPgsS"
+        },
+        {
+          "name": "euronews.com",
+          "favicon": "https://kagiproxy.com/img/A_5dyeSltE_Uh2FkZC9PrEKoVlEJ6Zm6W2Pv1GrtbF5ImTM8iTkKJGiw6YaP4qDhvOBHgL1q_B0NdFRRHgOdIuF01BmKiGwUH063b7x-ltACDw"
+        },
+        {
+          "name": "economist.com",
+          "favicon": "https://kagiproxy.com/img/J7JKc81tn0j6aYiFU61b56YbZVsBLHZUL_M1IvLhfF7257_6f7u8M466Oe0XNOI8xTCN5S_bwxG-hnlGDZ_-rKZG3pAnmNBYkhI2PMRm3lpH6q0"
+        },
+        {
+          "name": "bbc.com",
+          "favicon": "https://kagiproxy.com/img/jGEFb-QpbjJ8TQyKoSFehuvWEKcOA8TD-PNBtvZUS9ZGhYuAhGIjVxeZaYFWbDv1uqAkeoyZEvGtFajMwjQ3JWYEd7jAnu4KOwElJTg"
+        },
+        {
+          "name": "reddit.com",
+          "favicon": "https://kagiproxy.com/img/GtuGfzct4YEXX-1Gyvrz3h32UqzfWmbXHAy1PvmjWLGSjmyMsylAJmEqt9FgYwaoyc9vpCsLd3Z4_yKlkdcyZGFHlzyX0iIM6zssDVvT6io"
+        },
+        {
+          "name": "indiatimes.com",
+          "favicon": "https://kagiproxy.com/img/gMyn4RWpQ4kOQgDeQh8rxxZ2ZCf83b_gbRsDCn4KUf2E7civbjSEfJyq8UjEPJFWe7cG_dlQR8G5OYL2kOz4mE7uhhIia9CyTo-NPDpnmYjl7n48"
+        },
+        {
+          "name": "investors.com",
+          "favicon": "https://kagiproxy.com/img/hibbkdvjSzHH3MN7I7IvP-LIRDDpTtCoxhVNkYC0OFfXWnWieFeLD41cxO_9m-EGA7gCOImkCzqbOSBigq1oVB-_y034VzFwVsn-srX1Z9VaZNc"
+        },
+        {
+          "name": "pbs.org",
+          "favicon": "https://kagiproxy.com/img/yNg1AYoBrh8m0TTkxC1X9gC7nlt_6aRINhQLWuThOC0kLKuvEoQpvAhNkYiQEe0uqYAgB74JoWYsrXf25I2vPOBM3fG5akoPAkuxVEw"
+        },
+        {
+          "name": "wsj.com",
+          "favicon": "https://kagiproxy.com/img/FXc8iqoLtI04EgN7daquvR7LFfMnnhLykTS6g8WJk2ugACVCcUaNlu0Mis7VgmvEEsyV4MSgM-b47eL_LZsgW4bQqaWf1idMU5iF4Jo"
+        },
+        {
+          "name": "cnbc.com",
+          "favicon": "https://kagiproxy.com/img/wEKOtVv5tO5gSbAGnlKw4svHGBhp5ennjF1x9U8IpBY9UsnhmHYSifOD5ptE9JwMyzQ7GWJGWKWlZTUvhuJjKEs6cpBhBqbtsIkw4_J8"
+        },
+        {
+          "name": "theguardian.com",
+          "favicon": "https://kagiproxy.com/img/bw-CkV9MkuiQtVEiJjEalmsFOtkmjfF1eDjkUSlS4d6MG2ulb9TgqNJ5pQipRlXgUpKPnfOSjZbdw2NVjvMfWGQI9fbJ7P_dtmWiLfN930a072xUxA"
+        },
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/zhmh7eAwPVzLlIwaebItR6--HEIHTldkUMAGEmJ7htvJOwvxR9-zEhWWNPNlbyn0-KJ7AUDJblk7OJS8fimcTpQBmdtRVrPzveaIKg_buIddUNk"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/WvyNj5NEJdFrS-RU2WHKjdr4vfckwKebzUIpwHdD_Z1YhoUXlZ7Xw4gzAHJyjhV88iLFw4axYN_NJENi3ISSZDorvGrZD3UKwB-COPCchhDh"
+        },
+        {
+          "name": "seekingalpha.com",
+          "favicon": "https://kagiproxy.com/img/H1ESwMfcyAZmsTvbMdMzu0osPSwJ_hpO-Q0N_ynjeUuIl6Ihavd3RUJs8lHkzFqXglhIGIrE8-JbQM5quKSaCCKmosbHrAWZfcxKPZS4tRKzJUf68Ss"
+        },
+        {
+          "name": "apnews.com",
+          "favicon": "https://kagiproxy.com/img/PS8IKfD_IWZSWQtlrxK0MosjC1jpYNdLid0KUnsG0CyhJhFH_0YdI4a8SNpqybe8qwia8bnlTPKkLp1TzOX2i98Vu2SLJ0dKxCxg1a7gItI"
+        },
+        {
+          "name": "ft.com",
+          "favicon": "https://kagiproxy.com/img/bFlTmzU0S8JyHft1iziLl_8bucvfyFGJwOBkfxxc3VBjhnc2NFRIJHx3xYiJ7ixR36dWUMtw6Furfl2hen1m_78-IMc7_6ikQAyR4Q"
+        },
+        {
+          "name": "rt.com",
+          "favicon": "https://kagiproxy.com/img/FDwIYy46Rat2WCJx8TTpPiJXzRGSnp-hzzXn_IKZKvNkb0d_GRGCiZqgrmfqVZ-aq5BvMuL8qGcVleDoy1CFSymbSSggIK6lzTNtHQ"
+        }
+      ]
+    },
+    {
+      "cluster_number": 2,
+      "unique_domains": 22,
+      "number_of_titles": 50,
+      "category": "Markets",
+      "title": "Markets recover after initial plunge from Trump tariffs",
+      "short_summary": "Global stock markets experienced extreme volatility on Monday following President Trump's sweeping tariff announcements, with initial losses wiping out approximately $5 trillion in market value. After falling sharply during early trading, with some Asian markets seeing their worst drops since 2008, US markets showed signs of resilience by rebounding from early lows in a session marked by wild swings. The turbulence was further intensified by conflicting reports about a potential pause in tariff implementation, which the White House later dismissed as \"fake news.\"",
+      "did_you_know": "The market reaction to Trump's tariff announcement has been the fourth-worst two-day decline for stocks since World War II, according to Deutsche Bank researchers.",
+      "talking_points": [
+        "Global impact: Asian markets were hit particularly hard with Hong Kong's Hang Seng Index dropping over 13% and Japan's Nikkei falling nearly 8%, their worst performances in decades.",
+        "Tariff specifics: Trump's plan includes at least 10% tariffs on goods from almost all foreign nations, with some duties exceeding 50%, particularly targeting China.",
+        "Market volatility: Wall Street experienced extraordinary swings, with the Dow Jones briefly erasing a 1,700-point loss before turning negative again.",
+        "Economic concerns: Economists and analysts have raised recession warnings, suggesting the tariffs could lead to higher inflation, weaker demand, and decreased consumer confidence.",
+        "Presidential stance: Trump has characterized the tariffs as necessary \"medicine\" to fix trade imbalances, stating he won't back down despite market turmoil."
+      ],
+      "quote": "\"Sometimes you have to take medicine to fix something.\"",
+      "quote_author": "President Donald Trump",
+      "quote_source_url": "https://apnews.com/article/trump-tariffs-stock-market-52a00ea2bb92a067ee72343941b02cd4",
+      "quote_source_domain": "apnews.com",
+      "location": "New York, NY, United States",
+      "perspectives": [
+        {
+          "text": "Trump administration: Tariffs are necessary to rebalance global trade and rebuild domestic manufacturing, with Treasury Secretary Scott Bessent claiming more than 50 nations have started negotiations with the US since the announcement.",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/trumps-tariff-medicine-injects-turmoil-into-global-markets-2025-04-07/"
+            }
+          ]
+        },
+        {
+          "text": "Financial institutions: Deutsche Bank researchers described Trump's tariff rollout as the \"biggest shock to the global trading system\" since the 1970s and the \"largest tax increase for the US consumer\" since the Vietnam War.",
+          "sources": [
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/trump-tariffs-stocks-economy-world-order-deutsche-bank-trade-war-2025-4"
+            }
+          ]
+        },
+        {
+          "text": "Federal Reserve: Chair Jerome Powell warned that the tariffs could increase inflation, noting \"there's a lot of waiting and seeing going on, including by us\" before any decisions on interest rates would be made.",
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/trump-tariffs-stock-market-52a00ea2bb92a067ee72343941b02cd4"
+            }
+          ]
+        },
+        {
+          "text": "Goldman Sachs: The financial firm issued a new forecast saying a recession has become more likely even if Trump backtracks from his tariffs.",
+          "sources": [
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/trump-tariffs-stock-market-52a00ea2bb92a067ee72343941b02cd4"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "President Trump has long criticized foreign trade deals as unfair to the United States, dating back to his first presidential term when he initiated trade conflicts with China and other trading partners. The current tariff announcement represents a fulfillment of campaign promises made during the 2024 election, where he pledged to use tariffs as a tool to reshape global trade relationships.",
+      "international_reactions": [
+        "🇨🇳 China: Quickly announced retaliatory tariffs, with Trump threatening an \"additional 50% tariff\" if Beijing doesn't remove these countermeasures.",
+        "🇪🇺 European Union: Political leaders urged calm while markets experienced what some called a \"stock market earthquake,\" with Germany's DAX falling as much as 6.5%.",
+        "🇯🇵 Japan: The Nikkei 225 index suffered its worst drop since 2008, closing down 7.8% after briefly having futures trading suspended."
+      ],
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": "",
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "Value investors should look past the short-term market panic and focus on companies with strong fundamentals that can weather higher input costs and potential supply chain disruptions. The tariffs will likely create winners and losers rather than uniformly negative outcomes - domestic manufacturers may benefit from reduced foreign competition, while companies heavily dependent on global supply chains face margin compression. Though market sentiment is extremely negative, history shows trade conflicts often result in negotiations rather than permanent economic barriers. Patient investors might find opportunities in oversold quality companies with pricing power and adaptable business models that can navigate the changing trade landscape.",
+      "business_angle_points": [],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Manufacturing: American manufacturers may benefit from reduced foreign competition, though those reliant on imported components face higher costs.",
+        "Retail: Companies selling imported consumer goods will likely face margin pressure as they decide whether to absorb tariff costs or pass them to consumers.",
+        "Financial services: Banks and investment firms face increased volatility and potential loan defaults if economic conditions deteriorate.",
+        "Technology: Tech companies with global supply chains and significant exposure to China could face disruptions and higher component costs."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "How Trump’s tariffs are affecting the market: The stampede that wiped $5 trillion off Wall Street",
+          "link": "https://english.elpais.com/economy-and-business/2025-04-07/how-trumps-tariffs-are-affecting-the-market-the-stampede-that-wiped-5-trillion-off-wall-street.html",
+          "domain": "elpais.com",
+          "date": "2025-04-07T08:29:54+00:00",
+          "image": "https://kagiproxy.com/img/rKhmnOxbLIH5ORzwkLepwAIB8vyoEladVoKf8Fwow1OgSAf5tEXjtuMkL1rfk1mjAGOGrIEx9JXCU0FrroZZ4LKOEd9vWrdt7nh4v2s4KIZ5r3_KLqr94azl4lTjPYW4In-EpxUb19hwgVzV7WaAEZlgBq9gCQBQZd-7vpD-XOHxOdqcLcRr103oY0Jr_ck__WlFBAbb_KRlpzaXMhr1vZR0bamoii9dA-ScEv8",
+          "image_caption": "A trader at the New York Stock Exchange during Thursday's session. (Brendan McDermid (REUTERS))"
+        },
+        {
+          "title": "US Stocks Swing Wildly With Tariff Headlines Sparking Volatility",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-06/us-stock-futures-tumble-with-trump-team-digging-in-on-tariffs",
+          "domain": "bloomberg.com",
+          "date": "2025-04-06T22:04:42+00:00",
+          "image": "https://kagiproxy.com/img/XPHVjS3Acjh55rPV9NLvl--IfRvPUm8A3KS7-N-C7IrrOURdQLfGtAw_SxIIctA1ZS7o9jpenXHetet51syZ4c9TWvCHaSADvzLacHESZV7QovPbCHEJNxk0jHCWLojK7m6DcXgILiQ",
+          "image_caption": "US President Donald Trump during a tariff announcement in the Rose Garden of the White House in Washington, DC, US, on Wednesday, April 2, 2025. Trump plans to roll out tariffs on global trading partners, the centerpiece of his effort to bring back manufacturing to the US and reshape a world trade system he has long decried as unfair."
+        },
+        {
+          "title": "US stocks plunge for a 3rd day as Trump's tariffs slam global markets",
+          "link": "https://markets.businessinsider.com/news/stocks/stock-market-sp500-futures-crash-recession-outlook-trump-trade-tariffs-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T13:19:23+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stocks, the economy, and the entire world order are at risk if Trump doubles down on tariffs, Deutsche Bank says",
+          "link": "https://www.businessinsider.com/trump-tariffs-stocks-economy-world-order-deutsche-bank-trade-war-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T11:39:04+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "U.S. stocks are volatile as selloffs sweep through global markets",
+          "link": "https://www.npr.org/2025/04/06/nx-s1-5354258/global-markets-wall-street-trump-tariffs",
+          "domain": "npr.org",
+          "date": "2025-04-07T02:53:38+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global Markets Plunge as Trump Doubles Down on U.S. Tariffs",
+          "link": "https://time.com/7275386/global-markets-tumble-trump-tariffs-china/",
+          "domain": "time.com",
+          "date": "2025-04-07T09:25:04+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "U.S. Markets Swing Wildly as Trump Admin Denies 90-Day Tariff Pause Report",
+          "link": "https://www.nytimes.com/2025/04/07/business/economy/trump-tariffs-no-pause-stock-market.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T15:38:16+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stock Market Today: Dow drops 1,000 points, S&P 500, Nasdaq down sharply in wildly volatile trade as Trump sticks to tariff plan - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLWFGRkEyVVByTUZWUjJDT3dIRzFYR0pkd2N0N2Z2OHdZM1dCTlB6WExlaUJxdXF0MGZ1RTNwQUI3NWROTkdvZHJyQXlSTGo0SjI2MG4tTTRmZ3B3ckVmUm0tbW5HS2lJamxPTTJhbDdlZFlRR3F3OEFxRktkbDVOdURUVS1zaUxrMzN6dVBBNjE3SjlmUFJRR1c1dkVURy02a1FwYTJGWGI1Mm5uelVxbldtei1rd29uTkZmbw",
+          "domain": "google.com",
+          "date": "2025-04-07T15:26:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stock market goes haywire with massive swings after ‘fake news’ reports about future of Trump’s tariff plan - The Independent",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVBYazdLZmtSWVh4amNqVzFPMGI4X3VOMWE0OUN3eGJWZzJic0JqMnpsWm4wWUlHTWp6a083VFV1b1lQRzIwR2FyRUVxRzVsdnFaZUhmV29YUDA5bzVSQnY4b3lzTVhRS0ZqeFI0OXdNalp3bVF2dlZ3NnN3VTAzRi1fRXhDMkNXb3ZGZm5pNVlsRFdDRVY3dE9VMWxZcnFGTDlQODZ6aVQtYzFCZ1lpN0l1Wjktdw",
+          "domain": "google.com",
+          "date": "2025-04-07T14:40:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The Stock Market Has Crashed Following President Trump's Tariffs. History Says This Will Happen Next. - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPczFqZ2JJV0UyNUF6VFVFTFZLQVJwTTE3YlNyd0l5R3cxUGxuWUdOR21tSnNYZFZWQmZ3NmJfOGktaTJxRlNYeXAxaTAxU2F0U3c5MWRhZzFrZ09kSlByTFAzYWdkUVZneXRmbTlIaXdmMFBrQVp5WTNEY1FWOXNaanpBQTFCNTRyWEpLQjU0VQ",
+          "domain": "google.com",
+          "date": "2025-04-07T13:13:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump tariffs create markets panic, but there's good news for some - Axios",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONVM4NG4xQUJiNlJYaEhkbnRQUnVkNk9xYUhUQzJLWVBTWjZpR1gyVm1ibDA1eWlvZl9HOXJvb19BLS16THNNQWNlbkdCdWFOR0pyZkpLNUxxZW1GUGlrUF9ya1pHNDNlRUVJeHZvaVlWM0ZSV2p5TzAzekMzMk5lRQ",
+          "domain": "google.com",
+          "date": "2025-04-07T11:03:20+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Wall Street follows global markets with sharp declines as Trump doubles down on tariffs",
+          "link": "https://www.pbs.org/newshour/nation/wall-street-follows-global-markets-with-sharp-declines-as-trump-doubles-down-on-tariffs",
+          "domain": "pbs.org",
+          "date": "2025-04-07T14:10:33+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump digs in his heels as global markets keep dropping over tariffs",
+          "link": "https://apnews.com/article/trump-tariffs-stock-market-52a00ea2bb92a067ee72343941b02cd4",
+          "domain": "apnews.com",
+          "date": "2025-04-07T16:56:43+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The Latest: Asian markets fall as Trump’s tariffs roil global trade",
+          "link": "https://apnews.com/article/trump-tariffs-global-trade-us-markets-670c72738d08073ea15cb0ac0c493618",
+          "domain": "apnews.com",
+          "date": "2025-04-07T09:29:37+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global Stocks Drop, Extending Rout Caused by Trump’s Tariffs",
+          "link": "https://www.nytimes.com/2025/04/06/business/stocks-trump-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T15:30:22+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global stocks plummet as Trump tariffs stoke recession fears",
+          "link": "https://www.dw.com/en/global-stocks-plummet-as-trump-tariffs-stoke-recession-fears/a-72158605",
+          "domain": "dw.com",
+          "date": "2025-04-07T15:48:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump tariffs: Global stock market rout continues",
+          "link": "https://www.dw.com/en/trump-tariffs-global-stock-market-rout-continues/live-72157811",
+          "domain": "dw.com",
+          "date": "2025-04-07T15:28:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Crypto plunges as Trump tariff ‘medicine’ brutalizes global stock markets - Cointelegraph",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNajZucG9XSHU5RW0wcWw0YVlyazhDaWFOUl9XQkI3b3hIdGJMRExqeklJV042WGM0TU4zYUFRbE5FRmtMMEp3OTB4Q042UlVsakI5WFFwRWFvcjd1b2JGZFhhbDFpTjRZQnNaODJfbVlKZHVoaEVfd3lOM0ozdFpJRk1QeTVGb2ZTTHJB",
+          "domain": "google.com",
+          "date": "2025-04-07T02:18:12+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Market turbulence exacerbated by inaccurate report of 90-day tariff pause",
+          "link": "https://seekingalpha.com/news/4429184-market-turbulence-exacerbated-by-inaccurate-report-of-90-day-tariff-pause",
+          "domain": "seekingalpha.com",
+          "date": "2025-04-07T15:39:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump’s tariffs send European stocks tumbling",
+          "link": "https://www.rt.com/business/615326-european-stocks-trump-tariffs/",
+          "domain": "rt.com",
+          "date": "2025-04-07T10:04:15+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Asian stocks plunge amid Trump tariffs fallout",
+          "link": "https://www.rt.com/news/615321-asian-stocks-plunge-trump-tariffs/",
+          "domain": "rt.com",
+          "date": "2025-04-07T07:59:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump's tariff 'medicine' injects turmoil into global markets",
+          "link": "https://www.reuters.com/world/trumps-tariff-medicine-injects-turmoil-into-global-markets-2025-04-07/",
+          "domain": "reuters.com",
+          "date": "2025-04-07T03:28:58+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stock market today: Chaos breaks out on Wall Street as Trump tariff fallout continues to rattle markets",
+          "link": "https://finance.yahoo.com/news/live/stock-market-today-chaos-breaks-out-on-wall-street-as-trump-tariff-fallout-continues-to-rattle-markets-133050470.html",
+          "domain": "yahoo.com",
+          "date": "2025-04-07T13:30:50+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stock Market Today: Dow Jones Dives Amid Trump Tariff 'Fake News;' S&P 500 Hits Bear Market Territory (Live Coverage)",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-bear-market-nasdaq-bill-ackman-trump-tariff-warning/",
+          "domain": "investors.com",
+          "date": "2025-04-07T15:03:46+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Rollercoaster for US stock markets as tariff uncertainty puts investors on edge - business live",
+          "link": "https://www.theguardian.com/business/blog/live/2025/apr/07/global-stock-markets-brace-donald-trump-us-tariffs-business-live-updates-news",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T16:03:34+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "European Stocks at One-Year Low as Trump Vows China Tariff Hike",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/european-stock-futures-drop-after-worst-week-since-march-2020",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T00:29:26+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "US stocks turn lower as tariff fallout whipsaws markets - ABC News",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZlliYUhsVF9Mcm9DZ1JtVlh2YkdNcjZqRVpMZlNlNEhIR3ZYY2VERGp4am4zZkU5ZUdkem1RSjdJY0R1TmZITldPR1RaR1hVbzlWODdSdmxfQnBVMDJPeWZNdTNkZ0ZoMDFaeU1zMjRFOWM3LTZkWk1pdmtKOEhHUFNPRW04S09OUTdWOEFUS2Npc1ZfUk5jUHZGb1JrbkI4QVBkbFUzM2vSAa4BQVVfeXFMUGJXWHJJd2hQb1pYWVduYnhHNjlqaUxVV1Y4N2tUSzB0eV9ENWJYRmJEMXc1bVMySk41WEpCbjc3N1c1Nkk2RHZTVjR0OEVOaENkYzlnVHBqaXdEcDJKN0xSS0JPSmcyM1NrR3BFWFlRU0ppSzMtQ3d5TzNtSlZzVUVrbllzVmUtaWFWZWZrWks0T2xhTUZEQk0ya1hSSkRuNVRacWRhVGVVMGJnUENn",
+          "domain": "google.com",
+          "date": "2025-04-07T15:04:47+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump digs in his heels as global markets keep dropping over tariffs - AP News",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdUsxN05BdlV4YXl6NUhpem00b0hBQ3JvMW1vSmtOaXhobXhzazFrU3R2LUxWbUJRZGRheUhSekVvNGUyejhoemlLaDdKeDN6ME5fVnJWUjBFTHBaLWVLMElBQ2RxNGhmbHpQemhMQzZhcWJpSmY1S080amNrTWlrR3ZpYjRQcUpVR1JhR3Vocw",
+          "domain": "google.com",
+          "date": "2025-04-07T15:31:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Asian stocks see their worst drop in decades after Trump tariffs - BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0SUFUeFE1Y3g4X0tjZVNSNmFENGVmVlFwdW1VODBfT21OWGJFZVRkMHU1OUg1RnpDUS00WjlwSU1SbnhpbXNUY3VIQ09SZi14SVpyWXR5cUNJUdIBX0FVX3lxTE9UNk15bEs4cmwyRnlsQld5MEZMSjZnT2syWWtSVXZ3YnBwUFg4VUozaXh1R3VFV2tZSnRtMTI5djYwb0xCV054QkRZTUxCVi1RVzZaOUZ0cHZ1b3JMYzdJ",
+          "domain": "google.com",
+          "date": "2025-04-07T09:20:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Politicians urge calm in Europe after Trump tariffs drive 'stock market earthquake' - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzI4aDRTQTN3RFc2UWNUendod3BzWHB4cnoyTnNtWUtETjh2RnNSb1JRaEpLd0hhTG1pU2FDenBGa1Z2ZXdLVE5mZzRpdFZDLU5ieFRnOHdWakdqNjJ0RFFDR2wwZGUyQlpPRGprNUNnSk5sNDR4c002aHVzQVlZUlRscDVRSmFiZGxTd0dkWG9lcWRia2tCS1JWX1hHb04wRzJydF9B0gGrAUFVX3lxTE5GbkV5bXBMR3JiVDFUY1hnOEdFcWR0Y002UC1rMVM5OXVYM1dYbUQ1UWd1RDBXWnRNTnFWRDFYOG5lRG5aY25kOEZTN3dRUmlJTklxU09HUEI0TlVUa1NBcmt2RzVTdXE4VGNXNkZ6bkRTMGtyM3U0bkEwSFo1QW5nVFUzMy1wR0xyMDA2NTBlcEVhUGpjVXhmblROMnVRMzhnUTdVczBiUVpGSQ",
+          "domain": "google.com",
+          "date": "2025-04-07T10:40:40+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump Tariffs Live Updates: Global Stocks and U.S. Futures Drop as Trade War Intensifies - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORy1fbUk0UHItQ202bEVob0NGdTNkeTNkRnJiaHVOR0RXOHRuX3Etc1NfbGpBaEI4LTlHeXk5Z3Q2WWZ4SV95RjBiY1Z4ZmRrc3V6OVVUMU1CT3RYVGdvSnZwZVVfNFkwQkgzSmstbXVGTkd4RVVTU1hONm9nc0lvbg",
+          "domain": "google.com",
+          "date": "2025-04-07T16:10:06+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Markets tumble again as Trump tariffs spark fears of ‘economic nuclear war’ - Fast Company",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR1pSVE9sRVFjRFg2aFA5TUVXc2ZuMmtkcUd3Uk5McGlQbG5XNTV6cHJDcWpXdHItMm56bEdYbWk1TUc0Q2wtY3BLWnBKWDJFTmZVeTMxNU1IZEVPa1Y5ekMxSGtGMXhqRnNwcnNnVkNTN1hWV0hDNmlLMWVSSUw5TEswRTlFZDAwTlVPWUROS3VZZFNwSmZPNWVwWFZUeWpUQ0RuU193UlpfVHZwQ25R",
+          "domain": "google.com",
+          "date": "2025-04-07T12:50:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stock market whipsaws as economists cite recession risks",
+          "link": "https://www.cbsnews.com/news/stock-market-today-dow-s-p-500-nasdaq-tariffs-trump/",
+          "domain": "cbsnews.com",
+          "date": "2025-04-07T16:03:12+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "U.S. stock futures sag, overseas markets plunge as tariff turmoil continues",
+          "link": "https://www.cbsnews.com/news/stock-futures-nikkei-225-s-p-500-nasdaq-dow-tariffs/",
+          "domain": "cbsnews.com",
+          "date": "2025-04-07T12:02:10+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Stocks are making wild swings as markets try to assess the potential damage from President Donald Trump’s trade war",
+          "link": "https://www.chicagotribune.com/2025/04/07/stocks-market-trump-trade-war/",
+          "domain": "chicagotribune.com",
+          "date": "2025-04-07T14:44:13+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "President Donald Trump digs in his heels as global markets keep dropping over tariffs",
+          "link": "https://www.chicagotribune.com/2025/04/07/trump-global-markets-tariffs/",
+          "domain": "chicagotribune.com",
+          "date": "2025-04-07T13:19:57+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Wild market swings: Stocks volatile on Wall Street as tariff woes hit",
+          "link": "https://www.euronews.com/business/2025/04/07/wall-street-drops-20-below-its-record-as-markets-reel-worldwide",
+          "domain": "euronews.com",
+          "date": "2025-04-07T14:04:01+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Bloodbath for European markets as stocks see worst fall since March 2020",
+          "link": "https://www.euronews.com/business/2025/04/07/bloodbath-for-european-markets-as-stocks-see-worst-fall-since-march-2020",
+          "domain": "euronews.com",
+          "date": "2025-04-07T09:08:54+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "European markets dive as global tariff fears shake investor confidence",
+          "link": "https://www.euronews.com/business/2025/04/07/european-stocks-tumble-as-global-tariff-woes-hit-investor-sentiment",
+          "domain": "euronews.com",
+          "date": "2025-04-07T08:24:01+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump denies causing market sell-offs but sticks to trade deficit goal",
+          "link": "https://www.euronews.com/business/2025/04/07/trump-denies-causing-market-sell-offs-but-sticks-to-trade-deficit-goal",
+          "domain": "euronews.com",
+          "date": "2025-04-07T05:59:54+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Live - European markets dive as global tariff fears shake investor confidence - Euronews.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMzk0NVRJT084RGJ0VnJGbGwtdFI5OTlqYmdsVEswaW1tYlZxMVVpR19TbHRWdWJZbVkwbjE1Ym1kMmRfeERtSFo5MHlsNmw5aHJZSXQ4amYycFAyYUwxd0NYdktZVWg4dWM4cnVFZzN0VE03SVUwZXVpYV9wSk1BZlUyWkt1SmNVZzFYa1pMZUxCWlgxRDg3X2RmM0VERGxVcVdiTmM5SmxjUHo5LWFDejB3",
+          "domain": "google.com",
+          "date": "2025-04-07T15:46:23+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Investors Lose Rs 19 Lakh Crore In Sensex Crash Due To Trump Tariffs.. - Greatandhra.com",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRmF4SUJDOVhIV3pucHN2WXdGdktpUUJzUjlsd1Q4eTFGTmMzbFRkQXZrbWRoZ09GVC14OEh1NHFUbG8xTnNLc2loa1JVX0MxdUJsOGtSZmE2cU9tQXRtQVJONkl3Q2I1cGdiV21EMjFpOU1zQ3hsWTZfc3FUXzNJaVRacUczNDd2bV8zYWRudmJpbXZzUXFvd0tERmVHVjRyUnlNZGJoYUsxeWNTRnVQRUlUM2JyRUFiaW5ZLVlCd2fSAbcBQVVfeXFMUF9yZkIwbnBiSXR0azhqd1lodElEY2VESl9PR0t3X3J0NFFIQTVCX19vZW43RTI1MFRhYXo0Ql9ya2Q0WVR5R3V3b3E0NHNCQkxRZkFWYVpuelRobUItMnRqbjN3MVFKQWZXOGhZOU1qeGlmVWw3R2swRHZqUHNzWU9BWXI0WC1QYVc2Q05yaDE1TzVGOUl2aVMyRGNHbFh1UFNMRGZsY2t4SGl3dlJSelVXcVZyc2Nn",
+          "domain": "google.com",
+          "date": "2025-04-07T06:51:42+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global markets drop further as tariffs spark recession fears",
+          "link": "https://www.bbc.com/news/articles/czrvngj03jlo",
+          "domain": "bbc.com",
+          "date": "2025-04-07T16:13:46+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Markets continue to tumble following Trump's new tariffs announcement",
+          "link": "https://www.npr.org/2025/04/07/nx-s1-5354231/markets-continue-to-tumble-following-trumps-new-tariffs-announcement",
+          "domain": "npr.org",
+          "date": "2025-04-07T08:13:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "European shares nosedive as US tariffs and China's backlash plunge world markets into meltdowns",
+          "link": "https://abcnews.go.com/Business/wireStory/european-shares-nosedive-us-tariffs-chinas-backlash-plunge-120551389",
+          "domain": "abcnews.go.com",
+          "date": "2025-04-07T08:06:02+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "FirstFT: Global market rout over Trump tariffs continues",
+          "link": "https://www.ft.com/content/55b6ea41-4813-4722-9ca2-6038865f4e53",
+          "domain": "ft.com",
+          "date": "2025-04-07T10:06:08+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global stocks tumble as Trump offers no respite from tariffs",
+          "link": "https://www.ft.com/content/5fba64df-8e03-4890-bc56-bdfc47f3083f",
+          "domain": "ft.com",
+          "date": "2025-04-07T14:09:03+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global stocks plummet as Trump offers no respite from tariffs",
+          "link": "https://www.ft.com/content/c2c10cca-bc11-457c-a505-d11b37ac987f",
+          "domain": "ft.com",
+          "date": "2025-04-07T08:50:14+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The weekend Trump’s tariff threats became real for global investors",
+          "link": "https://www.ft.com/content/fffa7082-7723-48f8-a0cc-b21dfdc59cc4",
+          "domain": "ft.com",
+          "date": "2025-04-07T06:03:30+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "abcnews.go.com",
+          "favicon": "https://kagiproxy.com/img/B80PRFp391w1DnxfwVo6XErmPtwUMjVqaVbe2VhNyZrvPy433s-i6HHE_BqNb0GltBVLI8r_vrUys7ftTTNco1Y10EvmN9bAB9mBtJUnt_tqgc5h"
+        },
+        {
+          "name": "cbsnews.com",
+          "favicon": "https://kagiproxy.com/img/A8uI17uYh1MgRg5FZHXHESIi58EgBt2W71PlGA908FoQeu19d9-PvUTApFj_7IwhKA7GS7NEqseM9hl_eUeCft5cocBoZJA-0ycQo6yfemTc"
+        },
+        {
+          "name": "businessinsider.com",
+          "favicon": "https://kagiproxy.com/img/YdZUgfwMrExGVaPveLBWsMSk59G884Y8xtuJsFTYH8F942vurHiuE44Amlr45i9oINlIXKxzqMJ4muKOekEcFb_XxcSagj-E8onx5pPxJ0hFzVu_pJaQdQI"
+        },
+        {
+          "name": "npr.org",
+          "favicon": "https://kagiproxy.com/img/rbCVBTSPdHqMWTpbstR77c2kMHz7Hdl53TKTfhUZRAKCleopgij4_K89fxBiDpR-rtwNQWCfY4GmDoRHnXAhrUkMzy7G1bJ5PJvAXW0"
+        },
+        {
+          "name": "yahoo.com",
+          "favicon": "https://kagiproxy.com/img/N6yJ4VNJ4XLh8kDy8MPJaAArUUgrdsXxgqnAY8cQGwryUKGdEzD4K-vXt5q610g-Dhi2rHUq8DuzaiKY4K_NA9U0hLi8SDYXc6H4WehKCw"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/fZ4SDle6DGoveWPIUdSrz2BTgB48xbv3ZOhd2a3RWCAU2iWw1bsrxOyr4vlteWGiKZwE485yKwCj3WlOAm599njgQfbSecAxBdq_72D4bNg"
+        },
+        {
+          "name": "elpais.com",
+          "favicon": "https://kagiproxy.com/img/H1yQFJBxo7_HPIBaaM612OWzEt8WKwvP0ySmy5LxOMtTpt7t7LrT0lZL-6mf10L3CL_ANkIRl1kmhCDpMvuRmEwJ9P7a9wALvrF0EQiYBD4"
+        },
+        {
+          "name": "time.com",
+          "favicon": "https://kagiproxy.com/img/22pX2Mng35vUizFyf-Ch7PtqA0sPYpei2U3tDm9IuvrNB2MEk-8G-9X8uV77qBdtabA5Pkr1jYXoIXIUVTRpMoN-1UiZE_A3Gm-NSTY2"
+        },
+        {
+          "name": "reuters.com",
+          "favicon": "https://kagiproxy.com/img/0BsNFrPdSw3p1QYz04yUU6GW7NWs_bWn3ENDj-ZFrYVEuSQxJTgi31A0YkXF8qsSh-ajoslcIhNTrGGsf1HwPCqnMLHV_1CcV0FxCSuDjJQJ"
+        },
+        {
+          "name": "euronews.com",
+          "favicon": "https://kagiproxy.com/img/80bHVYt_U1I9dule7KD_JzKrPjXyg_f9Q_Dryw5Jt4rZtMyj4RG2cVlZX9KjQdolkwroTJP4FsFwFFrl4a-3PU757xzLh27eT07X6U4U3EknHg"
+        },
+        {
+          "name": "bbc.com",
+          "favicon": "https://kagiproxy.com/img/5gJMPmBBfyfdf4wgIsXkZXzMqmc9bDKuWptntDjV7Z6EynY7INbngKXm8ZdqkUuG8Axhr2dY1GyX8cR1JGo1nSNVvDsjqi-JtezJ7mU"
+        },
+        {
+          "name": "investors.com",
+          "favicon": "https://kagiproxy.com/img/GjZaR22lBweFvvNg5aQxx-gvwjd5Wc9K3Re6Lkk6JFsxBCJjTH1nnJPKznTz-DaVIV0yFkVaidfiD2MW1El3QonSEg8j5iaJ_jEXTZJ8X39yx2Y"
+        },
+        {
+          "name": "pbs.org",
+          "favicon": "https://kagiproxy.com/img/favp4aPIU-5mrOZJ01wXe6R8p7vgDRlQkQkQm5IBAbPZqmeDlSmB8SEdu4RVzUTw5rQNw9oKDJjerzC7nR0Ml3l8nlLZkDgeQlWMvnM"
+        },
+        {
+          "name": "theguardian.com",
+          "favicon": "https://kagiproxy.com/img/lAp7NQ8BUmWDP0DmhRBB33PgE3t0TvzqHTGUrsOLZKZb-r9MmOocVXgZHHFNzfc-6sLrzgWuEvNAQ6gwduSVGnqtSb29lxlvorvGV9PnnuMTjk7EgQ"
+        },
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/LY_fahIEXDcCKv57QP9WoZIWDgI3PPkjsjUJVkfaYu-KIwo6p0bI7PJWkbxMO2hcygtlH5JCsS454es2vwZx0NtI8qslDnBHmw1ABDErpxNvOjI"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/yh_dEm4q0_HcQ0I3x1Ng3q-TZX6tmhrCR0YkR9QX1BEydtbFm3Lnc4xQCt14P6ODFZevqs7E6rdCXSFjZJx9C2NiOZKtsjhr377mQZljJd2C"
+        },
+        {
+          "name": "chicagotribune.com",
+          "favicon": "https://kagiproxy.com/img/-y72pleK5bXMUQi5astT5vVlFlKP9zULWyV94__2F9lBsfGfrvKZTMpDlN8u1h0KByd6HzCUiIsl4Sd2CIVd81lzjqWmqTpj2AxL-IaqMMjnkltaSWl8Hw"
+        },
+        {
+          "name": "dw.com",
+          "favicon": "https://kagiproxy.com/img/Ub4QIkH3viCm67DfmfHuIgGoCLDQg55yKbM6nkrcvrDLGcqFmBu196Lr7xMuWjh5eIB-hrIPpTqHsgD1ZdDPlMUT-1_0XbFX32rrlw"
+        },
+        {
+          "name": "seekingalpha.com",
+          "favicon": "https://kagiproxy.com/img/eCoHw_ZKroWC9VuAvRjUPlE55--iGxZT9hmJOCv74ce2-Av_FrBTVX0r6J75idwHe9vw1AFa7DjEbi3zj9dm_CixsciW5m65GqEa_2LOG2X6eBY6bXE"
+        },
+        {
+          "name": "apnews.com",
+          "favicon": "https://kagiproxy.com/img/n0a-414wL7Tuhtj6qoPW5obDsy_xEeuDurBNnZygCkfy-h3rluPqrT6Df3Twe-JNLVEtn-xll67BXcfPujm__6Tpa5hqBofSNKp93F4K0Bw"
+        },
+        {
+          "name": "ft.com",
+          "favicon": "https://kagiproxy.com/img/6qgzvI_ZrTyJGSj7_zjwIVsyZZUakwp7Gl5UIR_Kpcy1wj3LOb163FJ6Pd4opV9Bg-_kISeLl_3S6KrgfbY4_Rki9gkvQYl6GxNOyA"
+        },
+        {
+          "name": "rt.com",
+          "favicon": "https://kagiproxy.com/img/isBt7Dtl8wmlEaI85FwlK6hO22rUQRtc2Odrt-znUexWGD3pkcbgq-hD-9axSqp8h67PLwODMCPW7PVBXR01uJvow88dLhG0HQ0tAQ"
+        }
+      ]
+    },
+    {
+      "cluster_number": 3,
+      "unique_domains": 7,
+      "number_of_titles": 7,
+      "category": "Finance",
+      "title": "Dimon cautions on tariffs while highlighting economic solutions",
+      "short_summary": "JPMorgan Chase CEO Jamie Dimon warned in his annual shareholder letter released Monday that President Trump's tariff policies could slow economic growth and increase inflation. While acknowledging the potential risks of a trade war, including possible recession and damage to long-term alliances, Dimon emphasized the importance of resolving these policy uncertainties quickly to minimize negative economic impacts.",
+      "did_you_know": "Jamie Dimon's annual letter to shareholders is 58 pages long this year, covering a wide range of economic and social topics beyond just tariffs.",
+      "talking_points": [
+        "Stagflation concerns: Dimon referenced 1970s-style stagflation as a potential scenario if current economic trends continue unchecked.",
+        "Market reaction: Financial markets have already responded negatively to the tariff announcements, with recent stock sell-offs reflecting investor concerns.",
+        "Long-term outlook: Despite immediate concerns, Dimon did not definitively predict a recession but rather outlined factors that could contribute to economic challenges.",
+        "Interest rate implications: Ongoing inflation pressures could create a \"tug-of-war\" over interest rate direction, with Dimon suggesting rates may trend higher long-term.",
+        "Global considerations: The fragmentation of America's economic alliances could have potentially \"disastrous\" consequences beyond just the immediate economic impact."
+      ],
+      "quote": "\"Whether or not the menu of tariffs causes a recession remains in question, but it will slow down growth.\"",
+      "quote_author": "Jamie Dimon, JPMorgan Chase CEO",
+      "quote_source_url": "https://www.businessinsider.com/jpmorgan-ceo-jamie-dimons-annual-letter-to-investors-stagflation-2025-4",
+      "quote_source_domain": "businessinsider.com",
+      "location": "",
+      "perspectives": [
+        {
+          "text": "Financial sector: Dimon believes tariffs will create economic slowdown and inflationary pressures but could be managed with quick policy resolution.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2025-04-07/jamie-dimon-says-tariff-policy-issues-should-be-resolved-quickly"
+            }
+          ]
+        },
+        {
+          "text": "Market analysis: The stock market has already responded negatively to tariff announcements, suggesting investors are taking the economic warnings seriously.",
+          "sources": [
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/jpmorgan-ceo-jamie-dimons-annual-letter-to-investors-stagflation-2025-4"
+            }
+          ]
+        },
+        {
+          "text": "Long-term strategic concern: Beyond immediate economic impacts, there's worry about permanent damage to international economic relationships and alliances.",
+          "sources": [
+            {
+              "name": "Financial Times",
+              "url": "https://www.ft.com/content/edd57711-5e12-4892-bc72-253ee7a3fd11"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "The term \"stagflation\" that Dimon references gained prominence in the 1970s when the U.S. economy experienced the painful combination of high inflation, high unemployment, and slow economic growth. This historical period saw interest rates climb significantly despite economic weakness, a pattern Dimon suggests could potentially repeat.",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": "",
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "",
+      "business_angle_points": [
+        "The market's immediate negative reaction to tariff policies may create buying opportunities for long-term investors who can weather short-term volatility.",
+        "While tariffs present clear economic headwinds, Dimon's balanced assessment suggests companies with strong fundamentals and pricing power could navigate these challenges successfully.",
+        "Investors should focus less on predicting whether a recession will occur and more on identifying businesses that can maintain margins and market position during inflationary periods.",
+        "The potential for higher long-term interest rates indicates careful evaluation of company debt levels will become increasingly important for value investors.",
+        "Geographic diversification of business operations may become a key differentiator as companies navigate potentially fragmented global trade relationships."
+      ],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Banking sector: Financial institutions may face challenging operating conditions if economic growth slows while inflation remains elevated.",
+        "Manufacturing: Companies with global supply chains could experience increased costs and operational complexity due to tariffs.",
+        "Consumer goods: Retail businesses may struggle with the dilemma of absorbing higher costs or passing them to price-sensitive consumers.",
+        "International trade: Businesses heavily dependent on imports or exports could face significant disruption requiring strategic pivots."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "JPMorgan Chase CEO Jamie Dimon Warns of Economic Pain From Trump’s Tariffs",
+          "link": "https://www.nytimes.com/2025/04/07/business/economy/jamie-dimon-letter-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T14:15:45+00:00",
+          "image": "https://kagiproxy.com/img/tDlflOrJwjBtiqjUw6ashUUS9DhPphwgFn243SkiNKJK2AZIdcGyOrEdcL0xUxUFQj6FRfKhwll3CzBKE4BMEmhNRa_YVxVRM1ekyV0e3jEK-j_ve-kLFyqQTngvdK9jJIGYCh6OXPlOMQGvYzM6otNfDCuEza_9krS80XkKIdFsXpVTJP0g7-qaK_eg79GBTuujcKuW",
+          "image_caption": "Jamie Dimon, chief of JPMorgan Chase, said that U.S. tariffs would fuel inflation and slow the economy. (Haiyun Jiang for The New York Times)"
+        },
+        {
+          "title": "JPMorgan chief Dimon warns trade war risks recession and higher prices",
+          "link": "https://www.ft.com/content/edd57711-5e12-4892-bc72-253ee7a3fd11",
+          "domain": "ft.com",
+          "date": "2025-04-07T10:34:56+00:00",
+          "image": "https://kagiproxy.com/img/buKxsHRRUy2S1_R8ZiILAdiVMHxg4sE05emj65EucILiMRyhYaHtWFYFYgD8JFjWoFKR-f7sWWE4mXgN8ZwGQhQY4DCNvpVpmcTh96F1WQt0FBqwffYc7LEMHSTkKtam3NDS5KN1ty_IQqQXde29L5s2oLbJ14tAEmetFn94k1mzW-yJOdVV8Y02aW9tO76ykHSAnQ1FyaWdexMmf0Qr_j1TplFXLW6k3YLXW7QIDhekp3ZkPKaMSgPFw3Dt9BzxozpKuLmQsFroKISh5bF5Yc-nrVKQsK2BZvVMXJw-ZRQpDlmMua4kfS8JhcqV",
+          "image_caption": ""
+        },
+        {
+          "title": "Jamie Dimon Says Tariff Policy Issues Must Be Resolved Quickly",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/jamie-dimon-says-tariff-policy-issues-should-be-resolved-quickly",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T10:15:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Jamie Dimon warns of 'stagflation' and slowing growth in a wide-ranging shareholder letter",
+          "link": "https://www.businessinsider.com/jpmorgan-ceo-jamie-dimons-annual-letter-to-investors-stagflation-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T10:15:02+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Jamie Dimon has a warning about tariffs",
+          "link": "https://qz.com/jamie-dimon-warning-trump-tariffs-jpmorgan-recession-1851775032",
+          "domain": "qz.com",
+          "date": "2025-04-07T13:47:08+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "JPMorgan CEO Jamie Dimon says Trump tariffs will boost inflation, slow an already weakening U.S. economy",
+          "link": "https://www.reddit.com/r/finance/comments/1jtlnk9/jpmorgan_ceo_jamie_dimon_says_trump_tariffs_will/",
+          "domain": "reddit.com",
+          "date": "2025-04-07T13:48:01+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "JPMorgan CEO Jamie Dimon says Trump tariffs will boost inflation, slow an already weakening U.S. economy - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPelExRnY3U2lBYmxOaEZJMWpmQlEzUzZtblAxVGVkMHJ1ak1oRXZ4UVVQWnZuUzBVdHNmQWhVS3Bod0Z2NEtSenRLSHdjRFRQY2pGY3pGUjA5MVRnekZhM1NrSllqVzFZQmx1QTNzeEhGbFZocWQ2VE1Lc3RMbjNqNFNlWXhoTG1zdkhvTm42OFMzblhjNHduai1HZUNtRDU1aHdZR285X3pvQ1IzenJkMy1FOF9zb01kSmZQcU1nLWNzOTM2VmU1Yk1GZ2lBLXfSAVZBVV95cUxNa1BkRXVwNlU1MkloLVhtajlCQzgyczI4WldyaGlrQ0hjTFJRdDFsZmFGMUdUbU54SXd2VlBJVGZ4dklOcmhQbGFzTlhxbFdyZkMxZkdZdw",
+          "domain": "google.com",
+          "date": "2025-04-07T11:41:54+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/3C83EyW5W-OM50tN71FPulB5prDwIlpzD2m99CNdUO1LhyEm7iV_RkQoMmTNJ-quh5NQo8QoyE6oWHcLgBZrJeWXTifPyIyHAh75OG6lZWJUbJU"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/T507lkuSB6R-h2G0L_iVyMIoklZc9-heStJhLXzaLr3beSY3mwoX9fJzWs88xDYx1hei3ac01xgVkPsnc1xW8yyHWe-VymahwflxNvp0vBs"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/PZBWfb39vyQmqWUESiyIvTZmLeZ4eAp5ywKSjYeJyIjYgU5gGk8iWyAtrpziD4MCD0i8xNk51f5TXhmDnZDm_3iz7mIfQWpPtwhgGou9U2fX"
+        },
+        {
+          "name": "qz.com",
+          "favicon": "https://kagiproxy.com/img/fDkOSDXtiFzv6qbnsO9ZSp9MNX7gXBqwXltjU_pUuoD1-Q-ZOF5kKLCjU__pcT8u4fURF87jFCHP7snrLKUphRpxOkelytivORb9ZQ"
+        },
+        {
+          "name": "reddit.com",
+          "favicon": "https://kagiproxy.com/img/YR5EjHjd9rpvG1BaRfp_I5_xI8YWbhvM3vv76BsFpKrk9-NponAIlJjORW803kI_MZ3LxwEiK2DjydYti_DGRg_oZOSQ5Is4uRRHGTEhspI"
+        },
+        {
+          "name": "ft.com",
+          "favicon": "https://kagiproxy.com/img/w17dajjeKKHwARKhwbQUIlSK4PmdlUliQzbSzqJhoEcffBlw9bqsWfE6_muQtxCVYkRyUbe7DMo_J8mQuVZ2cVlflxXqNsc1JQgDGA"
+        },
+        {
+          "name": "businessinsider.com",
+          "favicon": "https://kagiproxy.com/img/MvMlnt56uxX7iPf4ec3FNCOCHRLrvuIbgN0wtBLyOZenj4236c4-6_t0MHkQOZTGucaBqs9IQ0uQdrjrHyGWEeXVV37dsk1YmaqZyzmP-UeLrp5aap6QB2M"
+        }
+      ]
+    },
+    {
+      "cluster_number": 4,
+      "unique_domains": 7,
+      "number_of_titles": 7,
+      "category": "Tariffs",
+      "title": "Prominent business leaders voice concern over tariffs",
+      "short_summary": "Billionaire investor Bill Ackman and other Wall Street leaders are publicly expressing concern over President Trump's recently announced sweeping tariffs. Ackman, who supported Trump during the election, warned that the country is heading toward a \"self-induced, economic nuclear winter\" if the administration doesn't scale back the tariffs immediately, suggesting a 90-day pause to allow for negotiations on trade inequities.",
+      "did_you_know": "Since the tariff announcement on April 2, the S&P 500 has dropped more than 10% and the Dow Jones has fallen more than 9%, pushing markets into bear territory.",
+      "talking_points": [
+        "Market reaction: Global markets have entered a tailspin since the announcement, with the S&P 500 declining over 15% and entering bear market territory.",
+        "Business confidence: Ackman warned that \"business runs on confidence, and the president is rapidly losing the trust of global business leaders.\"",
+        "Broad opposition: Multiple prominent financial leaders including Jamie Dimon, Howard Marks, and Stanley Druckenmiller have joined in expressing concern about the tariffs.",
+        "Alternative proposal: Ackman suggested a 90-day timeout on tariffs to allow for negotiation and resolution of trade inequities."
+      ],
+      "quote": "If, on the other hand, on April 9th we launch economic nuclear war on every country in the world, business investment will grind to a halt, consumers will close their wallets and pocketbooks, and we will severely damage our reputation with the rest of the world that will take years and potentially decades to rehabilitate.",
+      "quote_author": "Bill Ackman",
+      "quote_source_url": "https://www.businessinsider.com/trump-tariffs-trade-war-bill-ackman-stock-market-crash-2025-4",
+      "quote_source_domain": "businessinsider.com",
+      "location": "",
+      "perspectives": [
+        {
+          "text": "Bill Ackman: While supporting trade reform to advance US industry, he believes indiscriminate tariffs could devastate business confidence and harm investment in the US.",
+          "sources": [
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/trump-tariffs-trade-war-bill-ackman-stock-market-crash-2025-4"
+            }
+          ]
+        },
+        {
+          "text": "Howard Marks: The Oaktree Capital co-chairman sees the tariffs as a significant shift from free trade and globalization toward restrictions and US isolation.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2025/04/07/bill-ackman-howard-marks-jamie-dimon-speak-out-high-tariffs-economy-business-leader-comments/"
+            }
+          ]
+        },
+        {
+          "text": "Jamie Dimon: The JPMorgan Chase CEO has warned that the tariff policy \"may be disastrous in the long run.\".",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2025-04-06/ackman-calls-trump-tariffs-a-mistake-and-massively-in-excess"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "April 2, 2025:: Trump administration announces sweeping tariffs on imports from countries worldwide",
+        "April 6-7, 2025:: Prominent business leaders including Bill Ackman publicly speak out against the tariffs"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "The market's dramatic reaction to the tariff announcements signals genuine concern about potential economic disruption. While tariffs may benefit some domestic industries in the short term, the broader impact on global supply chains, consumer costs, and business confidence could outweigh those benefits. Long-term investors should consider:",
+      "business_angle_points": [],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Global trade: Broad tariffs would significantly disrupt established supply chains, potentially forcing companies to restructure operations at considerable cost.",
+        "Consumer goods: Higher import costs would likely be passed to consumers, potentially reducing purchasing power and dampening economic growth.",
+        "Market stability: Continued uncertainty around trade policy could extend market volatility, affecting investment decisions across multiple sectors.",
+        "Manufacturing: While some domestic manufacturers might benefit from reduced foreign competition, those relying on imported components would face higher costs."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Wall Street Titans Blast Trump’s Tariffs With Markets Roiled",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-06/ackman-calls-trump-tariffs-a-mistake-and-massively-in-excess",
+          "domain": "bloomberg.com",
+          "date": "2025-04-06T23:32:33+00:00",
+          "image": "https://kagiproxy.com/img/ww0jMU4s5GYL-G-WhnbIsftBKf6yc1IxPF8jLntqVPjJ0A8zXFsgbiq1PL_Jt_ijEONOHSW1dBtN9SuF_zlcvC2LaryL3K92PBkundR919oncQ9NTVT_cs9Bzq3ucsPMNJKkO5pyJn8",
+          "image_caption": "Bill Ackman Photographer: Jeenah Moon/Bloomberg"
+        },
+        {
+          "title": "The biggest names in business and finance from Bill Ackman to Howard Marks are speaking out about tariffs—Here’s what they’re saying",
+          "link": "https://fortune.com/2025/04/07/bill-ackman-howard-marks-jamie-dimon-speak-out-high-tariffs-economy-business-leader-comments/",
+          "domain": "fortune.com",
+          "date": "2025-04-07T15:39:36+00:00",
+          "image": "https://kagiproxy.com/img/jcwsToxStqhJATSYWd5Zfg_WkqExVbzJsaR0OOm4HiNdv-ObEgjqZV1Fztl1jIEB5efeQlsPqnEWxXc7tjU5zjsHuZxGmtRl04l_BKk2fcBZ9-X6RH7qTvkvhsQjuop93vS3eVaN2btMZTvn0jvva_waFs5-sL2hEhoxq_zc8Se-8KlHxN0",
+          "image_caption": "Jamie Dimon, CEO of JPMorganChase and the most prominent voice for finance in the U.S, wrote to shareholders that tariffs may lead to higher inflation. (Getty Images / Win McNamee)"
+        },
+        {
+          "title": "The US risks 'economic nuclear war' if it doesn't scale back tariffs immediately, Bill Ackman says",
+          "link": "https://www.businessinsider.com/trump-tariffs-trade-war-bill-ackman-stock-market-crash-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T14:02:55+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Bill Ackman is turning on Trump because of tariffs. And he is not alone - CNN",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQazR0dnU2eEM4dngyTHl2a0ZVVE1RWl85cks3VF9hOUlnVTVoN2dpMnBWVEdkM0lrSWtibHJIUkg3V3VDMDUzMlZIc3hFZ3RPSDRveTNlNzhmWlo3bTFaTFlnX3VJcE10Z3RlTFdMN1ZWMDZ5SkZMTmF4UnlwMnNxSjdwMFRTLTF2ekJNTllEczFVdVJmcHc",
+          "domain": "google.com",
+          "date": "2025-04-07T13:24:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Bill Ackman says Trump tariffs will bring 'an economic nuclear winter' — and urges a 'ceasefire'",
+          "link": "https://qz.com/bill-ackman-trump-tariffs-stocks-markets-trade-war-1851775000",
+          "domain": "qz.com",
+          "date": "2025-04-07T01:32:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump is Losing the Confidence of Business Leaders, Says Billionaire Investor 'Bill Ackman'",
+          "link": "https://www.reddit.com/r/Economics/comments/1jtdyf0/trump_is_losing_the_confidence_of_business/",
+          "domain": "reddit.com",
+          "date": "2025-04-07T05:31:16+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump is losing the confidence of business leaders, billionaire investor Bill Ackman says",
+          "link": "https://www.cnbc.com/2025/04/07/trump-is-losing-the-confidence-of-business-leaders-bill-ackman-says.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-07T12:50:14+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/U6-i4FQeQCFzraUokrJEWbEeerJrKW_qJUtKxJSu9jDSRHPoroR37_H84cuk7r8mJIf2rKuJTUXJPaqvO8aseAmFvZQU9ZNptGBMaES4mtwvtpU"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/J0kUFvCVzTTLqkufIUQN-WLPaAX3tUXOOnMy5jsK49-0nSK3LqtLiyvKl2Z8fWuau-TITGp9eTOZcVdJ6r04wng7Wjeltqj-FCNDZHk-xwc"
+        },
+        {
+          "name": "qz.com",
+          "favicon": "https://kagiproxy.com/img/sXi_A4y9faX3KwsbJuiucJMl2mgpVjGEKlQ-Ec9ALhYiKrpaEHb6z6eKyOJqR9m1lqapxWSKwTpl7jR-8S9ND4mW54Jt7etItQxKbQ"
+        },
+        {
+          "name": "reddit.com",
+          "favicon": "https://kagiproxy.com/img/fi9RpWcX56cAc_74R2NY5rrfoQ-iAXaQEn_TgWzC7WvmfS2Qm4WS6G0EWBDGEViXN1S_z28E5lEFxFqx4_3HGA9NQ0FpW3tmGPnjOQERIgg"
+        },
+        {
+          "name": "cnbc.com",
+          "favicon": "https://kagiproxy.com/img/v94E8o-fFHvZPtccltBjXxZcw6yORMjtlEtFavhgDOaVXtMcaGVNfnFnoBRUOeaISTKwAnSGx0LKi1kEybt9Lv6upVb-i5ZOf6NP9V2W"
+        },
+        {
+          "name": "fortune.com",
+          "favicon": "https://kagiproxy.com/img/Q9z5UR5nLSydtgIPYahFpgKY9fIjymOuj1AVzDCTNZV_s2Aeh7qvQLkEwMmXQpI-e4H2Co-CAo-M3RX8J0LxgvEa_p6b4ftt5roql5pkE9tb"
+        },
+        {
+          "name": "businessinsider.com",
+          "favicon": "https://kagiproxy.com/img/v19q_fRczPmelrY-esyJpOT39xMGWYkzsX9xRUxCesL83DirSjj0hKfZBJTA-yosjsfT_wVu1MjuTkdaP7-by5Ly_Ebx5E9lTbBE7aMb6u-lPXutsBC5lhI"
+        }
+      ]
+    },
+    {
+      "cluster_number": 5,
+      "unique_domains": 7,
+      "number_of_titles": 7,
+      "category": "Technology",
+      "title": "Tech entrepreneurship evolves beyond unicorn ambitions",
+      "short_summary": "Recent discussions in the technology sector highlight a shifting mindset about startup success, with growing emphasis on sustainable business models rather than unicorn valuations. Current trends show entrepreneurs and developers exploring various paths to success through innovative tools, practical engineering approaches, and understanding fundamental business economics.",
+      "did_you_know": "In the 1990s, many software developers had to navigate complex export regulations related to cryptography, with encryption algorithms being classified as munitions under U.S. law.",
+      "talking_points": [
+        "Sustainable growth: Building profitable businesses with reasonable growth trajectories is gaining recognition as a viable alternative to chasing billion-dollar valuations.",
+        "Engineering economics: Understanding where engineering salaries come from helps developers make better career decisions and align their work with genuine value creation.",
+        "Developer tools: New programming approaches like Glamorous Toolkit are reimagining software development environments to enhance productivity and code understanding.",
+        "Historical context: Early microcomputer development following the Altair's release in 1975 demonstrates how innovation spreads through entrepreneurial ecosystems."
+      ],
+      "quote": "Your startup doesn't need to be a unicorn to be successful for you. It can be a positive force in your life, your community, and the world—without being a billion-dollar business. Chasing scale for the sake of scale is a recipe for failure.",
+      "quote_author": "Matt Giust Williamson",
+      "quote_source_url": "https://mattgiustwilliamson.substack.com/p/your-startup-doesnt-need-to-be-a",
+      "quote_source_domain": "substack.com",
+      "location": "",
+      "perspectives": [
+        {
+          "text": "Matt Giust Williamson: Entrepreneurs should focus on building sustainable businesses that serve their lives and communities rather than chasing unicorn status and venture capital validation.",
+          "sources": [
+            {
+              "name": "Matt Giust Williamson",
+              "url": "https://mattgiustwilliamson.substack.com/p/your-startup-doesnt-need-to-be-a"
+            }
+          ]
+        },
+        {
+          "text": "Sean Goedecke: Engineers should understand where their salaries come from to make better career decisions, recognizing that sustainable businesses need to generate more value than they capture.",
+          "sources": [
+            {
+              "name": "Sean Goedecke",
+              "url": "https://www.seangoedecke.com/where-the-money-comes-from/"
+            }
+          ]
+        },
+        {
+          "text": "Glamorous Toolkit: Software development can be reimagined with tools that promote deeper understanding and exploration of code, challenging traditional IDE approaches.",
+          "sources": [
+            {
+              "name": "Glamorous Toolkit",
+              "url": "https://gtoolkit.com//"
+            }
+          ]
+        },
+        {
+          "text": "Technic's History: The response to early microcomputers like the Altair demonstrates how technological innovation creates entrepreneurial opportunities and market evolution.",
+          "sources": [
+            {
+              "name": "Technic's History",
+              "url": "https://technicshistory.com/2025/04/06/microcomputers-the-first-wave-responding-to-altair/"
+            }
+          ]
+        }
+      ],
+      "emoji": "💻",
+      "geopolitical_context": "",
+      "historical_background": "The personal computing revolution began in earnest following the 1975 release of the Altair 8800, which inspired a wave of competitive innovation from entrepreneurs seeing market potential in microcomputers. This pattern of technological advancement followed by entrepreneurial response continues to shape how technology businesses evolve today.",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": "",
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": [
+        "Genetic Programming: A machine learning technique that evolves computer programs automatically, allowing solutions to emerge through simulated evolution rather than direct programming.",
+        "Moldable Development: An approach to software development that lets developers shape their tools to fit specific contexts, improving understanding of complex codebases.",
+        "Cryptography Export Controls: In the 1990s, encryption technology was regulated as munitions, requiring export licenses that significantly complicated international software distribution."
+      ],
+      "business_angle_text": "The shifting emphasis from unicorn chasing to sustainable business building represents a healthy maturation in the tech sector. Businesses that focus on genuine value creation rather than growth-at-all-costs are likely to weather economic downturns better and create more durable competitive advantages. For investors, this trend signals opportunities in companies with sound unit economics and clear paths to profitability, rather than those solely focused on user acquisition and market domination. The renewed interest in developer productivity tools like Glamorous Toolkit also highlights potential investment opportunities in the developer tools ecosystem, where productivity improvements can generate substantial ROI.",
+      "business_angle_points": [],
+      "user_action_items": [
+        "Business evaluation: When considering startup opportunities, analyze the unit economics and path to profitability rather than focusing solely on growth metrics.",
+        "Career planning: Engineers should investigate how their employers generate revenue to understand their job stability and growth potential.",
+        "Tool exploration: Developers can experiment with emerging development environments like Glamorous Toolkit to potentially enhance their productivity."
+      ],
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Investor expectations may shift toward rewarding profitability and sustainable growth rather than pure scale and market dominance.",
+        "Engineer compensation models could evolve to better align with value creation as more engineers understand business economics.",
+        "Development tool innovation may accelerate as new approaches like moldable development challenge established IDE paradigms.",
+        "Historical perspective on technology evolution provides entrepreneurs with valuable context for identifying genuine innovation opportunities versus hype cycles."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Decoding the 90s: Cryptography in Early Software Development (2023)",
+          "link": "https://www.botanica.software/post/decoding-the-90s",
+          "domain": "botanica.software",
+          "date": "2025-04-07T14:43:17+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "A startup doesn't need to be a unicorn",
+          "link": "https://mattgiustwilliamson.substack.com/p/your-startup-doesnt-need-to-be-a",
+          "domain": "substack.com",
+          "date": "2025-04-07T08:42:43+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Glamorous Toolkit",
+          "link": "https://gtoolkit.com//",
+          "domain": "gtoolkit.com",
+          "date": "2025-04-06T23:47:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Knowing where your engineer salary comes from",
+          "link": "https://www.seangoedecke.com/where-the-money-comes-from/",
+          "domain": "seangoedecke.com",
+          "date": "2025-04-06T18:25:36+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Baby Steps into Genetic Programming",
+          "link": "https://aerique.blogspot.com/2011/01/baby-steps-into-genetic-programming.html",
+          "domain": "blogspot.com",
+          "date": "2025-04-06T23:06:26+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Microcomputers – The First Wave: Responding to Altair",
+          "link": "https://technicshistory.com/2025/04/06/microcomputers-the-first-wave-responding-to-altair/",
+          "domain": "technicshistory.com",
+          "date": "2025-04-06T21:30:33+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "technicshistory.com",
+          "favicon": "https://kagiproxy.com/img/lB_FZRRUVWQSfIyqDDSHm1Rc271yNm8QUG16_kDJeDvBAJ4hGBsVfNzHhMMFtmudNdh24rUfNOGF7SkO2q0ziH1_wD1w3dsEuY_iRw340CZPfXre1ro-LsU"
+        },
+        {
+          "name": "botanica.software",
+          "favicon": "https://kagiproxy.com/img/ATs1z2C7XoZVTN7o6K2V0EH4LQ1VwQ1tm6bHUBi9IDkJYUxiC5RBp_sg2U4ffB5XPumOW6ZOZ5AdEmYDRU54AczHhiAr42_THHQct9Qtov9g1McZgUQL"
+        },
+        {
+          "name": "gtoolkit.com",
+          "favicon": "https://kagiproxy.com/img/V5wSf8YpzxXJ5dvqj5bIXlFEVa6PMmWq_HJOeRd0O4Azqn6dShxRuvIFYzRILrYbVpCTwQ88Ao955bmCvzMeEXjUONtoVUn55QysC4eV5GCktg"
+        },
+        {
+          "name": "blogspot.com",
+          "favicon": "https://kagiproxy.com/img/IZqcjoZOPuT1amEhpH1fW4LnkVElbaC_-9a3p9hgF8R-6SvdDLj5cD-emRFA5vDnrj--x_Gpc-DvDFzLxHcJpWqo68ci5lineq4uxYNVYGMyew"
+        },
+        {
+          "name": "seangoedecke.com",
+          "favicon": "https://kagiproxy.com/img/NopKjVM94-kuf_C8bFkGUbya9Prvr5iJGVPNOA7fOLLzK-9JXcjf0UOsCQB6V0neXR3Zozz_933Uhr8l-FYs2bYgZr9sXgLdajO8GCD9SqaEAwuOfrg"
+        },
+        {
+          "name": "substack.com",
+          "favicon": "https://kagiproxy.com/img/V7mvSW7f4qOr64HCYUDW77M8ermg6dqQPrvRuWuBYjKLxKbr2Uvd7W4vVSHU9mxsplTPDskckcoA_iFPMzPXo2VSsnmwHmM0ExjCGOQd2MF5Ww"
+        }
+      ]
+    },
+    {
+      "cluster_number": 6,
+      "unique_domains": 7,
+      "number_of_titles": 8,
+      "category": "Markets",
+      "title": "Global markets tumble amid trade tensions, recovery paths emerge",
+      "short_summary": "Asian stock markets plunged dramatically on Monday, with Japan's Nikkei 225 dropping nearly 8% following Friday's steep selloff on Wall Street. The market turmoil was triggered by escalating trade tensions after President Trump announced tariff hikes and China responded with retaliatory measures. Despite the significant losses, analysts point to potential rapid interest rate cuts by the US Federal Reserve that could help stabilize markets in the coming months.",
+      "did_you_know": "Investors are now pricing in almost five quarter-point cuts in US interest rates this year, which could bring the Federal Reserve's funds rate target range down to 3.0% by January.",
+      "talking_points": [
+        "Global response: Stock indices in Japan, Taiwan, and Hong Kong were hardest hit, with each falling over 8% in early trading.",
+        "Economic concerns: JPMorgan estimates the risk of a recession at 60% if the disruptive trade policies are sustained.",
+        "Market losses: Last week's market turmoil erased nearly $6 trillion in global market value before Monday's additional declines.",
+        "Rate cut expectations: Futures markets quickly moved to price in earlier US interest rate cuts, possibly beginning as soon as May.",
+        "Oil impact: Crude oil prices also fell significantly, with Brent dropping to $63.46 a barrel amid concerns about reduced global growth."
+      ],
+      "quote": "We continue to expect a first Fed easing in June. However, we now think the Committee cuts at every meeting through January, bringing the top of the funds rate target range down to 3.0%.",
+      "quote_author": "Bruce Kasman, head of economics at JPMorgan",
+      "quote_source_url": "https://www.reuters.com/markets/global-markets-wrapup-1-2025-04-06/",
+      "quote_source_domain": "reuters.com",
+      "location": "Bangkok, Thailand",
+      "perspectives": [
+        {
+          "text": "JPMorgan economists: The size and impact of US trade policies, if maintained, would be sufficient to tip a healthy global expansion into recession with a 60% probability.",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/markets/global-markets-wrapup-1-2025-04-06/"
+            }
+          ]
+        },
+        {
+          "text": "Trump administration: Markets will have to \"take their medicine\" as the President indicated he would not do a deal with China until the US trade deficit is addressed.",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/markets/global-markets-wrapup-1-2025-04-06/"
+            }
+          ]
+        },
+        {
+          "text": "Market analysts: China has effectively declared that markets had spoken on their retaliation through levies on US goods, escalating tensions further.",
+          "sources": [
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/markets/global-markets-wrapup-1-2025-04-06/"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "Last week:: Trump announces sweeping tariff hikes against trading partners",
+        "Friday, April 4, 2025:: Wall Street experiences worst crisis since COVID with S&P 500 plummeting 6%",
+        "Friday, April 4, 2025:: China matches Trump's tariff increases with retaliatory measures",
+        "Monday, April 7, 2025:: Asian markets open with dramatic losses, Nikkei drops nearly 8%"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "While market panic creates dramatic headlines, long-term investors should remember that trade policy positions can shift rapidly, especially during election cycles. The potential for accelerated rate cuts could create buying opportunities in quality companies with strong balance sheets that are being indiscriminately sold off. Rather than reacting to short-term volatility, consider whether fundamental business models of affected companies remain intact. The market is likely over-discounting worst-case scenarios, particularly for businesses with limited direct exposure to the specific tariffed goods or with flexibility to adjust supply chains over time.",
+      "business_angle_points": [],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Financial markets: The selloff is accelerating across asset classes, suggesting potential systemic concerns beyond just trade tensions.",
+        "International trade: Companies with global supply chains face significant uncertainty and potential cost increases due to expanding tariff policies.",
+        "Central banking: Federal Reserve officials likely facing increased pressure to respond with monetary policy adjustments sooner than previously planned.",
+        "Wealth effect: The $6 trillion market value loss could impact consumer spending and business investment decisions in coming quarters."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "After meltdown on Wall Street, Japan's Nikkei falls 9% in early trade: How did Indian stock market react?",
+          "link": "https://www.firstpost.com/world/after-massive-bloodbath-on-wall-street-japans-nikkei-falls-9-in-early-trade-how-will-indian-stock-market-react-13877755.html",
+          "domain": "firstpost.com",
+          "date": "2025-04-07T04:38:22+00:00",
+          "image": "https://kagiproxy.com/img/pvE3xYnPlpIV8o5XB8ps6lXbzXNoiXO7e22IM0nOrRJYasg0Q2RMr2xm7ZpDlAU7XH9_UvLf4mjycNGjCawFFU-nfcFs6t1yeT9VnHGNnCU8CP2hAIjPBdIfNazjd5HiTnv7z0u3WnBtqYMkdc9XRuGR3xwqOjD7duV-BNyurdnR7buPHUvNUYcK1DnQluBu4w",
+          "image_caption": ""
+        },
+        {
+          "title": "Asian markets plunge as Japan’s Nikkei 225 index dives nearly 8% after the big meltdown on Wall St",
+          "link": "https://apnews.com/article/stocks-markets-nikkei-tariffs-trump-76d0de278a6cad291ace624a74a6a1b6",
+          "domain": "apnews.com",
+          "date": "2025-04-07T00:41:54+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Global stock markets plunge as trade tensions escalate - WCVB",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5zeVVFQ2NySGN6bDUyMlZnZ2IyeHUyUWFoZ0dhMXdqeHRTN0dSQmZiM0RYcXl6LVctUEFtenp0eUE1R3h0NmdDQW1XVllNMVhoVWpMaE5MMDhrWHlRa0h5U0xPS3JHS3pUY1k2anBha253MnRzY05YR0t3REYtYVE",
+          "domain": "google.com",
+          "date": "2025-04-07T09:24:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Asia stocks, oil prices plunge; markets hunger for rapid US rate cuts",
+          "link": "https://www.reuters.com/markets/global-markets-wrapup-1-2025-04-06/",
+          "domain": "reuters.com",
+          "date": "2025-04-06T22:56:32+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "World markets plunge with Japan's Nikkei diving nearly 8% after big Wall St. meltdown - NPR",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UaXMwZFhXbVhmcG1wMlVubVc2YUtKd2hQdExRSHB2RjM2WEUwVXd5VEtBSDUyUzh3YjhPenZramNWbUQ0Uzlhd1N1N0lVMm5PN0pWOHBDSHQxdDlPa2FlQVN3bXN1bjFaS0dyOFlKYWphdXA0WnE0eU1wNA",
+          "domain": "google.com",
+          "date": "2025-04-07T02:53:38+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Why Asian markets are seeing such steep falls",
+          "link": "https://www.bbc.com/news/articles/c934qzd094wo",
+          "domain": "bbc.com",
+          "date": "2025-04-07T09:20:45+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Japan's Nikkei 225 stock index dives nearly 8% after meltdown over Trump's tariffs",
+          "link": "https://abcnews.go.com/Business/wireStory/japans-nikkei-225-stock-index-dives-8-after-120547414",
+          "domain": "abcnews.go.com",
+          "date": "2025-04-07T01:17:52+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "abcnews.go.com",
+          "favicon": "https://kagiproxy.com/img/rf3dvIlHrWoOydsABFC2cmUYoEkr_H8pcBY6MPzt7cgU6l__0PKO7NBrcDTs-FOnofm2--RorV2d9OHV78o99aowqDT3sQSdumc70NoPB_uW6tXV"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/v2RBYCzR_r4d0jm0gR-JtpBCgTGK8yquWRr9BIqzIFXr2rEmjCYI9S44ZRMZBntIeu9eL_tarzx5rot_doQWeE9LS9CX-j03uRthtn7TAT8"
+        },
+        {
+          "name": "bbc.com",
+          "favicon": "https://kagiproxy.com/img/QXXxHuNZy_jcdG9wosh59GGt3425WNRkl4rOuSHM8MoEwgTg8DMUCiKkDXubmnROPLgZEXqZXIQ4pgUpefdZAROkMk7WJIE-FLf-PI8"
+        },
+        {
+          "name": "firstpost.com",
+          "favicon": "https://kagiproxy.com/img/om_d69rswoNzG0ge9U02uJQCl2NmBMS_yxMPPvxTxSXYYfppbVt2tzw1t_hwwVofSQ1bEjDuGndwrMxogdH7T9Qx23cxMjmLySNScpJbB8i4h8w"
+        },
+        {
+          "name": "reuters.com",
+          "favicon": "https://kagiproxy.com/img/C4YR1-QSmplU-fh-4ECYW8DGmk6GCrPXTeT1QMsgSe-TtCOinyzT25HiAt3ELXdfRjwHYfVcywi8c4aDGw1XtA54NT7KnUZ56B3CKfUMFnji"
+        },
+        {
+          "name": "apnews.com",
+          "favicon": "https://kagiproxy.com/img/3tQd4zw6yihSQPmwU5RBNIU6uXjJECk5YkolaFmFGBUlCK27x3vRf0IkV6d3O1uNxgQk9TldsMtY7xPUM0mcACrVZStun_NBHzUeHuX9r-w"
+        }
+      ]
+    },
+    {
+      "cluster_number": 7,
+      "unique_domains": 7,
+      "number_of_titles": 8,
+      "category": "Markets",
+      "title": "S&P 500 enters bear market with room for recovery",
+      "short_summary": "The S&P 500 officially entered bear market territory on Monday, falling more than 20% from its February peak amid concerns over President Trump's tariff announcements. Markets experienced significant volatility throughout the day, with wild swings that saw indexes plunge, recover, and then fall again as investors responded to mixed messaging from White House officials regarding potential trade negotiations.",
+      "did_you_know": "According to NYSE strategist Michael Reinking, this is the second-fastest bear market in history, surpassed only by the March 2020 pandemic-driven market crash.",
+      "talking_points": [
+        "Market definition: A bear market officially occurs when stocks fall 20% from their recent peak, with the S&P 500 crossing this threshold by dropping below 4,915.",
+        "Significant volatility: The Dow Jones Industrial Average demonstrated extreme fluctuations, swinging as much as 1,700 points downward before recovering over 700 points in a single session.",
+        "Tech sector impact: The tech-heavy Nasdaq 100 had already entered bear market territory on Friday, with companies like Nvidia, Palantir, and Robinhood experiencing steep single-day losses.",
+        "Mixed signals: Conflicting statements from White House officials have contributed to market uncertainty, with economic advisor Kevin Hassett suggesting negotiations while Commerce Secretary Howard Lutnick stated tariffs would remain."
+      ],
+      "quote": "",
+      "quote_author": "",
+      "quote_source_url": "",
+      "quote_source_domain": "",
+      "location": "New York, USA",
+      "perspectives": [
+        {
+          "text": "Market strategists: This marks the second-fastest bear market in history, only behind the March 2020 pandemic market crash.",
+          "sources": [
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/stock-market-crash-bear-sp500-tariffs-trump-trade-war-pandemic-2025-4"
+            }
+          ]
+        },
+        {
+          "text": "Economic analysts: Traders are bracing for a wild week as the market enters its first bear market since the Covid pandemic period.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/videos/2025-04-07/s-p-500-on-track-to-close-in-a-bear-market-video"
+            }
+          ]
+        },
+        {
+          "text": "Global: Trump's tariffs have triggered not just a U.S. market decline but a global selloff, raising broader economic concerns.",
+          "sources": [
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/business/2025/04/07/wall-street-sinks-into-bear-market-as-trump-tariffs-spark-global-rout"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "February 19, 2025:: S&P 500 reaches record high of 6,144 points",
+        "April 3, 2025:: President Trump announces new tariffs",
+        "April 5, 2025:: Nasdaq 100 enters bear market territory",
+        "April 7, 2025:: S&P 500 officially enters bear market, falling below 4,915"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "",
+      "business_angle_points": [
+        "Market panic vs. fundamentals: While the current selloff is driven by tariff fears and policy uncertainty, long-term investors should evaluate whether company fundamentals have actually changed significantly rather than reacting to short-term sentiment.",
+        "Volatility creates opportunity: Substantial market drops often create buying opportunities for quality companies trading at more reasonable valuations, especially if their long-term business prospects remain strong despite potential trade disruptions.",
+        "Sector differentiation: Not all sectors will be equally impacted by tariffs - companies with primarily domestic operations may face less direct impact than those heavily dependent on international trade and global supply chains."
+      ],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Retail stocks: Companies like Walmart have shown some resilience relative to technology stocks, suggesting investors see certain consumer staples as potentially less affected by trade tensions.",
+        "Technology sector: Tech stocks have been hit particularly hard, with the Nasdaq entering bear territory before the broader market, reflecting concerns about global supply chain disruptions.",
+        "Investment climate: The rapid market descent may temporarily chill IPO and capital raising activities as companies wait for stability to return before pursuing public offerings."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "What Is a Bear Market? Are We in One?",
+          "link": "https://www.nytimes.com/2025/04/07/business/economy/bear-market-stocks-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T15:44:22+00:00",
+          "image": "https://kagiproxy.com/img/HihvSoLA0zB60dVPyT6iXZDIbnqyZKS-ZjUCfna9eS0D5srO9VNr_0_xrG9Q6wufAxoO63aTULhZnZ4iu3KmuHVQvB55O_h2adkAUW3MSDDVZP0J6VnE1tiv4VkmXUoNzGsDp2BeviVs7CXQPoKN72GAa0lhSseCJFdM7eIaQmj6aCjL91bnx-DhVkEj9ezP",
+          "image_caption": "The sculptures of a bull and a bear in Frankfurt. The bear and bull symbolize how the stock market is trending. (Felix Schmitt for The New York Times)"
+        },
+        {
+          "title": "The S&P 500 is flirting with dreaded bear market territory as Trump tariffs drive global market meltdown",
+          "link": "https://fortune.com/2025/04/07/stock-market-sp-500-bear-market-territory-trump-tariffs-global-market-meltdown/",
+          "domain": "fortune.com",
+          "date": "2025-04-07T16:11:01+00:00",
+          "image": "https://kagiproxy.com/img/BD77Zk8RPGApfn6CT--aU9QrNdqEufo-UEcTWcI3sc7lYIHrP9mZktqumknIDITwUawa38KlHpN6wlCRLfiNyJN8FGwClSwm1kX5_qadftyP4gDcc8PWmr71nBBNWZ8_e-r7NveswQaq-tM_3A_Ewn7_7MvLdhw_YgXv8f2V",
+          "image_caption": "U.S. stocks are swinging Monday following a manic morning where indexes plunged, soared and then sank again as Wall Street tossed around a false rumor about President Donald Trump's plans for his trade war. (TIMOTHY A. CLARY/AFP via Getty Images)"
+        },
+        {
+          "title": "The S&P 500 has tumbled into dreaded bear-market territory",
+          "link": "https://www.businessinsider.com/stock-market-crash-bear-sp500-tariffs-trump-trade-war-pandemic-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T14:04:53+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "S&P 500 Officially Sinks Into Bear Market: Here's What Investors Need To Know",
+          "link": "https://www.benzinga.com/news/econ-s/25/04/44669291/sp-500-officially-sinks-into-bear-market-heres-what-investors-need-to-know",
+          "domain": "benzinga.com",
+          "date": "2025-04-07T15:37:15+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The Dow swings wildly and the S&P 500 touches bear market territory as trade war fallout continues",
+          "link": "https://qz.com/trade-war-fallout-dow-swings-s-p-500-bear-market-1851775043",
+          "domain": "qz.com",
+          "date": "2025-04-07T16:01:00+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "S&P 500 on Track to Close in a Bear Market",
+          "link": "https://www.bloomberg.com/news/videos/2025-04-07/s-p-500-on-track-to-close-in-a-bear-market-video",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T14:36:37+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Wall Street sinks into bear market as Trump tariffs spark global rout",
+          "link": "https://www.euronews.com/business/2025/04/07/wall-street-sinks-into-bear-market-as-trump-tariffs-spark-global-rout",
+          "domain": "euronews.com",
+          "date": "2025-04-07T11:44:34+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/8x0HVGaRP5U9sbWbWAcMSJR1bkvSjjn7itNqCSsYNLF5e0_eVKb9RzEKFCY_mhjaAbuKEE7f_ocRMAyNYY-TFdA3A-IrMe6_TqOsqc5qznJawS0"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/ueDipY_LKm2aR7DrBxcHmEvZ2kMfyO0w1ve01GCM1t5uEbI83-aST34iFbJJpkuz5IxCh6ysHGLhnUan6BzHGCkk56r4AjWg400WxIpAfdur"
+        },
+        {
+          "name": "qz.com",
+          "favicon": "https://kagiproxy.com/img/gikSK_S34BnUyTpmlMFoXUMoQCIV-EW-KXxWjiZDUwJaNWG2MJxo-zp9jFykHZKPyI5wqld6izp3eJRpSrIT6uUIdNfUm_2i3k2DVQ"
+        },
+        {
+          "name": "euronews.com",
+          "favicon": "https://kagiproxy.com/img/t5qvX1Dnbjf6mOCzYUoPm_DJUE04CTJR1Rkv9CsLOYJz2aHhZYDqtBSKOe79dc7JARUV0YYPUeZkh4OId-CSZTtC_fXwH7-2AG6F6JLmb4Ar9Q"
+        },
+        {
+          "name": "fortune.com",
+          "favicon": "https://kagiproxy.com/img/QpHB4Cinmvb0jj5y3nGd-3QDTYQdR0SU7o59qSIm9-SV4NyFBNnS-_1it_o9K6xbHjaDa94aGB13gzM0iCxEAAnJunqQEWTCleM8pVBqZpSB"
+        },
+        {
+          "name": "benzinga.com",
+          "favicon": "https://kagiproxy.com/img/EfgjnCblhJoTe8gWusqOUDVqRCuPHSpB38P7bdF9nunWowCl2pBK8vItGYaSJg-NN-ygXB2XPoqfmj3psXyfFLdFMjIiP5k1YwDQAOI8mbEUHQ"
+        },
+        {
+          "name": "businessinsider.com",
+          "favicon": "https://kagiproxy.com/img/qHRvqTXqMliHjM6cIROcwc2K9BuTc_3GIuh4H6CmrqGVSVp9NM2ttwNcfJHA2O27xTuoEC72ktWm1VuMmotopZwds54l_N7N863PdZEX7125gnurAVawhAc"
+        }
+      ]
+    },
+    {
+      "cluster_number": 8,
+      "unique_domains": 7,
+      "number_of_titles": 9,
+      "category": "Oil",
+      "title": "Oil prices drop below $60, creating consumer opportunity",
+      "short_summary": "Global oil prices have plummeted below $60 per barrel, reaching a four-year low amid growing concerns about a potential global recession triggered by escalating US-China trade tensions. The significant price drop follows President Trump's announcement of sweeping tariffs and Saudi Arabia's decision to cut prices for its biggest buyers in Asia, creating a combination of demand concerns and supply pressures in the market.",
+      "did_you_know": "Oil prices are now 15 percent lower than they were before President Trump revealed his plans to impose new tariffs on imports from most countries.",
+      "talking_points": [
+        "Tariff impact: Trump's proposed global tariff plan has fueled fears of economic slowdown, putting significant downward pressure on oil demand expectations.",
+        "Saudi price cuts: Saudi Aramco has reduced Arab Light crude prices for Asian buyers more than expected for May deliveries, adding supply-side pressure to already falling prices.",
+        "Market volatility: Oil prices have been fluctuating as markets remain uncertain about the specifics and implementation timeline of Trump's tariff proposals.",
+        "Consumer benefit: Lower oil prices typically translate to reduced costs at gas pumps and lower energy expenses for households and businesses worldwide.",
+        "Historical context: Current prices represent the lowest levels since 2021, marking a significant reversal from recent years' higher price environment."
+      ],
+      "quote": "",
+      "quote_author": "",
+      "quote_source_url": "",
+      "quote_source_domain": "",
+      "location": "",
+      "perspectives": [],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "Oil markets have experienced significant volatility in recent years, with prices reaching negative territory during the COVID-19 pandemic in 2020 before recovering substantially through 2021-2024. Prior to the current slide, global oil prices had been relatively stable, supported by OPEC+ production management and post-pandemic economic recovery.",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "Late March 2025:: Trump announces plans for sweeping tariffs on imports from most countries",
+        "Early April 2025:: US-China trade tensions escalate, triggering broader market sell-off",
+        "April 6, 2025:: Saudi Aramco announces price cuts for Asian buyers for May deliveries",
+        "April 7, 2025:: Oil prices fall below $60 per barrel, reaching lowest point since 2021"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "While market sentiment is currently dominated by recession fears, long-term energy investors should recognize that oil price volatility creates both risks and opportunities. The fundamental supply-demand equation hasn't fundamentally changed overnight - this is primarily sentiment-driven selling based on potential future economic scenarios. If trade tensions ease or economic data remains resilient, prices could rebound quickly. However, sustained low prices would pressure high-cost producers and potentially accelerate the energy transition. For value investors, selectively examining well-capitalized energy companies with low production costs and strong balance sheets might present buying opportunities if indiscriminate selling continues.",
+      "business_angle_points": [],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Energy producers: Oil companies and exporters will face reduced revenues and potential production cuts if prices remain at these levels.",
+        "Transportation sector: Airlines, shipping, and logistics companies will benefit from reduced fuel costs, potentially improving profit margins.",
+        "Manufacturing: Lower energy input costs could benefit manufacturers already concerned about potential tariff impacts on their supply chains.",
+        "Consumer spending: Reduced gasoline prices typically boost disposable income, potentially offsetting some negative economic effects of trade tensions."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Oil Prices Tumble Further as Trump’s Tariffs Weigh on Economic Outlook",
+          "link": "https://www.nytimes.com/2025/04/06/business/energy-environment/oil-prices-trump-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T12:29:28+00:00",
+          "image": "https://kagiproxy.com/img/uuZs3zA8jtO-kDex3xcF89Dlu-PTaKdhGfTeGLYA8rmR2V2ZC9wSXFB6jbsu_GtRn2cV66INlN0KUKRVYux-qwoF-3VyZAZ82SZgwVyrlUYf6cJ-Bk9CyPh7EpKy6AV1bPxMPOehfIxnT_mDhIGB0RfDJF1YcQ6veOm8Gu-_Awk3cPFmq-38K4vSUIvIpBZa_4w8eWItLfHCWzXb",
+          "image_caption": "An oil field pump jack in Seminole, Texas, in February. (Julio Cortez/Associated Press)"
+        },
+        {
+          "title": "Oil price hits four-year low",
+          "link": "https://www.rt.com/news/615328-oil-price-four-year-low/",
+          "domain": "rt.com",
+          "date": "2025-04-07T08:46:35+00:00",
+          "image": "https://kagiproxy.com/img/-h2n0LvYELvW5_dkuDiEibw-SEoPkVaCCyfCAURbPevrNMjfskIZFLNF_dOAJJJMMEUo-IJH2lXx-cunnt7Ar31rarXvvz68Du4HSPkVv2WbwNxctCT3la8g_PSTHs-a6DjuzREH",
+          "image_caption": "People walk past an electronic display board showing the Hang Seng Index in Hong Kong, April 7, 2025."
+        },
+        {
+          "title": "Oil drops further as fears of global recession rise",
+          "link": "https://www.ft.com/content/0ecfd40e-f73c-4cb2-b7e4-ca2f2a6c7c12",
+          "domain": "ft.com",
+          "date": "2025-04-07T12:53:12+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Oil tumbles further as US-China trade conflict fuels recession fears - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd3VDYUU0elhqeFNxdDBSMXpFRmRWUWtKMGYza0hkNWZuZmZHUjNRcjBpWFpjRDZZNmp5UTFtMnF1V0pLQkVGcS1pRU1oZWVYV294WUJQWVp0Ujh0VGFKSERKMzhoYzRNUlBmTG9pMUR0QWQtcFhiRElOUk1qeXFDYTR1dk9OZVZBcHpobW1UMUNRUGNaamtLVElxc19BbG14QlhqN0RxRS1Za1RacDVKdXlXQUduMUpZYlE",
+          "domain": "google.com",
+          "date": "2025-04-07T10:39:59+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Oil plummets as trade war, oversupply risks increase and Saudis cut prices",
+          "link": "https://www.scmp.com/business/commodities/article/3305472/oil-plummets-trade-war-oversupply-risks-increase-and-saudis-cut-prices",
+          "domain": "scmp.com",
+          "date": "2025-04-07T06:08:27+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Oil Swings as Markets Remain on Edge About Trump’s Tariff Plans",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-06/latest-oil-market-news-and-analysis-for-april-7",
+          "domain": "bloomberg.com",
+          "date": "2025-04-06T22:03:32+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Oil plunge deepens on fears global trade war could trigger recession - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZUd2WlN5WmZ4MnNucWxPNGhXSEMtTGs3TGlRdEZJekdnS1FmTmprTEFJZXRzbmFXOU5XUzRjcndZMnZSc0ZBdm9vN1NacTV3NFNtb0Y4WmR0ZWJleXNoNGxFZUtvY2hvWXpzTUNzZ2htVGVRZE9WYUI3NktSWlFMblBsdjlIVklNRFNmUEMwYTFKTzNvTkF4V3B5QXlvOTgyQUZqbmdMWFbSAa4BQVVfeXFMUHFhUkV6bXlXZkdvT19YM2dvTmdXVVpKbFJ0aVg0cVg4bG1rNVNOcTRseDE1UDNTRUNqV203NGRXalJNd2lTRmpJWEp0SjN2UXJPb3gxYzh4U3hacjJ2SkxjUEZZSXFtTFVHaTNPamw5a1JSdjY4WXFEVDBWdFhWY2w5TzBXOVg2Ml9oMjRPSjBBWUtKTjRFUXVNbHRvczVCZUJkU3A2V2kzeEZXX2lR",
+          "domain": "google.com",
+          "date": "2025-04-07T04:04:18+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "U.S. crude oil falls below $60 a barrel to lowest since 2021 on tariff-fueled recession fears",
+          "link": "https://www.cnbc.com/2025/04/06/us-crude-oil-falls-below-60-a-barrel-to-lowest-since-2021-on-tariff-fueled-recession-fears.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-07T15:50:27+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/K0viQYGnhKHQ_TgfZRQoXTFZXVGPzJGEHeL536JLdtTpijWSBuQJrDf2WUhohmi0Z_R-4RHCb1sF_a-4EziYyO4SnsHyGt9lIhhH8uRQnzr749w"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/Nj9NnJ9CwS0EPhnVADxJpL6eApXHjBIkX8IwN8nrYc5Rr9BkhljnQQ0xX2WPuH4JGZrpQ74ES1W-yUbFSw2tfAdW_OguZ7bVigqx2hS5tJY"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/1sXdalfIYTBEn7PECxc1NONOQZ4ShIFWI-wWsam1lJ5O5Tp2L4rSzl8HC9YdOaVHUwl03ZgtJVeCucb7uHZ6Zyv8OxUr9KcWQeS7aT8YkvtA"
+        },
+        {
+          "name": "scmp.com",
+          "favicon": "https://kagiproxy.com/img/O5cH0jka6Mh3voVlE2RHFFTm8BKkKiSefZBSAFsTCzE0JkLDhM4kvsbNKTgtWkzkzge2mRDj9DxwAI4BQhMk1oL3IQKb8zYSVdA1Y0rx"
+        },
+        {
+          "name": "ft.com",
+          "favicon": "https://kagiproxy.com/img/q_CgbMt9Hug9N4sxiohl2hHPkAwdQWQ-7c7xTp9kFcmHZPKC6f6twiAVIn71fypqpgwDh9LNcJ_V8U5UQgDCmO49iU9-uoJQ-QUdfQ"
+        },
+        {
+          "name": "cnbc.com",
+          "favicon": "https://kagiproxy.com/img/zOzHnXut1rAR4OHpEGHxEcZE751lRMhQoSQX0zkuV8oKWfV5AqPjncKhW8RY8oSGJ8oeWpDAfufPtPTf-Ccbx23Uu9CIR224mrwVW5DO"
+        },
+        {
+          "name": "rt.com",
+          "favicon": "https://kagiproxy.com/img/E-V9NBzG-RkZ30dciO-Y9gUU7GT_D7BavCHdbheFK4v-wOKP0HiOo7qO7jl_xDg4yQ1AUeSZzI4tCQhYyTxhl2Uc214c_vPAW_Lsvw"
+        }
+      ]
+    },
+    {
+      "cluster_number": 9,
+      "unique_domains": 7,
+      "number_of_titles": 12,
+      "category": "Automotive",
+      "title": "Nations respond to Trump tariffs with auto industry support",
+      "short_summary": "President Trump's recently implemented 25% tariffs on imported vehicles have sent shockwaves through the global automotive industry, triggering market chaos and declining shares for Japanese and European carmakers. In response, the UK government led by Prime Minister Keir Starmer has announced supportive measures for its automotive sector, including reinstating the 2030 ban on petrol and diesel cars, while manufacturers worldwide scramble to adapt to the new economic landscape.",
+      "did_you_know": "More than a fifth of cars sold in the US are built in Mexico and Canada, according to S&P Global estimates.",
+      "talking_points": [
+        "Global impact: Shares in Japanese and European automakers have tumbled, with Nissan falling 9.3% and Stellantis dropping nearly 6% as markets react to the tariffs.",
+        "UK response: Prime Minister Starmer told automakers \"we have your back\" while announcing measures to support the car industry including reinstating the 2030 ban on new petrol and diesel vehicles.",
+        "Economic concerns: Analysts describe the tariffs as \"a debacle of epic proportions\" that could result in demand destruction of 15-20% for new auto purchases in 2025.",
+        "Consumer effects: The tariffs are expected to drive up both vehicle prices and insurance rates in the US, making car ownership more expensive.",
+        "Community impact: Small towns like Kanda, Japan, which are heavily dependent on automotive manufacturing for their local economy, face particular uncertainty."
+      ],
+      "quote": "The tariffs are a debacle of epic proportions for the auto industry and US consumers as the concept of a US-made car with all US parts is a fairy tale fictional narrative.",
+      "quote_author": "Dan Ives, Wedbush Securities analyst",
+      "quote_source_url": "https://www.businessinsider.com/trump-tariffs-auto-industry-impact-wedbush-analyst-stock-prices-tesla-2025-4",
+      "quote_source_domain": "businessinsider.com",
+      "location": "",
+      "perspectives": [
+        {
+          "text": "UK government: The measures announced will help protect the car industry while maintaining climate goals, with the transport secretary claiming changes to EV rules will have a \"negligible\" impact on emissions.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/politics/2025/apr/07/labour-ev-rules-uk-emissions-trump-tariffs-car-firms-climate"
+            }
+          ]
+        },
+        {
+          "text": "Industry analysts: The tariffs represent a fundamental misunderstanding of the global supply chain reality, with Wedbush pointing out that a wholly US-made car is a \"fairy tale fictional narrative.\".",
+          "sources": [
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/trump-tariffs-auto-industry-impact-wedbush-analyst-stock-prices-tesla-2025-4"
+            }
+          ]
+        },
+        {
+          "text": "Local communities: For factory towns like Kanda in Japan, which sends half its Nissan production to the US, the tariffs threaten not just jobs but the entire economic foundation of the community.",
+          "sources": [
+            {
+              "name": "New York Times",
+              "url": "https://www.nytimes.com/2025/04/07/business/nissan-kanda-japan-factory.html"
+            }
+          ]
+        },
+        {
+          "text": "Environmentalists: Concerns are growing that increased costs for electric vehicles, now also losing tax exemptions in some markets, could deter consumers from making environmentally friendly choices.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/money/2025/apr/07/car-tax-green-motoring-just-got-more-expensive-as-evs-lose-exemption"
+            }
+          ]
+        }
+      ],
+      "emoji": "🚗",
+      "geopolitical_context": "",
+      "historical_background": "The automotive industry has increasingly globalized its supply chains over the past decades, with components and assembly often crossing multiple international borders before a vehicle reaches consumers. Even before the latest tariffs, the UK car industry was already struggling with Brexit-related challenges and the transition to electric vehicles.",
+      "international_reactions": [
+        "🇬🇧 United Kingdom: Prime Minister Starmer announced support measures for the auto industry, warning of an \"age of insecurity\" and describing a \"changing and completely new world\" after Trump's tariffs.",
+        "🇯🇵 Japan: Growing concern about the impact on major manufacturers like Nissan and Toyota, with share prices dropping significantly and communities reliant on auto manufacturing facing economic uncertainty."
+      ],
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": "",
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "The tariff situation creates distinct winners and losers in the automotive space. Companies with existing strong US manufacturing footprints like Tesla appear better positioned to weather or even benefit from the disruption. For investors, this represents a fundamental restructuring of competitive advantages in the industry rather than a temporary market fluctuation. The likely long-term effects include accelerated localization of supply chains, potential consolidation among weaker players unable to absorb margin pressures, and a possible slowdown in EV adoption as costs increase. Forward-looking investors might consider which companies have the balance sheet strength and operational flexibility to adapt to this new reality, rather than focusing on short-term market reactions.",
+      "business_angle_points": [],
+      "user_action_items": [
+        "Vehicle purchase planning: If considering a new vehicle purchase, research which models may see price increases due to tariff exposure and consider timing purchases accordingly.",
+        "Investment review: Evaluate holdings in automotive manufacturers based on their exposure to US market and manufacturing footprint."
+      ],
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Market disruption: The 25% tariffs have already caused significant stock price drops for international automakers, potentially reshaping competitive dynamics within the industry.",
+        "Supply chain reconfiguration: Manufacturers are likely to accelerate efforts to localize production in the US market to avoid tariffs, requiring substantial investment and time.",
+        "Accelerated industry consolidation: Smaller manufacturers with less financial flexibility may struggle to adapt to the new tariff environment, potentially leading to mergers or market exits.",
+        "EV transition complexity: The tariffs add another layer of complexity to the already challenging transition to electric vehicles, potentially slowing adoption rates due to higher costs."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "UK Tells Automakers ‘We Have Your Back’ After US Tariffs Hit",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/uk-tells-automakers-we-have-your-back-after-trump-tariffs-blow",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T13:59:02+00:00",
+          "image": "https://kagiproxy.com/img/RMxfb-7l5y-qehZjQt5zL4_gYrevOkPBnnqNyILlF9zLrtOWMzGQgLHRVmhvD9TQciO26-RXRWhzJhUgRZJgH6YsmK-UGeoNOJCgxxv5px-B3sPtc7JH9MHXjAvkKisYbK0TmQCeDbU",
+          "image_caption": "Keir Starmer, right, and Rachel Reeves at the Jaguar Land Rover manufacturing plant in Solihull, UK, on April 7. Photographer: Adam Vaughan/EPA/Bloomberg"
+        },
+        {
+          "title": "Trump’s Tariffs Deal a Devastating Blow to Struggling Nissan",
+          "link": "https://www.bloomberg.com/news/newsletters/2025-04-07/trump-s-tariffs-deal-a-devastating-blow-to-struggling-nissan",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T13:00:03+00:00",
+          "image": "https://kagiproxy.com/img/hY-J22_R3l88jj9ggVTeUw3BVqbInnWc_BhXvHs6CkH__x0XN4ZxeTlc6vP6U-wfY557m-3aihmEjbxbLOF6vka6VcNlPZOANnBIy3hZk2F-VnbxAAcMs4SV4uLik4iQKo6nBS2sz_E",
+          "image_caption": "New Nissan vehicles at an automotive processing terminal at the Port of Los Angeles in February."
+        },
+        {
+          "title": "Trump's tariffs are a 'debacle of epic proportions' for the auto industry &mdash;&nbsp;and consumers too, analyst says",
+          "link": "https://www.businessinsider.com/trump-tariffs-auto-industry-impact-wedbush-analyst-stock-prices-tesla-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T10:41:07+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "UK Eases Rules on EVs as Trump’s Auto Tariffs Hit",
+          "link": "https://www.nytimes.com/2025/04/07/business/britain-electric-vehicles-auto-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T12:53:21+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump’s Tariffs Imperil the Fortunes of a Nissan Factory Town",
+          "link": "https://www.nytimes.com/2025/04/07/business/nissan-kanda-japan-factory.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T04:09:57+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump’s automotive tariffs set to drive up vehicle prices and insurance rates in US",
+          "link": "https://finance.yahoo.com/news/trump-automotive-tariffs-set-drive-155652168.html",
+          "domain": "yahoo.com",
+          "date": "2025-04-07T15:56:52+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Starmer announces support for car and pharma industries in ‘age of insecurity’",
+          "link": "https://www.theguardian.com/politics/2025/apr/07/starmer-support-car-pharma-industries-age-of-insecurity",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T15:54:04+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Labour: changes to EV rules will have ‘negligible’ impact on UK emissions",
+          "link": "https://www.theguardian.com/politics/2025/apr/07/labour-ev-rules-uk-emissions-trump-tariffs-car-firms-climate",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T16:00:17+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Car tax: green motoring just got more expensive as EVs lose exemption",
+          "link": "https://www.theguardian.com/money/2025/apr/07/car-tax-green-motoring-just-got-more-expensive-as-evs-lose-exemption",
+          "domain": "theguardian.com",
+          "date": "2025-04-07T09:30:13+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump's tariffs imperil the fortunes of a Nissan factory town",
+          "link": "https://economictimes.indiatimes.com/news/international/business/trumps-tariffs-imperil-the-fortunes-of-a-nissan-factory-town/articleshow/120053787.cms",
+          "domain": "indiatimes.com",
+          "date": "2025-04-07T05:26:25+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "UK to relax electric car rules as US tariffs hit",
+          "link": "https://www.bbc.com/news/articles/cj3xe7ppmn2o",
+          "domain": "bbc.com",
+          "date": "2025-04-07T13:54:33+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "yahoo.com",
+          "favicon": "https://kagiproxy.com/img/dJhsYoWrsSCvY3GSz2c8LAj50ixPVfppCuwJ79v-X-jy1iOiJl1fZ0gQuvlP7m9oTKiVYfcyqViEwSBNFFn8XiWEeXw25ThIdesxCFJE7w"
+        },
+        {
+          "name": "theguardian.com",
+          "favicon": "https://kagiproxy.com/img/GGA5zACAm7pO_n-Su7Cuy8AjecZ2XndE1G0ZNKWzpthYYLOebeMcpmN0GlSKwNY4Xy3vEFLg_8Z8Z9PXzzTGW8ri7CenwXWEaY-tMyHVz3qRg8XhIg"
+        },
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/1A-tPQ-lAgoPtzIUyEDDbF_FPE1jDgsuJiRoiOgvnNomjIv-uz6761AU3tG9m57jOXKVmCfHPu0XNsR_7RMxfVJ1wmAHcmQI77owxUhMeohO-j0"
+        },
+        {
+          "name": "bbc.com",
+          "favicon": "https://kagiproxy.com/img/O4UQe3WKOl7eABoo5x2fEF-HFVhkz6a5YFX_XbV2zGn2JvkiUcidiuaNIcx3fGkTx-c3jaYVfzwyCVxT0PIsHtLEq0_9T2IUGidR9fA"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/YWKlOKDvotxkQNEDOwGKgrxknTLGrj6fvP9SHnosdM_xNiyT4dvEwfskcCeDF6FCO05a0YPrNpXdvwowg9Gv_3Xa5Rv-pyR_Cosmi9DPL-Yu"
+        },
+        {
+          "name": "indiatimes.com",
+          "favicon": "https://kagiproxy.com/img/KJzwX575OoOIWFH9NGj2qOy-sDo8-3-T8f_lEBNm8SzYbZ0jWt6QiC5rRFVUg3VXXwhdlITxrbhs2J4KFjnGKQnRk7FJLth_6PHimzCMj-G0Ua5d"
+        },
+        {
+          "name": "businessinsider.com",
+          "favicon": "https://kagiproxy.com/img/otHr1oowZv7InAiXdoMUs8vb_r44fwQWPSdUEISW3pevnALjHJeujkbttd_wExsP9XD8BJSjqngsQ8IwKZKJDQEhaOdxSt_7HEpWtdCou0W9NUYLyBCRijU"
+        }
+      ]
+    },
+    {
+      "cluster_number": 10,
+      "unique_domains": 6,
+      "number_of_titles": 6,
+      "category": "Tariffs",
+      "title": "Businesses navigate new tariff landscape with resilience",
+      "short_summary": "President Trump's recently announced tariffs are creating ripple effects across multiple industries, from luxury vehicles to sweets. Companies like Jaguar Land Rover have temporarily paused US shipments, while small businesses like Economy Candy in New York are reviewing how to manage potential price increases. Despite these challenges, many businesses are already adapting their strategies to maintain customer relationships in this new economic environment.",
+      "did_you_know": "Economy Candy in New York City stocks over 2,000 different candy items from around the world, all potentially affected by the new tariffs.",
+      "talking_points": [
+        "Brand loyalty challenges: Companies will need to carefully navigate price increases to maintain customer trust and loyalty in the face of tariff-driven inflation.",
+        "Global supply disruption: Jaguar Land Rover's decision to pause US shipments demonstrates how quickly international trade flows can be affected by policy changes.",
+        "Small business impact: Local retailers like Economy Candy are facing the prospect of another round of price increases just as inflation was beginning to ease.",
+        "Consumer choices: Higher prices may force American consumers to make tougher purchasing decisions, revealing which brands truly command loyalty.",
+        "International adaptability: Despite the tariffs, Swiss chocolatiers maintained a positive outlook at Geneva's Festichoc festival, showing business resilience."
+      ],
+      "quote": "I think it's gonna be another round of this hyperinflation on some items. If we're putting tariffs everywhere, it is going to go up.",
+      "quote_author": "Mitchell Cohen, owner of Economy Candy",
+      "quote_source_url": "https://www.chicagotribune.com/2025/04/06/tariffs-new-york-economy-candy/",
+      "quote_source_domain": "chicagotribune.com",
+      "location": "New York, NY, USA",
+      "perspectives": [
+        {
+          "text": "Business marketers: Pricing is never just about numbers—it's about perception, psychology, and trust, which will be challenged by these sweeping new tariffs.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2025/04/07/trump-tariffs-brand-loyalty-marketing/"
+            }
+          ]
+        },
+        {
+          "text": "Small business owners: Local specialty retailers like Economy Candy fear returning to \"hyperinflation\" on products just as supplier prices were beginning to stabilize.",
+          "sources": [
+            {
+              "name": "Chicago Tribune",
+              "url": "https://www.chicagotribune.com/2025/04/06/tariffs-new-york-economy-candy/"
+            }
+          ]
+        },
+        {
+          "text": "International manufacturers: Jaguar Land Rover described the US as \"an important market\" for its luxury brands while pausing shipments to process the impact of the new 25% auto tariffs.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2025/04/06/trump-tariffs-britains-jaguar-land-rover-suspends-us-shipments.html"
+            }
+          ]
+        },
+        {
+          "text": "Specialized producers: Swiss chocolatiers maintained a positive outlook at the Festichoc festival despite the newly announced tariffs on their products.",
+          "sources": [
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.go.com/Business/wireStory/trump-tariffs-make-easter-bittersweet-swiss-chocolatiers-120560519"
+            }
+          ]
+        }
+      ],
+      "emoji": "🏷️",
+      "geopolitical_context": "",
+      "historical_background": "",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": "",
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "",
+      "business_angle_points": [
+        "The tariff situation presents a classic example of how policy changes create winners and losers in the marketplace. While higher import costs will squeeze margins for many companies, those with strong brand loyalty, domestic manufacturing capability, or pricing power may weather this storm better than competitors.",
+        "Smart investors should look beyond immediate price reactions to identify companies with adaptable supply chains, pricing flexibility, and loyal customer bases. The current disruption may create buying opportunities for businesses with sustainable competitive advantages that can navigate these challenges.",
+        "The real long-term value impact will depend on how long these tariffs remain in place and whether they trigger retaliatory measures from trading partners. Companies that can quickly adapt their sourcing or pass costs along without losing customers will demonstrate the kind of resilience that creates lasting shareholder value."
+      ],
+      "user_action_items": [
+        "Price comparisons: Track prices of frequently purchased imported items to make informed decisions about value versus cost in the coming months.",
+        "Support local businesses: Engage with small business owners to understand their challenges and help sustain community retailers during price adjustments."
+      ],
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Automotive sector: European luxury car manufacturers face significant challenges with the 25% tariff potentially forcing price increases or margin compression.",
+        "Retail confectionary: Small specialty retailers and importers of international goods must balance price increases against customer expectations and relationships.",
+        "Global supply chains: Companies across multiple industries are reassessing their international shipping schedules, pricing strategies, and product assortments.",
+        "Brand marketing: The new economic landscape will test brand loyalty and force marketers to emphasize value propositions beyond price to maintain customer relationships."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Trump’s tariffs mean brands will lose customer loyalty—and winning it back is incredibly hard",
+          "link": "https://fortune.com/2025/04/07/trump-tariffs-brand-loyalty-marketing/",
+          "domain": "fortune.com",
+          "date": "2025-04-07T15:36:48+00:00",
+          "image": "https://kagiproxy.com/img/PokS3QxFzgafo40_9ci2yN5t7wEkJ5Twz_GNge42YquoHbQJC6RtZFMpWexLhn1NCzwdPs6XlaW3C5mUU-U6pqYatxzT3JNo1JNAGc-d9fEHinyJxfOyXLSo50BvdnfugOutJdhZpphQTyDyV_gLXzYb7p0OxpQiLT3cE9uXKkSC8xyMLZE",
+          "image_caption": "Trump's new tariffs have big implications for brands and marketing. (Andrew Harnik/Getty Images)"
+        },
+        {
+          "title": "Trump’s tariffs hit a sour note in landmark NYC emporium of sweets",
+          "link": "https://www.chicagotribune.com/2025/04/06/tariffs-new-york-economy-candy/",
+          "domain": "chicagotribune.com",
+          "date": "2025-04-06T13:58:57+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "UK automaker Jaguar Land Rover pauses US shipments",
+          "link": "https://economictimes.indiatimes.com/news/international/business/uk-automaker-jaguar-land-rover-pauses-us-shipments/articleshow/120044126.cms",
+          "domain": "indiatimes.com",
+          "date": "2025-04-06T19:02:53+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "British carmaker Jaguar Land Rover pauses U.S. shipments over Trump tariffs",
+          "link": "https://www.cnbc.com/2025/04/06/trump-tariffs-britains-jaguar-land-rover-suspends-us-shipments.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-07T11:43:36+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Carmakers mull action over tariffs as JLR pauses car exports to US",
+          "link": "https://www.bbc.com/news/articles/cj0zr0p77m0o",
+          "domain": "bbc.com",
+          "date": "2025-04-06T13:17:20+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Trump tariffs make Easter bittersweet for Swiss chocolatiers",
+          "link": "https://abcnews.go.com/Business/wireStory/trump-tariffs-make-easter-bittersweet-swiss-chocolatiers-120560519",
+          "domain": "abcnews.go.com",
+          "date": "2025-04-07T14:46:31+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "abcnews.go.com",
+          "favicon": "https://kagiproxy.com/img/CWMEF8xYTGj7OWPS-fxHHmWlJk_oLdk7eoGN4rAyUUFWycWi_CSxidLLwphnSo0FijMqHu0kGJvwFzGpe4U_6mOqHP0vZqI9e6TkBWDD7t8Lv6wP"
+        },
+        {
+          "name": "bbc.com",
+          "favicon": "https://kagiproxy.com/img/-0esHkOzA2hRoP6euxXfQCCHS4bmrwMz-J2TP7AZ344ty1XLO9edJnmjO5QFkKormOJocipGzRXMjGX4NiT0EdossUvfua00NuCJFM4"
+        },
+        {
+          "name": "fortune.com",
+          "favicon": "https://kagiproxy.com/img/KvuCZxpIbG4MF3RjxRuO1RjxQ_jYRcJdD7I8C1JD5VBOLIPfaNezGaltau_FSTwM0k9LEN5-CeeAJ184qu3mts2MTooQBmIiDo9F1fXej42J"
+        },
+        {
+          "name": "chicagotribune.com",
+          "favicon": "https://kagiproxy.com/img/VH9wNq6WzBi5mzH-2dlR8Hpt31Cypi8Id1vn9hBr5igZawA8mawyd2w-mBKqbx7i6nXlwafNa4_LVqh0KfVcDZIdWrX0mukvo_KgSnusfnyU9FFGSHJnPQ"
+        },
+        {
+          "name": "indiatimes.com",
+          "favicon": "https://kagiproxy.com/img/A0Ebeslp-nPZQGxUsrrghQllNh4-HfT_O0aETKhrXRT8MleKTMrkPS6nSmw7fFZ5b3jglpvETW3bE-D2ikg4nTwgHgYuqV903RTD2LDKNTnwnbGO"
+        },
+        {
+          "name": "cnbc.com",
+          "favicon": "https://kagiproxy.com/img/pWZP0m82bI7JkwHi9KU0X1xr_zfV_mfJquIAXOkg7xDSwFXq9J4N3Ni0vZVI_YBiEydWtbKr_EbGJ2NTvujsKW2PSPwRCUF5HsNfLUQ8"
+        }
+      ]
+    },
+    {
+      "cluster_number": 11,
+      "unique_domains": 6,
+      "number_of_titles": 6,
+      "category": "Cryptocurrency",
+      "title": "Bitcoin faces temporary dip amid global market reaction",
+      "short_summary": "Bitcoin has dropped below the $80,000 mark, falling approximately 10% following President Trump's global tariff announcement. The cryptocurrency, along with other digital assets, joined a broader market sell-off as investors responded to concerns about potential economic impacts from new tariff policies. Despite the current volatility, this movement demonstrates that cryptocurrencies remain connected to traditional market forces while maintaining significant value above previous years' levels.",
+      "did_you_know": "Despite the recent 10% drop, Bitcoin is still trading significantly higher than its price from early 2023 when it was below $20,000.",
+      "talking_points": [
+        "Market correlation: Cryptocurrencies have joined traditional financial markets in responding to economic policy news, dispelling the notion they are completely independent assets.",
+        "Liquidation volume: The broader crypto market has recorded over $1.38 billion in liquidations as investors adjust positions.",
+        "Investor sentiment: Cryptocurrency holders appear to be in \"sell mode\" according to analysts, though this follows a significant bull run earlier in the year.",
+        "Recovery potential: Historical patterns suggest volatile crypto assets often rebound following political or economic news-driven price corrections."
+      ],
+      "quote": "Cryptocurrency investors appear to be in full 'sell mode'",
+      "quote_author": "Charlie Sherry, BTC Markets analyst",
+      "quote_source_url": "https://www.scmp.com/tech/blockchain/article/3305476/bitcoin-ether-rout-extends-tariff-war-pain-batters-cryptocurrency-assets",
+      "quote_source_domain": "scmp.com",
+      "location": "",
+      "perspectives": [
+        {
+          "text": "Mainstream financial: The rapid drop shows that cryptocurrencies are subject to the same market gyrations as any other risky asset, despite their promotion as alternative investments.",
+          "sources": [
+            {
+              "name": "New York Times",
+              "url": "https://www.nytimes.com/2025/04/06/business/economy/trump-bitcoin-crypto-tariffs.html"
+            }
+          ]
+        },
+        {
+          "text": "Market analyst: Bitcoin's movement is part of a broader market reaction where investors are \"bracing for further carnage\" after Trump's tariffs raised global recession fears.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2025/04/06/bitcoin-drops-sunday-evening-as-cryptocurrencies-join-global-market-rout.html"
+            }
+          ]
+        },
+        {
+          "text": "Timing observation: Cryptocurrencies joined the sell-off after initially holding relatively stable during last week's global market turmoil, suggesting a delayed but connected reaction.",
+          "sources": [
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.go.com/Business/wireStory/bitcoin-cryptocurrencies-prices-fall-amid-global-market-turmoil-120563994"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "Bitcoin has experienced several significant price corrections throughout its history, often in response to regulatory news or macroeconomic factors. The cryptocurrency reached an all-time high above $85,000 earlier in 2025 before this current correction, demonstrating its continued volatility despite growing mainstream adoption.",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "Early 2025:: Bitcoin reached new all-time highs above $85,000",
+        "April 2025:: Trump announces new global tariff policies",
+        "April 6, 2025:: Bitcoin drops below $80,000 mark amid market selloff"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": [
+        "Market correlation: Despite being designed as independent assets, cryptocurrencies often move with traditional markets during major economic events",
+        "Liquidations: Forced selling that occurs when leveraged trading positions cannot maintain required collateral levels due to price movements",
+        "Volatility index: Bitcoin's price movements remain more pronounced than traditional asset classes, reflecting its still-maturing market status"
+      ],
+      "business_angle_text": "",
+      "business_angle_points": [
+        "Long-term perspective: While dramatic in the short term, this 10% correction follows substantial gains and represents normal market behavior rather than a fundamental change in Bitcoin's value proposition.",
+        "Market maturation: The correlation with traditional assets during economic events shows cryptocurrency is increasingly behaving like other asset classes, potentially making it more predictable for institutional investors.",
+        "Diversification lesson: The reaction demonstrates that cryptocurrency may not provide complete portfolio diversification during broad market stress events, an important consideration for investment allocation strategies."
+      ],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Regulatory attention: Major price movements in cryptocurrencies often trigger increased regulatory scrutiny and discussion.",
+        "Institutional confidence: The resilience of crypto infrastructure during high-volume selling periods helps build long-term institutional trust in the market.",
+        "Retail sentiment: Short-term price volatility may discourage new retail investors while creating buying opportunities for those with longer time horizons."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Bitcoin Is Down 10% Since Trump’s Global Tariff Announcement",
+          "link": "https://www.nytimes.com/2025/04/06/business/economy/trump-bitcoin-crypto-tariffs.html",
+          "domain": "nytimes.com",
+          "date": "2025-04-07T05:48:04+00:00",
+          "image": "https://kagiproxy.com/img/1G88SysTbcPWevOnM9QdMl1uAJbVGgVzxpfKNppzScQHD2LD-6Eh2WWK7saimxf1y3n6lp4g0o5GJwOIErIeIJUOhfk3G-hQSDorqECvBS1AKrn-E2tn7BVzotjmgX1ZLvQQB-NAqaSZ4PfpHlKeyyrkeI1BcecFf_lUvZWdB0D8batckhAuJCUZ9TCTdIKRVIPu3P8-Hq9CD2FN8GuqSqMc",
+          "image_caption": "Bitcoin at a cryptocurrency exchange. (Dale De La Rey/Agence France-Presse — Getty Images)"
+        },
+        {
+          "title": "Trump’s tariffs trigger crypto market sell-off",
+          "link": "https://www.rt.com/business/615330-crypto-market-sell-off/",
+          "domain": "rt.com",
+          "date": "2025-04-07T12:59:32+00:00",
+          "image": "https://kagiproxy.com/img/UYFUK2l9iktjaCs-yZt55zmnlkcNEPJX_qDQlJDNqDlZEXO-LNPsL95DkhrYVfJJGAteO6rwzhLVcnbj-8Fh7Tq37InQpuhQCkcI756pnyibnlnzQJ3Zy2thG4moBZ4qhUvZXBg5",
+          "image_caption": "A display board with the Dax curve shows falling share prices at the stock exchange in Hesse, Frankfurt, April 3, 2025."
+        },
+        {
+          "title": "Bitcoin price falls amid tariff market rout - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWTdkYjJLc2lrVjJocExkTFNxby0xelNDbEU2WXpYUnpuNVgzeUVnOXF6Y2RXY2VGM2UxY0dzNEtYNnlSSE1LZXkxRVhHNlV4SG5jN3NOZVFtSEtZRnhCNGJaeVFQLVJ5MlVqbE5oTUFoR0NOQy1jOEhjUzdjczlUMlVJVkpsZ0VGY1NWWF9LUE96cms",
+          "domain": "google.com",
+          "date": "2025-04-07T14:11:49+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Bitcoin, ether rout extends as tariff war pain batters cryptocurrency assets",
+          "link": "https://www.scmp.com/tech/blockchain/article/3305476/bitcoin-ether-rout-extends-tariff-war-pain-batters-cryptocurrency-assets",
+          "domain": "scmp.com",
+          "date": "2025-04-07T06:31:32+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Bitcoin drops below $80,000 as cryptocurrencies join global market rout",
+          "link": "https://www.cnbc.com/2025/04/06/bitcoin-drops-sunday-evening-as-cryptocurrencies-join-global-market-rout.html",
+          "domain": "cnbc.com",
+          "date": "2025-04-07T14:50:10+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "Bitcoin and other cryptocurrencies see prices fall amid global market turmoil",
+          "link": "https://abcnews.go.com/Business/wireStory/bitcoin-cryptocurrencies-prices-fall-amid-global-market-turmoil-120563994",
+          "domain": "abcnews.go.com",
+          "date": "2025-04-07T15:58:19+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "abcnews.go.com",
+          "favicon": "https://kagiproxy.com/img/_40JtD8a346yhNDL5-0QSfNiD5ZQpZC__hzATTfvKdqyN0sVRrusUUQrFl8Ks652KdpJmbif-bg4Kev4gbQGXQDrcYHh8KuPgMiprvTcZUy1Q7LU"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/6Bug38JqnynDTQdz_FNK1ofmBmlJC3b0uo6zfIK9ad8S4UY4y4mnqCHdD6TubWhSbzuWg1jQolvaCSVnuEIQ2e7ez9YWpLB3de5J4fX4DVo"
+        },
+        {
+          "name": "nytimes.com",
+          "favicon": "https://kagiproxy.com/img/T4aRgO5sNJMo-lmr6VHK9SSXyKq3-xoSs7fGTavPqDF5oBR0kFM4ApEPkSXTYIqun1vfeb4yHS3_lzbo1qYB9--I39-IvtKZC-3EHkrL-dps"
+        },
+        {
+          "name": "scmp.com",
+          "favicon": "https://kagiproxy.com/img/kqaVzb57sk8uogS3oL42mxW4gzoGCsyD4Ml93_Hyk5lMOgrpEIWrLWcSEU3qLRHvdXoTuoyww6PmIs4MUiu2NRlf_jw4xtSF9V7PgSeX"
+        },
+        {
+          "name": "cnbc.com",
+          "favicon": "https://kagiproxy.com/img/lTB6qvzGApkW6_-QVMm74zPLf1AihaPOdZQIJOYMITY37ukcA88NdOvax0z8RRuA9u8T5j89u8GWTUO5JhXdoYafjudX4hAnjIgXTL28"
+        },
+        {
+          "name": "rt.com",
+          "favicon": "https://kagiproxy.com/img/9OIVhKA9dg3hwqWdDnN6syfw800y2ioCIxFpQul_1VfCU6NPrV5gmA_i8ia_F-D9wjz2ZU8W42vXwvLK9dP6-OgnhOrqwY26YP77jw"
+        }
+      ]
+    },
+    {
+      "cluster_number": 12,
+      "unique_domains": 5,
+      "number_of_titles": 5,
+      "category": "IPOs",
+      "title": "IPO revival hopes stall amid market turbulence",
+      "short_summary": "The anticipated comeback of initial public offerings (IPOs) in 2025 has been derailed by recent market turbulence, with companies like Klarna and StubHub shelving their plans. The market selloff, triggered by President Trump's new tariff announcements, has pushed the Nasdaq into bear market territory and created uncertainty for companies looking to go public, extending the IPO slump into its fourth consecutive year.",
+      "did_you_know": "2021 was a record-breaking year for deals with over 62,000 announced mergers globally and publicly disclosed deal values reaching $5.1 trillion.",
+      "talking_points": [
+        "Market reaction: The tech-heavy Nasdaq has dropped 20% from its December high, officially entering bear market territory following tariff announcements.",
+        "Economic concerns: Analysts and executives are expressing fears about potential recession as Trump's \"Liberation Day\" tariffs cause market volatility.",
+        "Long-term impact: The ongoing IPO drought means average Americans have fewer opportunities to participate in wealth creation from successful private companies.",
+        "Revised expectations: IPO analysts now estimate only about 150 deals could happen this year, far below what was expected for market recovery.",
+        "Global effect: The market turbulence has affected IPO plans beyond the US, with Commerzbank confirming some European companies have halted public offering preparations."
+      ],
+      "quote": "\"All signs were pointing to 2025 as the year when we would finally get some IPOs\"",
+      "quote_author": "Matt Kennedy, Senior Strategist at Renaissance Capital",
+      "quote_source_url": "https://www.businessinsider.com/ipo-slump-market-sell-off-silicon-valley-klarna-stubhub-facebook-2025-4",
+      "quote_source_domain": "businessinsider.com",
+      "location": "",
+      "perspectives": [
+        {
+          "text": "Renaissance Capital analysts: The IPO slump will likely continue through 2025, making it the fourth straight down year for public offerings.",
+          "sources": [
+            {
+              "name": "Business Insider",
+              "url": "https://www.businessinsider.com/ipo-slump-market-sell-off-silicon-valley-klarna-stubhub-facebook-2025-4"
+            }
+          ]
+        },
+        {
+          "text": "Private equity executive: The current situation is described as \"Trump is out of control,\" indicating that deals are being put on hold due to market uncertainty.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2025/04/07/trump-tariffs-liberation-day-nasdaq-stock-plunge-recession-correction-klarna-stubhub/"
+            }
+          ]
+        },
+        {
+          "text": "Commerzbank: Some European companies that were planning to go public have now shelved those plans following the global market selloff.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2025-04-07/commerzbank-says-some-ipo-candidates-have-shelved-their-plans"
+            }
+          ]
+        }
+      ],
+      "emoji": "📉",
+      "geopolitical_context": "",
+      "historical_background": "The current IPO drought follows an exceptional period of market activity in 2021, which saw record numbers of public offerings and mergers. Many investors and Wall Street professionals had anticipated a \"Trump bump\" to revitalize the IPO market in 2025, but that expected resurgence has failed to materialize.",
+      "international_reactions": "",
+      "humanitarian_impact": "",
+      "economic_implications": "",
+      "timeline": [
+        "December 2024:: Stock markets reach record highs; IPO forecasts for 2025 look promising",
+        "January 2025:: Trump inauguration creates dealmaker optimism for market revival",
+        "Early 2025:: Companies like Klarna and StubHub prepare for potential public offerings",
+        "April 2025:: \"Liberation Day\" tariffs announced, triggering major market selloff"
+      ],
+      "future_outlook": "",
+      "key_players": [],
+      "technical_details": "",
+      "business_angle_text": "",
+      "business_angle_points": [
+        "Long-term perspective: While the current market turbulence appears dramatic, value investors understand that high-quality companies can still find paths to public markets when fundamentals are solid, regardless of short-term volatility.",
+        "Private valuation reset: The extended IPO drought may force private companies to reassess their valuations based on actual business performance rather than growth projections, potentially creating better entry points for investors when they eventually go public.",
+        "Market accessibility concern: The ongoing lack of IPOs represents a structural issue where wealth creation remains concentrated among private investors and venture capitalists, limiting ordinary investors' ability to participate in high-growth companies during their most dynamic phases."
+      ],
+      "user_action_items": "",
+      "scientific_significance": [],
+      "travel_advisory": [],
+      "destination_highlights": "",
+      "culinary_significance": "",
+      "performance_statistics": [],
+      "league_standings": "",
+      "diy_tips": "",
+      "design_principles": "",
+      "user_experience_impact": "",
+      "gameplay_mechanics": [],
+      "industry_impact": [
+        "Investment banking: Wall Street firms continue to face revenue challenges in their underwriting businesses as the IPO pipeline remains frozen.",
+        "Venture capital: VC firms may need to adjust their exit strategies, potentially holding investments longer or exploring more private sales.",
+        "Private companies: Growth-stage businesses may face increased pressure to demonstrate profitability rather than just growth metrics as private funding becomes more selective.",
+        "Retail investors: The lack of new public offerings further limits investment options for everyday investors seeking to diversify portfolios with emerging companies."
+      ],
+      "technical_specifications": "",
+      "articles": [
+        {
+          "title": "Wall Street dreamed of a resurgent IPO market under Trump—instead the window is firmly shut for Klarna, StubHub and other hopefuls",
+          "link": "https://fortune.com/2025/04/07/trump-tariffs-liberation-day-nasdaq-stock-plunge-recession-correction-klarna-stubhub/",
+          "domain": "fortune.com",
+          "date": "2025-04-07T16:03:59+00:00",
+          "image": "https://kagiproxy.com/img/DjErmUO5Rlx8PXTEBO6fEsm0K3WN4-Gn2A3R2XweUQH8GaeV80Xtrn65kBG0jawcdzh1vAEH8DgyvRWh-29glOBHlEA9z5H8ShBqGnGb0HVnqTxQhrTugS7Mek0FVT9v5CzbsRGk9uGpAVnx6c4NGPQ",
+          "image_caption": "President Donald Trump announced the \"Liberation Day tariffs\" on April 2. (Courtesy of Chip Somodevilla / Getty Images)"
+        },
+        {
+          "title": "Commerzbank Says Some IPO Candidates Have Shelved Their Plans",
+          "link": "https://www.bloomberg.com/news/articles/2025-04-07/commerzbank-says-some-ipo-candidates-have-shelved-their-plans",
+          "domain": "bloomberg.com",
+          "date": "2025-04-07T15:14:19+00:00",
+          "image": "https://kagiproxy.com/img/OEk_ZYQRfqP0N2w2t68FL3IW0Cy8DGm_dpCuyAqxQsInoucCpzVzYcZ8ZGHTCqD6YpAHVM03lAMjkU5FZ9vB82zl1AqWXKx32s-RBeyIn9yUw70EOwOp2b7Z-1zjFFguw0PtUP24EYY",
+          "image_caption": "A Commerzbank AG bank branch in Berlin, Germany."
+        },
+        {
+          "title": "The IPO slump is bad news for everyone",
+          "link": "https://www.businessinsider.com/ipo-slump-market-sell-off-silicon-valley-klarna-stubhub-facebook-2025-4",
+          "domain": "businessinsider.com",
+          "date": "2025-04-07T12:54:10+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The latest victim of Trump's tariffs: IPOs",
+          "link": "https://finance.yahoo.com/news/latest-victim-trumps-tariffs-ipos-080901627.html",
+          "domain": "yahoo.com",
+          "date": "2025-04-07T16:09:01+00:00",
+          "image": "",
+          "image_caption": ""
+        },
+        {
+          "title": "The latest victim of Trump's tariffs: IPOs - Business Insider",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMjNCT2cxYXV3by1EQ2RBLVNQeDlRVmZyQ3NXbGNJb3A2OUFNTXdQdkNWejU1MWp4aE93MXhkckZMX1RsS2xGU29oNzNwTjFObUlPTlVfc2lzRnphZzcwdGdrMTBqNF81XzNSVDhwWUhIZFMxako2bVpSeDR2WmYtM3hpNjFidG5tTFhzb0N4bUR6RDl2eVE",
+          "domain": "google.com",
+          "date": "2025-04-07T08:09:00+00:00",
+          "image": "",
+          "image_caption": ""
+        }
+      ],
+      "domains": [
+        {
+          "name": "yahoo.com",
+          "favicon": "https://kagiproxy.com/img/jhftR581LYKQakrupHLWiZ2_71E97aV7MuZAzhGilpJJqKvoGKUQmY_pPCAzNfDU-_PyuYRD0tfUFz3g9DGW0w8LhKkM-Hbm_mV3orCH6g"
+        },
+        {
+          "name": "bloomberg.com",
+          "favicon": "https://kagiproxy.com/img/sDiz4J74K2YVuqapzjXC_iFrEAWut8hMUzjeX22sxKTg7IyQ1llwjo78__Pnf8u3Qmsc1FtkcXjHLU1Ytq1gFRJmS37YAII9yZNo50HxxpJoO5I"
+        },
+        {
+          "name": "google.com",
+          "favicon": "https://kagiproxy.com/img/mGmBjJYk_crvOAtXlNf2_JOqgZyc4qmaIX2n5Zh_2ePv8niNfnC403mScAz6P811DOsKH59e5TUeC_v7GB7JqJuWT1YEnCiR1eCxp8Oa9r0"
+        },
+        {
+          "name": "fortune.com",
+          "favicon": "https://kagiproxy.com/img/3jSFjkY-mckLdVv-NXLe7UvaqHVgvFs0tFzTta45ubIEtNjZOkRIo4-8V1eKSlvdPowkh3SNQhL9xAv6-bY6clVvL9Yd6ctk7WIJvEoNrRhg"
+        },
+        {
+          "name": "businessinsider.com",
+          "favicon": "https://kagiproxy.com/img/LE--jhDBWAe1fQkI_DUPekQqbStEiv9i82otJCuliDyjrd9kW2Td1nCavaMbc9NgKx1s65wupueaGXQhptjnBumAiKa4tztB6-GO5d8Nr7C669EqjMGxDRY"
+        }
+      ]
+    }
+  ]
+}

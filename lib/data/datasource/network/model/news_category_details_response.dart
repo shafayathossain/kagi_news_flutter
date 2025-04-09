@@ -23,11 +23,11 @@ class NewsCategoryDetailsResponse {
   }
 
   Map<String, dynamic> toJson() => {
-    'category': category,
-    'timestamp': timestamp,
-    'read': read,
-    'clusters': clusters.map((cluster) => cluster.toJson()).toList(),
-  };
+        'category': category,
+        'timestamp': timestamp,
+        'read': read,
+        'clusters': clusters.map((cluster) => cluster.toJson()).toList(),
+      };
 }
 
 class NewsCluster {
@@ -54,10 +54,10 @@ class NewsCluster {
   final List<String> timeline;
   final String futureOutlook;
   final List<String> keyPlayers;
-  final String technicalDetails;
+  final List<String> technicalDetails;
   final String businessAngleText;
   final List<String> businessAnglePoints;
-  final String userActionItems;
+  final List<String> userActionItems;
   final List<String> scientificSignificance;
   final List<String> travelAdvisory;
   final String destinationHighlights;
@@ -66,7 +66,7 @@ class NewsCluster {
   final String leagueStandings;
   final String diyTips;
   final String designPrinciples;
-  final String userExperienceImpact;
+  final List<String> userExperienceImpact;
   final List<String> gameplayMechanics;
   final List<String> industryImpact;
   final String technicalSpecifications;
@@ -138,7 +138,7 @@ class NewsCluster {
       title: json['title'] as String,
       shortSummary: json['short_summary'] as String,
       didYouKnow: json['did_you_know'] as String,
-      talkingPoints: List<String>.from(json['talking_points'] as List),
+      talkingPoints: _parseStringList(json['talking_points']),
       quote: json['quote'] as String,
       quoteAuthor: json['quote_author'] as String,
       quoteSourceUrl: json['quote_source_url'] as String,
@@ -151,32 +151,27 @@ class NewsCluster {
       geopoliticalContext: json['geopolitical_context'] as String,
       historicalBackground: json['historical_background'] as String,
       // Here we use our helper to handle cases where the field can be a string or list.
-      internationalReactions:
-      _parseStringList(json['international_reactions']),
+      internationalReactions: _parseStringList(json['international_reactions']),
       humanitarianImpact: json['humanitarian_impact'] as String,
       economicImplications: json['economic_implications'] as String,
-      timeline: List<String>.from(json['timeline'] as List),
+      timeline: _parseStringList(json['timeline']),
       futureOutlook: json['future_outlook'] as String,
-      keyPlayers: List<String>.from(json['key_players'] as List),
-      technicalDetails: json['technical_details'] as String,
+      keyPlayers: _parseStringList(json['key_players']),
+      technicalDetails: _parseStringList(json['technical_details']),
       businessAngleText: json['business_angle_text'] as String,
-      businessAnglePoints:
-      List<String>.from(json['business_angle_points'] as List),
-      userActionItems: json['user_action_items'] as String,
-      scientificSignificance:
-      List<String>.from(json['scientific_significance'] as List),
-      travelAdvisory: List<String>.from(json['travel_advisory'] as List),
+      businessAnglePoints: _parseStringList(json['business_angle_points']),
+      userActionItems: _parseStringList(json['user_action_items']),
+      scientificSignificance: _parseStringList(json['scientific_significance']),
+      travelAdvisory: _parseStringList(json['travel_advisory']),
       destinationHighlights: json['destination_highlights'] as String,
       culinarySignificance: json['culinary_significance'] as String,
-      performanceStatistics:
-      List<String>.from(json['performance_statistics'] as List),
+      performanceStatistics: _parseStringList(json['performance_statistics']),
       leagueStandings: json['league_standings'] as String,
       diyTips: json['diy_tips'] as String,
       designPrinciples: json['design_principles'] as String,
-      userExperienceImpact: json['user_experience_impact'] as String,
-      gameplayMechanics:
-      List<String>.from(json['gameplay_mechanics'] as List),
-      industryImpact: List<String>.from(json['industry_impact'] as List),
+      userExperienceImpact: _parseStringList(json['user_experience_impact']),
+      gameplayMechanics: _parseStringList(json['gameplay_mechanics']),
+      industryImpact: _parseStringList(json['industry_impact']),
       technicalSpecifications: json['technical_specifications'] as String,
       articles: (json['articles'] as List)
           .map((item) => Article.fromJson(item))
@@ -188,48 +183,48 @@ class NewsCluster {
   }
 
   Map<String, dynamic> toJson() => {
-    'cluster_number': clusterNumber,
-    'unique_domains': uniqueDomains,
-    'number_of_titles': numberOfTitles,
-    'category': category,
-    'title': title,
-    'short_summary': shortSummary,
-    'did_you_know': didYouKnow,
-    'talking_points': talkingPoints,
-    'quote': quote,
-    'quote_author': quoteAuthor,
-    'quote_source_url': quoteSourceUrl,
-    'quote_source_domain': quoteSourceDomain,
-    'location': location,
-    'perspectives': perspectives.map((p) => p.toJson()).toList(),
-    'emoji': emoji,
-    'geopolitical_context': geopoliticalContext,
-    'historical_background': historicalBackground,
-    'international_reactions': internationalReactions,
-    'humanitarian_impact': humanitarianImpact,
-    'economic_implications': economicImplications,
-    'timeline': timeline,
-    'future_outlook': futureOutlook,
-    'key_players': keyPlayers,
-    'technical_details': technicalDetails,
-    'business_angle_text': businessAngleText,
-    'business_angle_points': businessAnglePoints,
-    'user_action_items': userActionItems,
-    'scientific_significance': scientificSignificance,
-    'travel_advisory': travelAdvisory,
-    'destination_highlights': destinationHighlights,
-    'culinary_significance': culinarySignificance,
-    'performance_statistics': performanceStatistics,
-    'league_standings': leagueStandings,
-    'diy_tips': diyTips,
-    'design_principles': designPrinciples,
-    'user_experience_impact': userExperienceImpact,
-    'gameplay_mechanics': gameplayMechanics,
-    'industry_impact': industryImpact,
-    'technical_specifications': technicalSpecifications,
-    'articles': articles.map((a) => a.toJson()).toList(),
-    'domains': domains.map((d) => d.toJson()).toList(),
-  };
+        'cluster_number': clusterNumber,
+        'unique_domains': uniqueDomains,
+        'number_of_titles': numberOfTitles,
+        'category': category,
+        'title': title,
+        'short_summary': shortSummary,
+        'did_you_know': didYouKnow,
+        'talking_points': talkingPoints,
+        'quote': quote,
+        'quote_author': quoteAuthor,
+        'quote_source_url': quoteSourceUrl,
+        'quote_source_domain': quoteSourceDomain,
+        'location': location,
+        'perspectives': perspectives.map((p) => p.toJson()).toList(),
+        'emoji': emoji,
+        'geopolitical_context': geopoliticalContext,
+        'historical_background': historicalBackground,
+        'international_reactions': internationalReactions,
+        'humanitarian_impact': humanitarianImpact,
+        'economic_implications': economicImplications,
+        'timeline': timeline,
+        'future_outlook': futureOutlook,
+        'key_players': keyPlayers,
+        'technical_details': technicalDetails,
+        'business_angle_text': businessAngleText,
+        'business_angle_points': businessAnglePoints,
+        'user_action_items': userActionItems,
+        'scientific_significance': scientificSignificance,
+        'travel_advisory': travelAdvisory,
+        'destination_highlights': destinationHighlights,
+        'culinary_significance': culinarySignificance,
+        'performance_statistics': performanceStatistics,
+        'league_standings': leagueStandings,
+        'diy_tips': diyTips,
+        'design_principles': designPrinciples,
+        'user_experience_impact': userExperienceImpact,
+        'gameplay_mechanics': gameplayMechanics,
+        'industry_impact': industryImpact,
+        'technical_specifications': technicalSpecifications,
+        'articles': articles.map((a) => a.toJson()).toList(),
+        'domains': domains.map((d) => d.toJson()).toList(),
+      };
 }
 
 class Perspective {
@@ -251,9 +246,9 @@ class Perspective {
   }
 
   Map<String, dynamic> toJson() => {
-    'text': text,
-    'sources': sources.map((s) => s.toJson()).toList(),
-  };
+        'text': text,
+        'sources': sources.map((s) => s.toJson()).toList(),
+      };
 }
 
 class Source {
@@ -273,9 +268,9 @@ class Source {
   }
 
   Map<String, dynamic> toJson() => {
-    'name': name,
-    'url': url,
-  };
+        'name': name,
+        'url': url,
+      };
 }
 
 class Article {
@@ -307,13 +302,13 @@ class Article {
   }
 
   Map<String, dynamic> toJson() => {
-    'title': title,
-    'link': link,
-    'domain': domain,
-    'date': date,
-    'image': image,
-    'image_caption': imageCaption,
-  };
+        'title': title,
+        'link': link,
+        'domain': domain,
+        'date': date,
+        'image': image,
+        'image_caption': imageCaption,
+      };
 }
 
 class NewsDomain {
@@ -333,7 +328,7 @@ class NewsDomain {
   }
 
   Map<String, dynamic> toJson() => {
-    'name': name,
-    'favicon': favicon,
-  };
+        'name': name,
+        'favicon': favicon,
+      };
 }
