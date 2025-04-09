@@ -1,0 +1,18 @@
+{
+  "app": {
+    "title": "Kagi News"
+  },
+  "errors": {
+    "failedToLoadCategories": "Failed to load news categories",
+    "failedToLoadCategoryDetails": "Failed to load category details",
+    "badRequest": "Bad request",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Forbidden",
+    "notFound": "Not found",
+    "serverError": "Server error, please try again later",
+    "httpError": "HTTP error: {statusCode}",
+    "noInternet": "No internet connection",
+    "timeout": "Request timed out",
+    "unknownError": "An unknown error occurred"
+  }
+}
