@@ -3,11 +3,18 @@
 // Do not manually edit this file.
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
-import 'dart:async' as _i4;
+import 'dart:async' as _i8;
+import 'dart:math' as _i11;
 
-import 'package:dio/dio.dart' as _i2;
-import 'package:kagi_news/data/datasource/network/dio_client.dart' as _i3;
+import 'package:dio/src/adapter.dart' as _i3;
+import 'package:dio/src/cancel_token.dart' as _i9;
+import 'package:dio/src/dio.dart' as _i7;
+import 'package:dio/src/dio_mixin.dart' as _i5;
+import 'package:dio/src/options.dart' as _i2;
+import 'package:dio/src/response.dart' as _i6;
+import 'package:dio/src/transformer.dart' as _i4;
 import 'package:mockito/mockito.dart' as _i1;
+import 'package:mockito/src/dummies.dart' as _i10;
 
 // ignore_for_file: type=lint
 // ignore_for_file: avoid_redundant_argument_values
@@ -23,8 +30,8 @@ import 'package:mockito/mockito.dart' as _i1;
 // ignore_for_file: camel_case_types
 // ignore_for_file: subtype_of_sealed_class
 
-class _FakeResponse_0<T1> extends _i1.SmartFake implements _i2.Response<T1> {
-  _FakeResponse_0(
+class _FakeBaseOptions_0 extends _i1.SmartFake implements _i2.BaseOptions {
+  _FakeBaseOptions_0(
     Object parent,
     Invocation parentInvocation,
   ) : super(
@@ -33,26 +40,1590 @@ class _FakeResponse_0<T1> extends _i1.SmartFake implements _i2.Response<T1> {
         );
 }
 
-/// A class which mocks [DioClient].
+class _FakeHttpClientAdapter_1 extends _i1.SmartFake
+    implements _i3.HttpClientAdapter {
+  _FakeHttpClientAdapter_1(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeTransformer_2 extends _i1.SmartFake implements _i4.Transformer {
+  _FakeTransformer_2(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeInterceptors_3 extends _i1.SmartFake implements _i5.Interceptors {
+  _FakeInterceptors_3(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeResponse_4<T1> extends _i1.SmartFake implements _i6.Response<T1> {
+  _FakeResponse_4(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeDio_5 extends _i1.SmartFake implements _i7.Dio {
+  _FakeDio_5(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeIterator_6<E> extends _i1.SmartFake implements Iterator<E> {
+  _FakeIterator_6(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+class _FakeInterceptor_7 extends _i1.SmartFake implements _i5.Interceptor {
+  _FakeInterceptor_7(
+    Object parent,
+    Invocation parentInvocation,
+  ) : super(
+          parent,
+          parentInvocation,
+        );
+}
+
+/// A class which mocks [Dio].
 ///
 /// See the documentation for Mockito's code generation for more information.
-class MockDioClient extends _i1.Mock implements _i3.DioClient {
-  MockDioClient() {
+class MockDio extends _i1.Mock implements _i7.Dio {
+  MockDio() {
     _i1.throwOnMissingStub(this);
   }
 
   @override
-  _i4.Future<_i2.Response<T>> get<T>(String? path) => (super.noSuchMethod(
+  _i2.BaseOptions get options => (super.noSuchMethod(
+        Invocation.getter(#options),
+        returnValue: _FakeBaseOptions_0(
+          this,
+          Invocation.getter(#options),
+        ),
+      ) as _i2.BaseOptions);
+
+  @override
+  set options(_i2.BaseOptions? _options) => super.noSuchMethod(
+        Invocation.setter(
+          #options,
+          _options,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i3.HttpClientAdapter get httpClientAdapter => (super.noSuchMethod(
+        Invocation.getter(#httpClientAdapter),
+        returnValue: _FakeHttpClientAdapter_1(
+          this,
+          Invocation.getter(#httpClientAdapter),
+        ),
+      ) as _i3.HttpClientAdapter);
+
+  @override
+  set httpClientAdapter(_i3.HttpClientAdapter? _httpClientAdapter) =>
+      super.noSuchMethod(
+        Invocation.setter(
+          #httpClientAdapter,
+          _httpClientAdapter,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i4.Transformer get transformer => (super.noSuchMethod(
+        Invocation.getter(#transformer),
+        returnValue: _FakeTransformer_2(
+          this,
+          Invocation.getter(#transformer),
+        ),
+      ) as _i4.Transformer);
+
+  @override
+  set transformer(_i4.Transformer? _transformer) => super.noSuchMethod(
+        Invocation.setter(
+          #transformer,
+          _transformer,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i5.Interceptors get interceptors => (super.noSuchMethod(
+        Invocation.getter(#interceptors),
+        returnValue: _FakeInterceptors_3(
+          this,
+          Invocation.getter(#interceptors),
+        ),
+      ) as _i5.Interceptors);
+
+  @override
+  void close({bool? force = false}) => super.noSuchMethod(
+        Invocation.method(
+          #close,
+          [],
+          {#force: force},
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i8.Future<_i6.Response<T>> head<T>(
+    String? path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #head,
+          [path],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #options: options,
+            #cancelToken: cancelToken,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #head,
+            [path],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #options: options,
+              #cancelToken: cancelToken,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> headUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #headUri,
+          [uri],
+          {
+            #data: data,
+            #options: options,
+            #cancelToken: cancelToken,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #headUri,
+            [uri],
+            {
+              #data: data,
+              #options: options,
+              #cancelToken: cancelToken,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> get<T>(
+    String? path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
         Invocation.method(
           #get,
           [path],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onReceiveProgress: onReceiveProgress,
+          },
         ),
-        returnValue: _i4.Future<_i2.Response<T>>.value(_FakeResponse_0<T>(
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
           this,
           Invocation.method(
             #get,
             [path],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onReceiveProgress: onReceiveProgress,
+            },
           ),
         )),
-      ) as _i4.Future<_i2.Response<T>>);
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> getUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #getUri,
+          [uri],
+          {
+            #data: data,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #getUri,
+            [uri],
+            {
+              #data: data,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> post<T>(
+    String? path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #post,
+          [path],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #post,
+            [path],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> postUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #postUri,
+          [uri],
+          {
+            #data: data,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #postUri,
+            [uri],
+            {
+              #data: data,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> put<T>(
+    String? path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #put,
+          [path],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #put,
+            [path],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> putUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #putUri,
+          [uri],
+          {
+            #data: data,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #putUri,
+            [uri],
+            {
+              #data: data,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> patch<T>(
+    String? path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #patch,
+          [path],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #patch,
+            [path],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> patchUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #patchUri,
+          [uri],
+          {
+            #data: data,
+            #options: options,
+            #cancelToken: cancelToken,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #patchUri,
+            [uri],
+            {
+              #data: data,
+              #options: options,
+              #cancelToken: cancelToken,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> delete<T>(
+    String? path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #delete,
+          [path],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #options: options,
+            #cancelToken: cancelToken,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #delete,
+            [path],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #options: options,
+              #cancelToken: cancelToken,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> deleteUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i2.Options? options,
+    _i9.CancelToken? cancelToken,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #deleteUri,
+          [uri],
+          {
+            #data: data,
+            #options: options,
+            #cancelToken: cancelToken,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #deleteUri,
+            [uri],
+            {
+              #data: data,
+              #options: options,
+              #cancelToken: cancelToken,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<dynamic>> download(
+    String? urlPath,
+    dynamic savePath, {
+    _i2.ProgressCallback? onReceiveProgress,
+    Map<String, dynamic>? queryParameters,
+    _i9.CancelToken? cancelToken,
+    bool? deleteOnError = true,
+    _i2.FileAccessMode? fileAccessMode = _i2.FileAccessMode.write,
+    String? lengthHeader = 'content-length',
+    Object? data,
+    _i2.Options? options,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #download,
+          [
+            urlPath,
+            savePath,
+          ],
+          {
+            #onReceiveProgress: onReceiveProgress,
+            #queryParameters: queryParameters,
+            #cancelToken: cancelToken,
+            #deleteOnError: deleteOnError,
+            #fileAccessMode: fileAccessMode,
+            #lengthHeader: lengthHeader,
+            #data: data,
+            #options: options,
+          },
+        ),
+        returnValue:
+            _i8.Future<_i6.Response<dynamic>>.value(_FakeResponse_4<dynamic>(
+          this,
+          Invocation.method(
+            #download,
+            [
+              urlPath,
+              savePath,
+            ],
+            {
+              #onReceiveProgress: onReceiveProgress,
+              #queryParameters: queryParameters,
+              #cancelToken: cancelToken,
+              #deleteOnError: deleteOnError,
+              #fileAccessMode: fileAccessMode,
+              #lengthHeader: lengthHeader,
+              #data: data,
+              #options: options,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<dynamic>>);
+
+  @override
+  _i8.Future<_i6.Response<dynamic>> downloadUri(
+    Uri? uri,
+    dynamic savePath, {
+    _i2.ProgressCallback? onReceiveProgress,
+    _i9.CancelToken? cancelToken,
+    bool? deleteOnError = true,
+    _i2.FileAccessMode? fileAccessMode = _i2.FileAccessMode.write,
+    String? lengthHeader = 'content-length',
+    Object? data,
+    _i2.Options? options,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #downloadUri,
+          [
+            uri,
+            savePath,
+          ],
+          {
+            #onReceiveProgress: onReceiveProgress,
+            #cancelToken: cancelToken,
+            #deleteOnError: deleteOnError,
+            #fileAccessMode: fileAccessMode,
+            #lengthHeader: lengthHeader,
+            #data: data,
+            #options: options,
+          },
+        ),
+        returnValue:
+            _i8.Future<_i6.Response<dynamic>>.value(_FakeResponse_4<dynamic>(
+          this,
+          Invocation.method(
+            #downloadUri,
+            [
+              uri,
+              savePath,
+            ],
+            {
+              #onReceiveProgress: onReceiveProgress,
+              #cancelToken: cancelToken,
+              #deleteOnError: deleteOnError,
+              #fileAccessMode: fileAccessMode,
+              #lengthHeader: lengthHeader,
+              #data: data,
+              #options: options,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<dynamic>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> request<T>(
+    String? url, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    _i9.CancelToken? cancelToken,
+    _i2.Options? options,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #request,
+          [url],
+          {
+            #data: data,
+            #queryParameters: queryParameters,
+            #cancelToken: cancelToken,
+            #options: options,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #request,
+            [url],
+            {
+              #data: data,
+              #queryParameters: queryParameters,
+              #cancelToken: cancelToken,
+              #options: options,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> requestUri<T>(
+    Uri? uri, {
+    Object? data,
+    _i9.CancelToken? cancelToken,
+    _i2.Options? options,
+    _i2.ProgressCallback? onSendProgress,
+    _i2.ProgressCallback? onReceiveProgress,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #requestUri,
+          [uri],
+          {
+            #data: data,
+            #cancelToken: cancelToken,
+            #options: options,
+            #onSendProgress: onSendProgress,
+            #onReceiveProgress: onReceiveProgress,
+          },
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #requestUri,
+            [uri],
+            {
+              #data: data,
+              #cancelToken: cancelToken,
+              #options: options,
+              #onSendProgress: onSendProgress,
+              #onReceiveProgress: onReceiveProgress,
+            },
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i8.Future<_i6.Response<T>> fetch<T>(_i2.RequestOptions? requestOptions) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #fetch,
+          [requestOptions],
+        ),
+        returnValue: _i8.Future<_i6.Response<T>>.value(_FakeResponse_4<T>(
+          this,
+          Invocation.method(
+            #fetch,
+            [requestOptions],
+          ),
+        )),
+      ) as _i8.Future<_i6.Response<T>>);
+
+  @override
+  _i7.Dio clone({
+    _i2.BaseOptions? options,
+    _i5.Interceptors? interceptors,
+    _i3.HttpClientAdapter? httpClientAdapter,
+    _i4.Transformer? transformer,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #clone,
+          [],
+          {
+            #options: options,
+            #interceptors: interceptors,
+            #httpClientAdapter: httpClientAdapter,
+            #transformer: transformer,
+          },
+        ),
+        returnValue: _FakeDio_5(
+          this,
+          Invocation.method(
+            #clone,
+            [],
+            {
+              #options: options,
+              #interceptors: interceptors,
+              #httpClientAdapter: httpClientAdapter,
+              #transformer: transformer,
+            },
+          ),
+        ),
+      ) as _i7.Dio);
+}
+
+/// A class which mocks [Interceptors].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockInterceptors extends _i1.Mock implements _i5.Interceptors {
+  MockInterceptors() {
+    _i1.throwOnMissingStub(this);
+  }
+
+  @override
+  int get length => (super.noSuchMethod(
+        Invocation.getter(#length),
+        returnValue: 0,
+      ) as int);
+
+  @override
+  set length(int? newLength) => super.noSuchMethod(
+        Invocation.setter(
+          #length,
+          newLength,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  Iterator<_i5.Interceptor> get iterator => (super.noSuchMethod(
+        Invocation.getter(#iterator),
+        returnValue: _FakeIterator_6<_i5.Interceptor>(
+          this,
+          Invocation.getter(#iterator),
+        ),
+      ) as Iterator<_i5.Interceptor>);
+
+  @override
+  bool get isEmpty => (super.noSuchMethod(
+        Invocation.getter(#isEmpty),
+        returnValue: false,
+      ) as bool);
+
+  @override
+  bool get isNotEmpty => (super.noSuchMethod(
+        Invocation.getter(#isNotEmpty),
+        returnValue: false,
+      ) as bool);
+
+  @override
+  _i5.Interceptor get first => (super.noSuchMethod(
+        Invocation.getter(#first),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.getter(#first),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  set first(_i5.Interceptor? value) => super.noSuchMethod(
+        Invocation.setter(
+          #first,
+          value,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i5.Interceptor get last => (super.noSuchMethod(
+        Invocation.getter(#last),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.getter(#last),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  set last(_i5.Interceptor? value) => super.noSuchMethod(
+        Invocation.setter(
+          #last,
+          value,
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i5.Interceptor get single => (super.noSuchMethod(
+        Invocation.getter(#single),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.getter(#single),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  Iterable<_i5.Interceptor> get reversed => (super.noSuchMethod(
+        Invocation.getter(#reversed),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  _i5.Interceptor operator [](int? index) => (super.noSuchMethod(
+        Invocation.method(
+          #[],
+          [index],
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #[],
+            [index],
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  void operator []=(
+    int? index,
+    _i5.Interceptor? value,
+  ) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #[]=,
+          [
+            index,
+            value,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void clear({bool? keepImplyContentTypeInterceptor = true}) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #clear,
+          [],
+          {#keepImplyContentTypeInterceptor: keepImplyContentTypeInterceptor},
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void removeImplyContentTypeInterceptor() => super.noSuchMethod(
+        Invocation.method(
+          #removeImplyContentTypeInterceptor,
+          [],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i5.Interceptor elementAt(int? index) => (super.noSuchMethod(
+        Invocation.method(
+          #elementAt,
+          [index],
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #elementAt,
+            [index],
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  Iterable<_i5.Interceptor> followedBy(Iterable<_i5.Interceptor>? other) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #followedBy,
+          [other],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  void forEach(void Function(_i5.Interceptor)? action) => super.noSuchMethod(
+        Invocation.method(
+          #forEach,
+          [action],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  bool contains(Object? element) => (super.noSuchMethod(
+        Invocation.method(
+          #contains,
+          [element],
+        ),
+        returnValue: false,
+      ) as bool);
+
+  @override
+  bool every(bool Function(_i5.Interceptor)? test) => (super.noSuchMethod(
+        Invocation.method(
+          #every,
+          [test],
+        ),
+        returnValue: false,
+      ) as bool);
+
+  @override
+  bool any(bool Function(_i5.Interceptor)? test) => (super.noSuchMethod(
+        Invocation.method(
+          #any,
+          [test],
+        ),
+        returnValue: false,
+      ) as bool);
+
+  @override
+  _i5.Interceptor firstWhere(
+    bool Function(_i5.Interceptor)? test, {
+    _i5.Interceptor Function()? orElse,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #firstWhere,
+          [test],
+          {#orElse: orElse},
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #firstWhere,
+            [test],
+            {#orElse: orElse},
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  _i5.Interceptor lastWhere(
+    bool Function(_i5.Interceptor)? test, {
+    _i5.Interceptor Function()? orElse,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #lastWhere,
+          [test],
+          {#orElse: orElse},
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #lastWhere,
+            [test],
+            {#orElse: orElse},
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  _i5.Interceptor singleWhere(
+    bool Function(_i5.Interceptor)? test, {
+    _i5.Interceptor Function()? orElse,
+  }) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #singleWhere,
+          [test],
+          {#orElse: orElse},
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #singleWhere,
+            [test],
+            {#orElse: orElse},
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  String join([String? separator = '']) => (super.noSuchMethod(
+        Invocation.method(
+          #join,
+          [separator],
+        ),
+        returnValue: _i10.dummyValue<String>(
+          this,
+          Invocation.method(
+            #join,
+            [separator],
+          ),
+        ),
+      ) as String);
+
+  @override
+  Iterable<_i5.Interceptor> where(bool Function(_i5.Interceptor)? test) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #where,
+          [test],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  Iterable<T> whereType<T>() => (super.noSuchMethod(
+        Invocation.method(
+          #whereType,
+          [],
+        ),
+        returnValue: <T>[],
+      ) as Iterable<T>);
+
+  @override
+  Iterable<T> map<T>(T Function(_i5.Interceptor)? f) => (super.noSuchMethod(
+        Invocation.method(
+          #map,
+          [f],
+        ),
+        returnValue: <T>[],
+      ) as Iterable<T>);
+
+  @override
+  Iterable<T> expand<T>(Iterable<T> Function(_i5.Interceptor)? f) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #expand,
+          [f],
+        ),
+        returnValue: <T>[],
+      ) as Iterable<T>);
+
+  @override
+  _i5.Interceptor reduce(
+          _i5.Interceptor Function(
+            _i5.Interceptor,
+            _i5.Interceptor,
+          )? combine) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #reduce,
+          [combine],
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #reduce,
+            [combine],
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  T fold<T>(
+    T? initialValue,
+    T Function(
+      T,
+      _i5.Interceptor,
+    )? combine,
+  ) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #fold,
+          [
+            initialValue,
+            combine,
+          ],
+        ),
+        returnValue: _i10.dummyValue<T>(
+          this,
+          Invocation.method(
+            #fold,
+            [
+              initialValue,
+              combine,
+            ],
+          ),
+        ),
+      ) as T);
+
+  @override
+  Iterable<_i5.Interceptor> skip(int? count) => (super.noSuchMethod(
+        Invocation.method(
+          #skip,
+          [count],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  Iterable<_i5.Interceptor> skipWhile(bool Function(_i5.Interceptor)? test) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #skipWhile,
+          [test],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  Iterable<_i5.Interceptor> take(int? count) => (super.noSuchMethod(
+        Invocation.method(
+          #take,
+          [count],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  Iterable<_i5.Interceptor> takeWhile(bool Function(_i5.Interceptor)? test) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #takeWhile,
+          [test],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  List<_i5.Interceptor> toList({bool? growable = true}) => (super.noSuchMethod(
+        Invocation.method(
+          #toList,
+          [],
+          {#growable: growable},
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as List<_i5.Interceptor>);
+
+  @override
+  Set<_i5.Interceptor> toSet() => (super.noSuchMethod(
+        Invocation.method(
+          #toSet,
+          [],
+        ),
+        returnValue: <_i5.Interceptor>{},
+      ) as Set<_i5.Interceptor>);
+
+  @override
+  void add(_i5.Interceptor? element) => super.noSuchMethod(
+        Invocation.method(
+          #add,
+          [element],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void addAll(Iterable<_i5.Interceptor>? iterable) => super.noSuchMethod(
+        Invocation.method(
+          #addAll,
+          [iterable],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  bool remove(Object? element) => (super.noSuchMethod(
+        Invocation.method(
+          #remove,
+          [element],
+        ),
+        returnValue: false,
+      ) as bool);
+
+  @override
+  void removeWhere(bool Function(_i5.Interceptor)? test) => super.noSuchMethod(
+        Invocation.method(
+          #removeWhere,
+          [test],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void retainWhere(bool Function(_i5.Interceptor)? test) => super.noSuchMethod(
+        Invocation.method(
+          #retainWhere,
+          [test],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  List<R> cast<R>() => (super.noSuchMethod(
+        Invocation.method(
+          #cast,
+          [],
+        ),
+        returnValue: <R>[],
+      ) as List<R>);
+
+  @override
+  _i5.Interceptor removeLast() => (super.noSuchMethod(
+        Invocation.method(
+          #removeLast,
+          [],
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #removeLast,
+            [],
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  void sort(
+          [int Function(
+            _i5.Interceptor,
+            _i5.Interceptor,
+          )? compare]) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #sort,
+          [compare],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void shuffle([_i11.Random? random]) => super.noSuchMethod(
+        Invocation.method(
+          #shuffle,
+          [random],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  Map<int, _i5.Interceptor> asMap() => (super.noSuchMethod(
+        Invocation.method(
+          #asMap,
+          [],
+        ),
+        returnValue: <int, _i5.Interceptor>{},
+      ) as Map<int, _i5.Interceptor>);
+
+  @override
+  List<_i5.Interceptor> operator +(List<_i5.Interceptor>? other) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #+,
+          [other],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as List<_i5.Interceptor>);
+
+  @override
+  List<_i5.Interceptor> sublist(
+    int? start, [
+    int? end,
+  ]) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #sublist,
+          [
+            start,
+            end,
+          ],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as List<_i5.Interceptor>);
+
+  @override
+  Iterable<_i5.Interceptor> getRange(
+    int? start,
+    int? end,
+  ) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #getRange,
+          [
+            start,
+            end,
+          ],
+        ),
+        returnValue: <_i5.Interceptor>[],
+      ) as Iterable<_i5.Interceptor>);
+
+  @override
+  void removeRange(
+    int? start,
+    int? end,
+  ) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #removeRange,
+          [
+            start,
+            end,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void fillRange(
+    int? start,
+    int? end, [
+    _i5.Interceptor? fill,
+  ]) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #fillRange,
+          [
+            start,
+            end,
+            fill,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setRange(
+    int? start,
+    int? end,
+    Iterable<_i5.Interceptor>? iterable, [
+    int? skipCount = 0,
+  ]) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #setRange,
+          [
+            start,
+            end,
+            iterable,
+            skipCount,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void replaceRange(
+    int? start,
+    int? end,
+    Iterable<_i5.Interceptor>? newContents,
+  ) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #replaceRange,
+          [
+            start,
+            end,
+            newContents,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  int indexOf(
+    Object? element, [
+    int? start = 0,
+  ]) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #indexOf,
+          [
+            element,
+            start,
+          ],
+        ),
+        returnValue: 0,
+      ) as int);
+
+  @override
+  int indexWhere(
+    bool Function(_i5.Interceptor)? test, [
+    int? start = 0,
+  ]) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #indexWhere,
+          [
+            test,
+            start,
+          ],
+        ),
+        returnValue: 0,
+      ) as int);
+
+  @override
+  int lastIndexOf(
+    Object? element, [
+    int? start,
+  ]) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #lastIndexOf,
+          [
+            element,
+            start,
+          ],
+        ),
+        returnValue: 0,
+      ) as int);
+
+  @override
+  int lastIndexWhere(
+    bool Function(_i5.Interceptor)? test, [
+    int? start,
+  ]) =>
+      (super.noSuchMethod(
+        Invocation.method(
+          #lastIndexWhere,
+          [
+            test,
+            start,
+          ],
+        ),
+        returnValue: 0,
+      ) as int);
+
+  @override
+  void insert(
+    int? index,
+    _i5.Interceptor? element,
+  ) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #insert,
+          [
+            index,
+            element,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  _i5.Interceptor removeAt(int? index) => (super.noSuchMethod(
+        Invocation.method(
+          #removeAt,
+          [index],
+        ),
+        returnValue: _FakeInterceptor_7(
+          this,
+          Invocation.method(
+            #removeAt,
+            [index],
+          ),
+        ),
+      ) as _i5.Interceptor);
+
+  @override
+  void insertAll(
+    int? index,
+    Iterable<_i5.Interceptor>? iterable,
+  ) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #insertAll,
+          [
+            index,
+            iterable,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
+
+  @override
+  void setAll(
+    int? index,
+    Iterable<_i5.Interceptor>? iterable,
+  ) =>
+      super.noSuchMethod(
+        Invocation.method(
+          #setAll,
+          [
+            index,
+            iterable,
+          ],
+        ),
+        returnValueForMissingStub: null,
+      );
 }

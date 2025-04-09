@@ -21,13 +21,6 @@ class NewsCategoryDetailsResponse {
           .toList(),
     );
   }
-
-  Map<String, dynamic> toJson() => {
-        'category': category,
-        'timestamp': timestamp,
-        'read': read,
-        'clusters': clusters.map((cluster) => cluster.toJson()).toList(),
-      };
 }
 
 class NewsCluster {
@@ -181,50 +174,6 @@ class NewsCluster {
           .toList(),
     );
   }
-
-  Map<String, dynamic> toJson() => {
-        'cluster_number': clusterNumber,
-        'unique_domains': uniqueDomains,
-        'number_of_titles': numberOfTitles,
-        'category': category,
-        'title': title,
-        'short_summary': shortSummary,
-        'did_you_know': didYouKnow,
-        'talking_points': talkingPoints,
-        'quote': quote,
-        'quote_author': quoteAuthor,
-        'quote_source_url': quoteSourceUrl,
-        'quote_source_domain': quoteSourceDomain,
-        'location': location,
-        'perspectives': perspectives.map((p) => p.toJson()).toList(),
-        'emoji': emoji,
-        'geopolitical_context': geopoliticalContext,
-        'historical_background': historicalBackground,
-        'international_reactions': internationalReactions,
-        'humanitarian_impact': humanitarianImpact,
-        'economic_implications': economicImplications,
-        'timeline': timeline,
-        'future_outlook': futureOutlook,
-        'key_players': keyPlayers,
-        'technical_details': technicalDetails,
-        'business_angle_text': businessAngleText,
-        'business_angle_points': businessAnglePoints,
-        'user_action_items': userActionItems,
-        'scientific_significance': scientificSignificance,
-        'travel_advisory': travelAdvisory,
-        'destination_highlights': destinationHighlights,
-        'culinary_significance': culinarySignificance,
-        'performance_statistics': performanceStatistics,
-        'league_standings': leagueStandings,
-        'diy_tips': diyTips,
-        'design_principles': designPrinciples,
-        'user_experience_impact': userExperienceImpact,
-        'gameplay_mechanics': gameplayMechanics,
-        'industry_impact': industryImpact,
-        'technical_specifications': technicalSpecifications,
-        'articles': articles.map((a) => a.toJson()).toList(),
-        'domains': domains.map((d) => d.toJson()).toList(),
-      };
 }
 
 class Perspective {
@@ -244,11 +193,6 @@ class Perspective {
           .toList(),
     );
   }
-
-  Map<String, dynamic> toJson() => {
-        'text': text,
-        'sources': sources.map((s) => s.toJson()).toList(),
-      };
 }
 
 class Source {
@@ -266,11 +210,6 @@ class Source {
       url: json['url'] as String,
     );
   }
-
-  Map<String, dynamic> toJson() => {
-        'name': name,
-        'url': url,
-      };
 }
 
 class Article {
@@ -300,15 +239,6 @@ class Article {
       imageCaption: json['image_caption'] as String,
     );
   }
-
-  Map<String, dynamic> toJson() => {
-        'title': title,
-        'link': link,
-        'domain': domain,
-        'date': date,
-        'image': image,
-        'image_caption': imageCaption,
-      };
 }
 
 class NewsDomain {
@@ -326,9 +256,4 @@ class NewsDomain {
       favicon: json['favicon'] as String,
     );
   }
-
-  Map<String, dynamic> toJson() => {
-        'name': name,
-        'favicon': favicon,
-      };
 }

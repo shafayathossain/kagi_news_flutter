@@ -7,8 +7,8 @@ class DioClient {
 
   late final Dio _dio;
 
-  DioClient() {
-    _dio = Dio(
+  DioClient({Dio? dio}) {
+    _dio = dio ?? Dio(
       BaseOptions(
         baseUrl: baseUrl,
         connectTimeout: const Duration(seconds: 15),
@@ -16,7 +16,6 @@ class DioClient {
         responseType: ResponseType.json,
       ),
     );
-
     _dio.interceptors.add(
       PrettyDioLogger(
         requestHeader: true,
