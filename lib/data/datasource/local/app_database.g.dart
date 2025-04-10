@@ -97,13 +97,8 @@ class $CategoryDetailsEntityTable extends CategoryDetailsEntity
 }
 
 class CategoryDetail extends DataClass implements Insertable<CategoryDetail> {
-  /// Unique file name for the category; we use it as the primary key.
   final String fileName;
-
-  /// The category name.
   final String category;
-
-  /// Timestamp from the server.
   final int timestamp;
 
   /// Serialized JSON data for the category details.

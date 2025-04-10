@@ -15,6 +15,13 @@ class KagiNewsCategoriesResponse {
           .toList(),
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'timestamp': timestamp,
+      'categories': categories.map((item) => item.toJson()).toList(),
+    };
+  }
 }
 
 class NewsCategory {
@@ -31,5 +38,12 @@ class NewsCategory {
       name: json['name'] as String,
       file: json['file'] as String,
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'name': name,
+      'file': file,
+    };
   }
 }
