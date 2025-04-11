@@ -19,7 +19,8 @@ class KagiNewsApiService {
   }
 
   Future<NewsCategoryDetailsResponse> getCategoryDetails(
-      String fileName) async {
+    String fileName,
+  ) async {
     try {
       final response = await _dioClient.get<Map<String, dynamic>>('/$fileName');
       return NewsCategoryDetailsResponse.fromJson(response.data!);
