@@ -70,7 +70,7 @@ void main() {
 
     test('getCategoryDetails correctly deserializes data', () async {
       final categoryDetailResponse =
-          NewsCategoryDetailsTestDataClient().getNewsCategoryDetailsResponse();
+          NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
 
       when(mockDao.getByFileName('${categoryDetailResponse.category}.json'))
           .thenAnswer(
@@ -94,7 +94,7 @@ void main() {
 
     test('saveCategoryDetails correctly calls dao', () async {
       final categoryDetailResponse =
-          NewsCategoryDetailsTestDataClient().getNewsCategoryDetailsResponse();
+          NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
 
       when(mockDao.insertOrUpdate(any)).thenAnswer((_) async => 1);
 

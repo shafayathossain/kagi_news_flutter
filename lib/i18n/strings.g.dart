@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 1
-/// Strings: 12
+/// Strings: 13
 ///
-/// Built on 2025-04-10 at 15:48 UTC
+/// Built on 2025-04-11 at 10:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -159,6 +159,7 @@ class _StringsAppEn {
 
 	// Translations
 	String get title => 'Kagi News';
+	String get noCategoriesAvailable => 'No categories available';
 }
 
 // Path: errors
@@ -188,6 +189,7 @@ extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'app.title': return 'Kagi News';
+			case 'app.noCategoriesAvailable': return 'No categories available';
 			case 'errors.failedToLoadCategories': return 'Failed to load news categories';
 			case 'errors.failedToLoadCategoryDetails': return 'Failed to load category details';
 			case 'errors.badRequest': return 'Bad request';

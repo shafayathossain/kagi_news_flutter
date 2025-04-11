@@ -5,12 +5,21 @@ import 'package:kagi_news/data/datasource/network/model/news_category_details_re
 
 
 class NewsCategoryDetailsTestDataClient {
-  final String filePath;
+  static final String techNewsCategoryDetailsFilePath = 'test/data/test_data/tech_news_category_details_sample.json';
+  static final String businessNewsCategoryDetailsFilePath = 'test/data/test_data/business_news_category_details_sample.json';
 
-  NewsCategoryDetailsTestDataClient({this.filePath = 'test/data/test_data/tech_news_category_details_sample.json'});
+  NewsCategoryDetailsTestDataClient._();
 
-  NewsCategoryDetailsResponse getNewsCategoryDetailsResponse() {
-    final file = File(filePath);
+  static NewsCategoryDetailsResponse getTechNewsCategoryDetailsResponse() {
+
+    final file = File(techNewsCategoryDetailsFilePath);
+    final contents = file.readAsStringSync();
+    final jsonMap = json.decode(contents) as Map<String, dynamic>;
+    return NewsCategoryDetailsResponse.fromJson(jsonMap);
+  }
+
+  static NewsCategoryDetailsResponse getBusinessNewsCategoryDetailsResponse() {
+    final file = File(businessNewsCategoryDetailsFilePath);
     final contents = file.readAsStringSync();
     final jsonMap = json.decode(contents) as Map<String, dynamic>;
     return NewsCategoryDetailsResponse.fromJson(jsonMap);

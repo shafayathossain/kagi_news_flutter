@@ -2,7 +2,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:kagi_news/data/datasource/local/kagi_news_local_data_source.dart';
 import 'package:kagi_news/data/datasource/network/kagi_news_api_service.dart';
 import 'package:kagi_news/data/datasource/network/model/news_categories_response.dart';
-import 'package:kagi_news/data/datasource/network/model/news_category_details_response.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -34,14 +33,11 @@ void main() {
       ],
     );
 
-    final techDetails = NewsCategoryDetailsTestDataClient(
-      filePath: 'test/data/test_data/tech_news_category_details_sample.json',
-    ).getNewsCategoryDetailsResponse();
+    final techDetails =
+        NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
 
-    final businessDetails = NewsCategoryDetailsTestDataClient(
-      filePath:
-          'test/data/test_data/business_news_category_details_sample.json',
-    ).getNewsCategoryDetailsResponse();
+    final businessDetails = NewsCategoryDetailsTestDataClient
+        .getBusinessNewsCategoryDetailsResponse();
 
     test(
         'when timestamp differs, should fetch all category details and return true',
@@ -213,14 +209,11 @@ void main() {
   });
 
   group('getCategoryDetails', () {
-    final cachedDetails = NewsCategoryDetailsTestDataClient(
-      filePath: 'test/data/test_data/tech_news_category_details_sample.json',
-    ).getNewsCategoryDetailsResponse();
+    final cachedDetails =
+        NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
 
-    final networkDetails = NewsCategoryDetailsTestDataClient(
-      filePath:
-          'test/data/test_data/business_news_category_details_sample.json',
-    ).getNewsCategoryDetailsResponse();
+    final networkDetails = NewsCategoryDetailsTestDataClient
+        .getBusinessNewsCategoryDetailsResponse();
 
     test('with cache and no forced refresh, should return cached data',
         () async {

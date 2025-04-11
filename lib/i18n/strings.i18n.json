@@ -1,6 +1,7 @@
 {
   "app": {
-    "title": "Kagi News"
+    "title": "Kagi News",
+    "noCategoriesAvailable": "No categories available"
   },
   "errors": {
     "failedToLoadCategories": "Failed to load news categories",

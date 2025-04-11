@@ -2,7 +2,6 @@ import 'package:drift/drift.dart';
 import 'package:kagi_news/data/datasource/local/app_database.dart';
 import 'package:kagi_news/data/datasource/local/model/category_details_entity.dart';
 
-
 part 'category_details_dao.g.dart';
 
 @DriftAccessor(tables: [CategoryDetailsEntity])

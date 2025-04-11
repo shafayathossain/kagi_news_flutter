@@ -6,12 +6,12 @@ void main() {
   group('NewsCategoryDetailsResponse', () {
     _runNewsTestSuite(
       'Tech news sample tests (type check)',
-      'test/data/test_data/tech_news_category_details_sample.json',
+      NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse(),
     );
 
     _runNewsTestSuite(
       'Business news sample tests (type check)',
-      'test/data/test_data/business_news_category_details_sample.json',
+      NewsCategoryDetailsTestDataClient.getBusinessNewsCategoryDetailsResponse(),
     );
 
     group('toJson test', () {
@@ -199,13 +199,9 @@ void main() {
       });
 
       test('Round-trip test: fromJson → toJson maintains data integrity', () {
-        final response = NewsCategoryDetailsTestDataClient(
-          filePath:
-              'test/data/test_data/tech_news_category_details_sample.json',
-        ).getNewsCategoryDetailsResponse();
+        final response = NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
 
         final json = response.toJson();
-
 
         expect(json['category'], response.category);
         expect(json['timestamp'], response.timestamp);
@@ -238,10 +234,8 @@ void main() {
   });
 }
 
-void _runNewsTestSuite(String description, String filePath) {
+void _runNewsTestSuite(String description, NewsCategoryDetailsResponse response) {
   group(description, () {
-    final response = NewsCategoryDetailsTestDataClient(filePath: filePath)
-        .getNewsCategoryDetailsResponse();
 
     test('Top-level fields type check', () {
       expect(
