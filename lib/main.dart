@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
-import 'package:kagi_news/routes/app_router.dart'; // Import the router
+import 'package:kagi_news/routes/app_router.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+
+  Injector.setup();
+
   LocaleSettings.useDeviceLocale();
   runApp(TranslationProvider(child: MyApp()));
 }

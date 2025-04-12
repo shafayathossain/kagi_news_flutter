@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kagi_news/data/datasource/local/kagi_news_local_data_source.dart';
-import 'package:kagi_news/data/datasource/network/dio_client.dart';
-import 'package:kagi_news/data/datasource/network/kagi_news_api_service.dart';
 import 'package:kagi_news/data/datasource/network/model/news_categories_response.dart';
-import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:kagi_news/data/datasource/repository/result.dart';
+import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/ui/category_details_tab.dart';
 import 'package:kagi_news/ui/kagi_news_controller.dart';
@@ -16,15 +13,8 @@ class KagiNewsPage extends StatefulWidget {
     super.key,
     KagiNewsController? controller,
   }) {
-    if (controller == null) {
-      final repository = KagiNewsRepository(
-        localDataSource: KagiNewsLocalDataSource.withDefaultDb(),
-        apiService: KagiNewsApiService(dioClient: DioClient()),
-      );
-      _controller = KagiNewsController(repository: repository);
-    } else {
-      _controller = controller;
-    }
+    _controller =
+        controller ?? Injector.container.resolve<KagiNewsController>();
   }
 
   @override

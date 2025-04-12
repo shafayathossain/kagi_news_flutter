@@ -3,13 +3,16 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:kagi_news/data/datasource/network/model/news_categories_response.dart';
 import 'package:kagi_news/data/datasource/network/model/news_category_details_response.dart';
+import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:kagi_news/data/datasource/repository/result.dart';
+import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/ui/kagi_news_controller.dart';
 import 'package:kagi_news/ui/kagi_news_page.dart';
 import 'package:mockito/mockito.dart';
 
+import '../../test/mocks/mock_injector.dart';
 import '../../test/mocks/repository_mocks.mocks.dart';
-import 'news_category_details_test_data_client.dart';
+import '../../test/data/datasource/network/model/news_category_details_test_data_client.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
@@ -17,8 +20,8 @@ void main() {
   late MockKagiNewsRepository mockRepository;
   late KagiNewsController controller;
 
-  void setupMockResponses(MockKagiNewsRepository repository) {
-    when(repository.getCategories()).thenAnswer(
+  void setupMockResponses() {
+    when(mockRepository.getCategories()).thenAnswer(
       (_) async => Result.success(
         KagiNewsCategoriesResponse(
           categories: [
@@ -30,21 +33,21 @@ void main() {
         ),
       ),
     );
-    when(repository.sync()).thenAnswer(
+    when(mockRepository.sync()).thenAnswer(
       (_) async => Result.success(true),
     );
-    when(repository.getCategoryDetails('tech.json')).thenAnswer(
+    when(mockRepository.getCategoryDetails('tech.json')).thenAnswer(
       (_) async => Result.success(
         NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse(),
       ),
     );
-    when(repository.getCategoryDetails('business.json')).thenAnswer(
+    when(mockRepository.getCategoryDetails('business.json')).thenAnswer(
       (_) async => Result.success(
         NewsCategoryDetailsTestDataClient
             .getBusinessNewsCategoryDetailsResponse(),
       ),
     );
-    when(repository.getCategoryDetails('onthisday.json')).thenAnswer(
+    when(mockRepository.getCategoryDetails('onthisday.json')).thenAnswer(
       (_) async => Result.success(
         NewsCategoryDetailsResponse(
           category: null,
@@ -68,7 +71,7 @@ void main() {
         ),
       ),
     );
-    when(repository.getCategoryDetails('empty.json')).thenAnswer(
+    when(mockRepository.getCategoryDetails('empty.json')).thenAnswer(
       (_) async => Result.success(
         NewsCategoryDetailsResponse(
           category: 'Empty',
@@ -88,9 +91,14 @@ void main() {
   }
 
   setUp(() {
-    mockRepository = MockKagiNewsRepository();
-    setupMockResponses(mockRepository);
-    controller = KagiNewsController(repository: mockRepository);
+    MockInjector.setup();
+
+    mockRepository = Injector.container.resolve<KagiNewsRepository>()
+        as MockKagiNewsRepository;
+
+    setupMockResponses();
+
+    controller = Injector.container.resolve<KagiNewsController>();
   });
 
   group('Full App Flow Integration Tests', () {
