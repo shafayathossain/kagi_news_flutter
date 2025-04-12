@@ -68,39 +68,72 @@ void main() {
       verify(mockDao.getByFileName('tech.json')).called(1);
     });
 
-    test('getCategoryDetails correctly deserializes data', () async {
-      final categoryDetailResponse =
-          NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
+    test('getCategoryDetails correctly deserializes news data', () async {
+      final categoryDetailResponse = NewsCategoryDetailsTestDataClient
+          .getTechNewsCategoryDetailsResponse();
 
-      when(mockDao.getByFileName('${categoryDetailResponse.category}.json'))
-          .thenAnswer(
+      final category = categoryDetailResponse.category ?? 'tech';
+      when(mockDao.getByFileName('$category.json')).thenAnswer(
         (_) async => CategoryDetail(
-          fileName: "${categoryDetailResponse.category}.json",
-          category: categoryDetailResponse.category,
+          fileName: "$category.json",
+          category: category,
           timestamp: categoryDetailResponse.timestamp,
           jsonData: jsonEncode(categoryDetailResponse.toJson()),
         ),
       );
 
-      final details = await dataSource
-          .getCategoryDetails('${categoryDetailResponse.category}.json');
+      final details = await dataSource.getCategoryDetails('$category.json');
 
       expect(details, isNotNull);
       expect(details?.category, categoryDetailResponse.category);
       expect(details?.timestamp, categoryDetailResponse.timestamp);
-      verify(mockDao.getByFileName("${categoryDetailResponse.category}.json"))
-          .called(1);
+      verify(mockDao.getByFileName("$category.json")).called(1);
     });
 
-    test('saveCategoryDetails correctly calls dao', () async {
-      final categoryDetailResponse =
-          NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
+    test('getCategoryDetails correctly deserializes onThisDay data', () async {
+      final onThisDayResponse = NewsCategoryDetailsResponse(
+          category: null,
+          timestamp: 1644048227,
+          read: null,
+          clusters: null,
+          onThisDayItems: [
+            OnThisDayItem(
+                year: '1969',
+                htmlContent: 'Apollo 11 landed on the moon',
+                sortYear: 1969.0,
+                type: 'event')
+          ]);
+
+      when(mockDao.getByFileName('onthisday.json')).thenAnswer(
+        (_) async => CategoryDetail(
+          fileName: "onthisday.json",
+          category: "onthisday",
+          timestamp: onThisDayResponse.timestamp,
+          jsonData: jsonEncode(onThisDayResponse.toJson()),
+        ),
+      );
+
+      final details = await dataSource.getCategoryDetails('onthisday.json');
+
+      expect(details, isNotNull);
+      expect(details?.category, isNull);
+      expect(details?.timestamp, onThisDayResponse.timestamp);
+      expect(details?.onThisDayItems, isNotNull);
+      expect(details?.onThisDayItems?.length, 1);
+      expect(details?.onThisDayItems?[0].year, '1969');
+      verify(mockDao.getByFileName("onthisday.json")).called(1);
+    });
+
+    test('saveCategoryDetails correctly calls dao for regular news', () async {
+      final categoryDetailResponse = NewsCategoryDetailsTestDataClient
+          .getTechNewsCategoryDetailsResponse();
 
       when(mockDao.insertOrUpdate(any)).thenAnswer((_) async => 1);
 
+      final category = categoryDetailResponse.category ?? 'unknown';
       await dataSource.saveCategoryDetails(
         'tech.json',
-        categoryDetailResponse.category,
+        category,
         categoryDetailResponse,
       );
 
@@ -109,14 +142,53 @@ void main() {
           argThat(
             predicate<CategoryDetail>((detail) =>
                 detail.fileName == 'tech.json' &&
-                detail.category == categoryDetailResponse.category &&
+                detail.category == category &&
                 detail.timestamp == categoryDetailResponse.timestamp),
           ),
         ),
       ).called(1);
     });
 
-    test('getAllCategoryDetails returns all category details', () async {
+    test('saveCategoryDetails correctly calls dao for onThisDay data',
+        () async {
+      final onThisDayResponse = NewsCategoryDetailsResponse(
+          category: null,
+          timestamp: 1644048227,
+          read: null,
+          clusters: null,
+          onThisDayItems: [
+            OnThisDayItem(
+                year: '1969',
+                htmlContent: 'Apollo 11 landed on the moon',
+                sortYear: 1969.0,
+                type: 'event')
+          ]);
+
+      when(mockDao.insertOrUpdate(any)).thenAnswer((_) async => 1);
+
+      await dataSource.saveCategoryDetails(
+        'onthisday.json',
+        "onthisday",
+        onThisDayResponse,
+      );
+
+      verify(
+        mockDao.insertOrUpdate(
+          argThat(
+            predicate<CategoryDetail>(
+              (detail) =>
+                  detail.fileName == 'onthisday.json' &&
+                  detail.category == "onthisday" &&
+                  detail.timestamp == onThisDayResponse.timestamp,
+            ),
+          ),
+        ),
+      ).called(1);
+    });
+
+    test(
+        'getAllCategoryDetails returns all category details including onThisDay',
+        () async {
       final detailsList = [
         CategoryDetail(
             fileName: 'tech.json',
@@ -137,6 +209,21 @@ void main() {
               'timestamp': 54321,
               'read': 0,
               'clusters': []
+            })),
+        CategoryDetail(
+            fileName: 'onthisday.json',
+            category: "onthisday",
+            timestamp: 98765,
+            jsonData: jsonEncode({
+              'timestamp': 98765,
+              'events': [
+                {
+                  'year': '1969',
+                  'content': 'Apollo 11 landed on the moon',
+                  'sort_year': 1969.0,
+                  'type': 'event'
+                }
+              ]
             }))
       ];
 
@@ -144,13 +231,16 @@ void main() {
 
       final allDetails = await dataSource.getAllCategoryDetails();
 
-      expect(allDetails.length, 2);
+      expect(allDetails.length, 3);
       expect(allDetails[0].category, 'Tech');
       expect(allDetails[1].category, 'Business');
+      expect(allDetails[2].category, null);
+      expect(allDetails[2].onThisDayItems, isNotNull);
+      expect(allDetails[2].onThisDayItems?.length, 1);
     });
 
-    test('getCategoryDetailsByName works correctly', () async {
-      final detailsJson = {
+    test('getCategoryDetailsByName handles nullable category', () async {
+      final techJson = {
         'category': 'Tech',
         'timestamp': 12345,
         'read': 0,
@@ -162,15 +252,27 @@ void main() {
           fileName: 'tech.json',
           category: 'Tech',
           timestamp: 12345,
-          jsonData: jsonEncode(detailsJson),
+          jsonData: jsonEncode(techJson),
         ),
       );
 
-      final details = await dataSource.getCategoryDetailsByName('Tech');
+      final techDetails = await dataSource.getCategoryDetailsByName('Tech');
+      expect(techDetails, isNotNull);
+      expect(techDetails?.category, 'Tech');
 
-      expect(details, isNotNull);
-      expect(details?.category, 'Tech');
-      verify(mockDao.getByFileName('Tech')).called(1);
+      when(mockDao.getByFileName('onthisday')).thenAnswer(
+        (_) async => CategoryDetail(
+          fileName: 'onthisday.json',
+          category: "onthisday",
+          timestamp: 98765,
+          jsonData: jsonEncode({'timestamp': 98765, 'events': []}),
+        ),
+      );
+
+      final onThisDayDetails =
+          await dataSource.getCategoryDetailsByName('onthisday');
+      expect(onThisDayDetails, isNotNull);
+      expect(onThisDayDetails?.category, isNull);
     });
 
     test('clearAllCategoryDetails calls deleteAll on dao', () async {

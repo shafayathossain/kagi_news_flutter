@@ -26,10 +26,10 @@ class KagiNewsRepository {
       if (lastSavedTimestamp == null ||
           lastSavedTimestamp != categoriesResponse.timestamp) {
         final futures = categoriesResponse.categories.map(
-          (category) async {
+          (category) {
             return _apiService.getCategoryDetails(category.file).then(
               (categoryDetails) async {
-                return _localDataSource.saveCategoryDetails(
+                await _localDataSource.saveCategoryDetails(
                   category.file,
                   category.name,
                   categoryDetails,
@@ -47,6 +47,7 @@ class KagiNewsRepository {
 
       return Result.success(false);
     } catch (e) {
+      print('Error syncing data: $e');
       return Result.error(e.toString());
     }
   }
@@ -82,7 +83,7 @@ class KagiNewsRepository {
         final networkDetails = await _apiService.getCategoryDetails(fileName);
         await _localDataSource.saveCategoryDetails(
           fileName,
-          networkDetails.category,
+          networkDetails.category ?? fileName.replaceAll('.json', ''),
           networkDetails,
         );
         return Result.success(networkDetails);

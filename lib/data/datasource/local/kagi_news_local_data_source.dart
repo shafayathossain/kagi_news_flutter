@@ -23,18 +23,18 @@ class KagiNewsLocalDataSource {
     );
   }
 
-  Future<int?> getLastSavedTimestamp() async {
+  Future<int?> getLastSavedTimestamp() {
     return SharedPreferences.getInstance()
         .then((prefs) => prefs.getInt(_timestampKey));
   }
 
-  Future<void> saveTimestamp(int timestamp) async {
+  Future<void> saveTimestamp(int timestamp) {
     return SharedPreferences.getInstance().then((prefs) async {
       await prefs.setInt(_timestampKey, timestamp);
     });
   }
 
-  Future<KagiNewsCategoriesResponse?> getCategories() async {
+  Future<KagiNewsCategoriesResponse?> getCategories() {
     return SharedPreferences.getInstance().then((prefs) async {
       final jsonString = prefs.getString(_categoriesKey);
       if (jsonString == null) return null;
@@ -42,7 +42,7 @@ class KagiNewsLocalDataSource {
     });
   }
 
-  Future<void> saveCategories(KagiNewsCategoriesResponse categories) async {
+  Future<void> saveCategories(KagiNewsCategoriesResponse categories) {
     return SharedPreferences.getInstance().then((prefs) async {
       await prefs.setString(
         _categoriesKey,

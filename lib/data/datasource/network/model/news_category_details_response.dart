@@ -1,25 +1,55 @@
+import 'package:intl/intl.dart';
+
 class NewsCategoryDetailsResponse {
-  final String category;
+  final String? category;
   final int timestamp;
-  final int read;
-  final List<NewsCluster> clusters;
+  final int? read;
+  final List<NewsCluster>? clusters;
+  final List<OnThisDayItem>? onThisDayItems;
 
   NewsCategoryDetailsResponse({
     required this.category,
     required this.timestamp,
     required this.read,
     required this.clusters,
+    required this.onThisDayItems,
   });
 
   factory NewsCategoryDetailsResponse.fromJson(Map<String, dynamic> json) {
-    return NewsCategoryDetailsResponse(
-      category: json['category'] as String,
-      timestamp: json['timestamp'] as int,
-      read: json['read'] as int,
-      clusters: (json['clusters'] as List)
-          .map((item) => NewsCluster.fromJson(item))
-          .toList(),
-    );
+    try {
+      if (json['clusters'] != null) {
+        return NewsCategoryDetailsResponse(
+          category: json['category'] as String,
+          timestamp: json['timestamp'] as int,
+          read: json['read'] as int,
+          clusters: (json['clusters'] as List)
+              .map((item) => NewsCluster.fromJson(item))
+              .toList(),
+          onThisDayItems: null,
+        );
+      } else if (json['events'] != null) {
+        return NewsCategoryDetailsResponse(
+          category: null,
+          timestamp: json['timestamp'] as int,
+          read: null,
+          clusters: null,
+          onThisDayItems: (json['events'] as List)
+              .map((item) => OnThisDayItem.fromJson(item))
+              .toList(),
+        );
+      } else {
+        return NewsCategoryDetailsResponse(
+          category: null,
+          timestamp: 0,
+          read: null,
+          clusters: null,
+          onThisDayItems: null,
+        );
+      }
+    } catch (e) {
+      print("Error parsing NewsCategoryDetailsResponse: $e  --> $json");
+      throw Exception("Failed to parse NewsCategoryDetailsResponse");
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -27,7 +57,8 @@ class NewsCategoryDetailsResponse {
       'category': category,
       'timestamp': timestamp,
       'read': read,
-      'clusters': clusters.map((item) => item.toJson()).toList(),
+      'clusters': clusters?.map((item) => item.toJson()).toList(),
+      'events': onThisDayItems?.map((item) => item.toJson()).toList(),
     };
   }
 }
@@ -132,55 +163,62 @@ class NewsCluster {
   }
 
   factory NewsCluster.fromJson(Map<String, dynamic> json) {
-    return NewsCluster(
-      articles: (json['articles'] as List)
-          .map((item) => Article.fromJson(item))
-          .toList(),
-      businessAnglePoints: _parseStringList(json['business_angle_points']),
-      businessAngleText: json['business_angle_text'] as String,
-      category: json['category'] as String,
-      clusterNumber: json['cluster_number'] as int,
-      culinarySignificance: json['culinary_significance'] as String,
-      designPrinciples: json['design_principles'] as String,
-      destinationHighlights: json['destination_highlights'] as String,
-      didYouKnow: json['did_you_know'] as String,
-      diyTips: json['diy_tips'] as String,
-      domains: (json['domains'] as List)
-          .map((item) => NewsDomain.fromJson(item))
-          .toList(),
-      economicImplications: json['economic_implications'] as String,
-      emoji: json['emoji'] as String,
-      futureOutlook: json['future_outlook'] as String,
-      gameplayMechanics: _parseStringList(json['gameplay_mechanics']),
-      geopoliticalContext: json['geopolitical_context'] as String,
-      historicalBackground: json['historical_background'] as String,
-      humanitarianImpact: json['humanitarian_impact'] as String,
-      industryImpact: _parseStringList(json['industry_impact']),
-      internationalReactions: _parseStringList(json['international_reactions']),
-      keyPlayers: _parseStringList(json['key_players']),
-      leagueStandings: json['league_standings'] as String,
-      location: json['location'] as String,
-      numberOfTitles: json['number_of_titles'] as int,
-      performanceStatistics: _parseStringList(json['performance_statistics']),
-      perspectives: (json['perspectives'] as List)
-          .map((item) => Perspective.fromJson(item))
-          .toList(),
-      quote: json['quote'] as String,
-      quoteAuthor: json['quote_author'] as String,
-      quoteSourceDomain: json['quote_source_domain'] as String,
-      quoteSourceUrl: json['quote_source_url'] as String,
-      scientificSignificance: _parseStringList(json['scientific_significance']),
-      shortSummary: json['short_summary'] as String,
-      talkingPoints: _parseStringList(json['talking_points']),
-      technicalDetails: _parseStringList(json['technical_details']),
-      technicalSpecifications: json['technical_specifications'] as String,
-      timeline: _parseStringList(json['timeline']),
-      title: json['title'] as String,
-      travelAdvisory: _parseStringList(json['travel_advisory']),
-      uniqueDomains: json['unique_domains'] as int,
-      userActionItems: _parseStringList(json['user_action_items']),
-      userExperienceImpact: _parseStringList(json['user_experience_impact']),
-    );
+    try {
+      return NewsCluster(
+        articles: (json['articles'] as List)
+            .map((item) => Article.fromJson(item))
+            .toList(),
+        businessAnglePoints: _parseStringList(json['business_angle_points']),
+        businessAngleText: json['business_angle_text'] as String,
+        category: json['category'] as String,
+        clusterNumber: json['cluster_number'] as int,
+        culinarySignificance: json['culinary_significance'] as String,
+        designPrinciples: json['design_principles'] as String,
+        destinationHighlights: json['destination_highlights'] as String,
+        didYouKnow: json['did_you_know'] as String,
+        diyTips: json['diy_tips'] as String,
+        domains: (json['domains'] as List)
+            .map((item) => NewsDomain.fromJson(item))
+            .toList(),
+        economicImplications: json['economic_implications'] as String,
+        emoji: json['emoji'] as String,
+        futureOutlook: json['future_outlook'] as String,
+        gameplayMechanics: _parseStringList(json['gameplay_mechanics']),
+        geopoliticalContext: json['geopolitical_context'] as String,
+        historicalBackground: json['historical_background'] as String,
+        humanitarianImpact: json['humanitarian_impact'] as String,
+        industryImpact: _parseStringList(json['industry_impact']),
+        internationalReactions:
+            _parseStringList(json['international_reactions']),
+        keyPlayers: _parseStringList(json['key_players']),
+        leagueStandings: json['league_standings'] as String,
+        location: json['location'] as String,
+        numberOfTitles: json['number_of_titles'] as int,
+        performanceStatistics: _parseStringList(json['performance_statistics']),
+        perspectives: (json['perspectives'] as List)
+            .map((item) => Perspective.fromJson(item))
+            .toList(),
+        quote: json['quote'] as String,
+        quoteAuthor: json['quote_author'] as String,
+        quoteSourceDomain: json['quote_source_domain'] as String,
+        quoteSourceUrl: json['quote_source_url'] as String,
+        scientificSignificance:
+            _parseStringList(json['scientific_significance']),
+        shortSummary: json['short_summary'] as String,
+        talkingPoints: _parseStringList(json['talking_points']),
+        technicalDetails: _parseStringList(json['technical_details']),
+        technicalSpecifications: json['technical_specifications'] as String,
+        timeline: _parseStringList(json['timeline']),
+        title: json['title'] as String,
+        travelAdvisory: _parseStringList(json['travel_advisory']),
+        uniqueDomains: json['unique_domains'] as int,
+        userActionItems: _parseStringList(json['user_action_items']),
+        userExperienceImpact: _parseStringList(json['user_experience_impact']),
+      );
+    } catch (e) {
+      print("Error parsing NewsCluster: $e  --> $json");
+      throw Exception("Failed to parse NewsCluster");
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -297,12 +335,30 @@ class Article {
     required this.imageCaption,
   });
 
+  static String _formatDateFromJson(String dateStr) {
+    try {
+      return DateFormat('dd MMM yyyy, hh.mm a')
+          .format(DateTime.parse(dateStr).toLocal());
+    } catch (e) {
+      return dateStr;
+    }
+  }
+
+  static String _formatDateToJson(String formattedDate) {
+    try {
+      return DateFormat("yyyy-MM-dd'T'HH:mm:ssZ").format(
+          DateFormat('dd MMM yyyy, hh.mm a').parse(formattedDate).toUtc());
+    } catch (e) {
+      return formattedDate;
+    }
+  }
+
   factory Article.fromJson(Map<String, dynamic> json) {
     return Article(
       title: json['title'] as String,
       link: json['link'] as String,
       domain: json['domain'] as String,
-      date: json['date'] as String,
+      date: _formatDateFromJson(json['date'] as String),
       image: json['image'] as String,
       imageCaption: json['image_caption'] as String,
     );
@@ -313,7 +369,7 @@ class Article {
       'title': title,
       'link': link,
       'domain': domain,
-      'date': date,
+      'date': _formatDateToJson(date),
       'image': image,
       'image_caption': imageCaption,
     };
@@ -340,6 +396,40 @@ class NewsDomain {
     return {
       'name': name,
       'favicon': favicon,
+    };
+  }
+}
+
+class OnThisDayItem {
+  final String year;
+  final String htmlContent;
+  final double sortYear;
+  final String type;
+
+  OnThisDayItem({
+    required this.year,
+    required this.htmlContent,
+    required this.sortYear,
+    required this.type,
+  });
+
+  factory OnThisDayItem.fromJson(Map<String, dynamic> json) {
+    return OnThisDayItem(
+      year: json['year'] as String,
+      htmlContent: json['content'] as String,
+      sortYear: json['sort_year'] is int
+          ? (json['sort_year'] as int).toDouble()
+          : json['sort_year'] as double,
+      type: json['type'] as String,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'year': year,
+      'content': htmlContent,
+      'sort_year': sortYear,
+      'type': type,
     };
   }
 }

@@ -860,31 +860,10 @@ class MockNewsCategoryDetailsResponse extends _i1.Mock
   }
 
   @override
-  String get category => (super.noSuchMethod(
-        Invocation.getter(#category),
-        returnValue: _i7.dummyValue<String>(
-          this,
-          Invocation.getter(#category),
-        ),
-      ) as String);
-
-  @override
   int get timestamp => (super.noSuchMethod(
         Invocation.getter(#timestamp),
         returnValue: 0,
       ) as int);
-
-  @override
-  int get read => (super.noSuchMethod(
-        Invocation.getter(#read),
-        returnValue: 0,
-      ) as int);
-
-  @override
-  List<_i8.NewsCluster> get clusters => (super.noSuchMethod(
-        Invocation.getter(#clusters),
-        returnValue: <_i8.NewsCluster>[],
-      ) as List<_i8.NewsCluster>);
 
   @override
   Map<String, dynamic> toJson() => (super.noSuchMethod(

@@ -15,6 +15,7 @@ class KagiNewsController {
 
   KagiNewsController({required KagiNewsRepository repository}) {
     _repository = repository;
+    _repository.sync();
     fetchCategories();
   }
 
