@@ -1,0 +1,22 @@
+flutter_native_splash:
+  # Background color
+  color: "#FFFFFF" # White background
+  # Or use a background image
+  #background_image: "assets/images/background.png"
+
+  # The image to be displayed in the center
+  image: "assets/images/splash_icon.png" # Make sure this exists!
+
+  # Optional parameters
+  android_12:
+    # Android 12 specific configuration
+    image: "assets/images/splash_icon.png" # Needs to be transparent PNG
+    icon_background_color: "#FFFFFF"
+
+  # iOS specific settings
+  ios: true
+  fullscreen: true # Makes the splash screen full screen
+  
+  # Control splash screen duration
+  android: true
+  web: false

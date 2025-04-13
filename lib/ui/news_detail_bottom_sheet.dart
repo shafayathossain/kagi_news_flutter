@@ -541,19 +541,23 @@ class NewsDetailBottomSheet extends StatelessWidget {
                             color:
                                 theme.colorScheme.onSurface.withValues(alpha: 0.6)),
                         const SizedBox(width: 4),
-                        Text(
-                          article.domain,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                        Expanded(
+                          child: Text(
+                            article.domain,
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                            ),
                           ),
                         ),
                       ],
                       const Spacer(),
                       if (!article.image.isNotEmpty)
-                        Text(
-                          article.date,
-                          style: theme.textTheme.bodySmall?.copyWith(
-                            color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                        Expanded(
+                          child: Text(
+                            article.date,
+                            style: theme.textTheme.bodySmall?.copyWith(
+                              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                            ),
                           ),
                         ),
                     ],
@@ -619,6 +623,9 @@ class _PerspectiveCard extends StatelessWidget {
                           minimumSize: const Size(0, 0),
                           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                           alignment: Alignment.centerLeft,
+                          backgroundColor: Colors.transparent,
+                          overlayColor: Colors.transparent,
+                          splashFactory: NoSplash.splashFactory,
                         ),
                         child: Text(
                           perspective.sources.first.name,

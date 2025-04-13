@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/routes/app_router.dart';
+import 'package:kagi_news/ui/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -10,7 +11,7 @@ void main() {
   Injector.setup();
 
   LocaleSettings.useDeviceLocale();
-  runApp(TranslationProvider(child: MyApp()));
+  runApp(TranslationProvider(child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -24,9 +25,14 @@ class MyApp extends StatelessWidget {
       supportedLocales: AppLocaleUtils.supportedLocales,
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: MaterialTheme.lightScheme(),
         useMaterial3: true,
       ),
+      darkTheme: ThemeData(
+        colorScheme: MaterialTheme.darkScheme(),
+        useMaterial3: true,
+      ),
+      themeMode: ThemeMode.system,
       routerConfig: appRouter,
     );
   }
