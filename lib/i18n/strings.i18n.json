@@ -1,19 +1,29 @@
 {
   "app": {
-    "title": "Kagi News",
-    "noCategoriesAvailable": "No categories available"
+    "businessAngle": "Business Angle",
+    "close": "Close",
+    "differentPerspectives": "Different Perspectives",
+    "historicalBackground": "Historical Background",
+    "internationalReactions": "International Reactions",
+    "keyPoints": "Key Points",
+    "noCategoriesAvailable": "No categories available",
+    "notableQuotes": "Notable Quotes",
+    "relatedArticles": "Related Articles",
+    "summary": "Summary",
+    "tagLine": "News. Elevated",
+    "title": "Kagi News"
   },
   "errors": {
+    "badRequest": "Bad request",
     "failedToLoadCategories": "Failed to load news categories",
     "failedToLoadCategoryDetails": "Failed to load category details",
-    "badRequest": "Bad request",
-    "unauthorized": "Unauthorized",
     "forbidden": "Forbidden",
-    "notFound": "Not found",
-    "serverError": "Server error, please try again later",
     "httpError": "HTTP error: {statusCode}",
     "noInternet": "No internet connection",
+    "notFound": "Not found",
+    "serverError": "Server error, please try again later",
     "timeout": "Request timed out",
+    "unauthorized": "Unauthorized",
     "unknownError": "An unknown error occurred"
   }
 }

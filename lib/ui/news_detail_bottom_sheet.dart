@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kagi_news/data/datasource/network/model/news_category_details_response.dart';
+import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NewsDetailBottomSheet extends StatelessWidget {
@@ -11,7 +12,6 @@ class NewsDetailBottomSheet extends StatelessWidget {
   }) : super(key: key);
 
   @override
-  @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
 
@@ -21,55 +21,80 @@ class NewsDetailBottomSheet extends StatelessWidget {
       minChildSize: 0.5,
       maxChildSize: 0.95,
       builder: (context, scrollController) {
-        return Container(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          decoration: BoxDecoration(
-            color: theme.colorScheme.surface,
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withValues(alpha: 0.1),
-                blurRadius: 10,
-                offset: const Offset(0, -2),
+        return Stack(
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surface,
+                borderRadius:
+                    const BorderRadius.vertical(top: Radius.circular(20)),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: 0.1),
+                    blurRadius: 10,
+                    offset: const Offset(0, -2),
+                  ),
+                ],
               ),
-            ],
-          ),
-          child: Column(
-            children: [
-              _buildDragHandle(theme),
-              Expanded(
-                child: ListView(
-                  controller: scrollController,
-                  children: [
-                    _buildHeader(context),
-                    const Divider(height: 24),
-                    _buildSummarySection(context),
-                    _buildKeyPointsSection(context),
-                    _buildPerspectivesSection(context),
-                    _buildQuoteSection(context),
-                    _buildHistoricalBackgroundSection(context),
-                    _buildBusinessAngleSection(context),
-                    _buildInternationalReactionsSection(context),
-                    _buildArticlesSection(context),
-                  ],
-                ),
+              child: Column(
+                children: [
+                  _buildDragHandle(theme, context),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                      child: ListView(
+                        controller: scrollController,
+                        children: [
+                          _buildHeader(context),
+                          const Divider(height: 24),
+                          _buildSummarySection(context),
+                          _buildKeyPointsSection(context),
+                          _buildPerspectivesSection(context),
+                          _buildQuoteSection(context),
+                          _buildHistoricalBackgroundSection(context),
+                          _buildBusinessAngleSection(context),
+                          _buildInternationalReactionsSection(context),
+                          _buildArticlesSection(context),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         );
       },
     );
   }
 
-  Widget _buildDragHandle(ThemeData theme) {
-    return Container(
-      width: 40,
-      height: 4,
-      margin: const EdgeInsets.symmetric(vertical: 12),
-      decoration: BoxDecoration(
-        color: theme.colorScheme.onSurface.withValues(alpha: 0.3),
-        borderRadius: BorderRadius.circular(2),
-      ),
+  Widget _buildDragHandle(ThemeData theme, BuildContext context) {
+    return Stack(
+      children: [
+        Center(
+          child: Container(
+            width: 40,
+            height: 4,
+            margin: EdgeInsets.symmetric(vertical: 24),
+            decoration: BoxDecoration(
+              color: theme.colorScheme.onSurface.withValues(alpha: 0.3),
+              borderRadius: BorderRadius.circular(2),
+            ),
+          ),
+        ),
+        Align(
+          alignment: Alignment.topRight,
+          child: TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            style: TextButton.styleFrom(
+              backgroundColor: theme.colorScheme.scrim.withValues(alpha: 0.0),
+              elevation: 2,
+            ),
+            child: Text(t.app.close, style: TextStyle(fontSize: 14),),
+          ),
+        )
+      ],
     );
   }
 
@@ -123,10 +148,6 @@ class NewsDetailBottomSheet extends StatelessWidget {
                 ],
               ),
             ),
-            IconButton(
-              icon: const Icon(Icons.close),
-              onPressed: () => Navigator.of(context).pop(),
-            ),
           ],
         ),
         if (cluster.location.isNotEmpty) ...[
@@ -157,7 +178,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Summary'),
+        _buildSectionTitle(context, t.app.summary),
         const SizedBox(height: 8),
         Text(
           cluster.shortSummary,
@@ -175,7 +196,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Key Points'),
+        _buildSectionTitle(context, t.app.keyPoints),
         const SizedBox(height: 8),
         Card(
           elevation: 0,
@@ -220,7 +241,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Different Perspectives'),
+        _buildSectionTitle(context, t.app.differentPerspectives),
         const SizedBox(height: 8),
         SizedBox(
           height: 210, // Increased height for perspective cards
@@ -243,7 +264,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Notable Quote'),
+        _buildSectionTitle(context, t.app.notableQuotes),
         const SizedBox(height: 8),
         Card(
           elevation: 0,
@@ -325,7 +346,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Historical Background'),
+        _buildSectionTitle(context, t.app.historicalBackground),
         const SizedBox(height: 8),
         Card(
           elevation: 0,
@@ -351,7 +372,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Business Angle'),
+        _buildSectionTitle(context, t.app.businessAngle),
         const SizedBox(height: 8),
         Card(
           elevation: 0,
@@ -401,7 +422,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'International Reactions'),
+        _buildSectionTitle(context, t.app.internationalReactions),
         const SizedBox(height: 8),
         ListView.builder(
           shrinkWrap: true,
@@ -442,7 +463,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        _buildSectionTitle(context, 'Related Articles'),
+        _buildSectionTitle(context, t.app.relatedArticles),
         const SizedBox(height: 12),
         ...cluster.articles
             .map((article) => buildArticleCard(context, article)),
@@ -464,7 +485,8 @@ class NewsDetailBottomSheet extends StatelessWidget {
         ),
         const SizedBox(width: 8),
         Expanded(
-          child: Divider(color: theme.colorScheme.primary.withValues(alpha: 0.3)),
+          child:
+              Divider(color: theme.colorScheme.primary.withValues(alpha: 0.3)),
         ),
       ],
     );
@@ -538,15 +560,16 @@ class NewsDetailBottomSheet extends StatelessWidget {
                       if (article.domain.isNotEmpty) ...[
                         Icon(Icons.public,
                             size: 14,
-                            color:
-                                theme.colorScheme.onSurface.withValues(alpha: 0.6)),
+                            color: theme.colorScheme.onSurface
+                                .withValues(alpha: 0.6)),
                         const SizedBox(width: 4),
                         Expanded(
                           flex: 3,
                           child: Text(
                             article.domain,
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                              color: theme.colorScheme.onSurface
+                                  .withValues(alpha: 0.7),
                             ),
                           ),
                         ),
@@ -559,7 +582,8 @@ class NewsDetailBottomSheet extends StatelessWidget {
                             article.date,
                             textAlign: TextAlign.end,
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
+                              color: theme.colorScheme.onSurface
+                                  .withValues(alpha: 0.7),
                             ),
                           ),
                         ),

@@ -4,9 +4,9 @@
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 1
-/// Strings: 13
+/// Strings: 23
 ///
-/// Built on 2025-04-13 at 08:29 UTC
+/// Built on 2025-04-13 at 09:20 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -158,8 +158,18 @@ class _StringsAppEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
-	String get title => 'Kagi News';
+	String get businessAngle => 'Business Angle';
+	String get close => 'Close';
+	String get differentPerspectives => 'Different Perspectives';
+	String get historicalBackground => 'Historical Background';
+	String get internationalReactions => 'International Reactions';
+	String get keyPoints => 'Key Points';
 	String get noCategoriesAvailable => 'No categories available';
+	String get notableQuotes => 'Notable Quotes';
+	String get relatedArticles => 'Related Articles';
+	String get summary => 'Summary';
+	String get tagLine => 'News. Elevated';
+	String get title => 'Kagi News';
 }
 
 // Path: errors
@@ -169,16 +179,16 @@ class _StringsErrorsEn {
 	final Translations _root; // ignore: unused_field
 
 	// Translations
+	String get badRequest => 'Bad request';
 	String get failedToLoadCategories => 'Failed to load news categories';
 	String get failedToLoadCategoryDetails => 'Failed to load category details';
-	String get badRequest => 'Bad request';
-	String get unauthorized => 'Unauthorized';
 	String get forbidden => 'Forbidden';
-	String get notFound => 'Not found';
-	String get serverError => 'Server error, please try again later';
 	String get httpError => 'HTTP error: {statusCode}';
 	String get noInternet => 'No internet connection';
+	String get notFound => 'Not found';
+	String get serverError => 'Server error, please try again later';
 	String get timeout => 'Request timed out';
+	String get unauthorized => 'Unauthorized';
 	String get unknownError => 'An unknown error occurred';
 }
 
@@ -188,18 +198,28 @@ class _StringsErrorsEn {
 extension on Translations {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
-			case 'app.title': return 'Kagi News';
+			case 'app.businessAngle': return 'Business Angle';
+			case 'app.close': return 'Close';
+			case 'app.differentPerspectives': return 'Different Perspectives';
+			case 'app.historicalBackground': return 'Historical Background';
+			case 'app.internationalReactions': return 'International Reactions';
+			case 'app.keyPoints': return 'Key Points';
 			case 'app.noCategoriesAvailable': return 'No categories available';
+			case 'app.notableQuotes': return 'Notable Quotes';
+			case 'app.relatedArticles': return 'Related Articles';
+			case 'app.summary': return 'Summary';
+			case 'app.tagLine': return 'News. Elevated';
+			case 'app.title': return 'Kagi News';
+			case 'errors.badRequest': return 'Bad request';
 			case 'errors.failedToLoadCategories': return 'Failed to load news categories';
 			case 'errors.failedToLoadCategoryDetails': return 'Failed to load category details';
-			case 'errors.badRequest': return 'Bad request';
-			case 'errors.unauthorized': return 'Unauthorized';
 			case 'errors.forbidden': return 'Forbidden';
-			case 'errors.notFound': return 'Not found';
-			case 'errors.serverError': return 'Server error, please try again later';
 			case 'errors.httpError': return 'HTTP error: {statusCode}';
 			case 'errors.noInternet': return 'No internet connection';
+			case 'errors.notFound': return 'Not found';
+			case 'errors.serverError': return 'Server error, please try again later';
 			case 'errors.timeout': return 'Request timed out';
+			case 'errors.unauthorized': return 'Unauthorized';
 			case 'errors.unknownError': return 'An unknown error occurred';
 			default: return null;
 		}

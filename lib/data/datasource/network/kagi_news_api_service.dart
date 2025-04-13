@@ -25,8 +25,6 @@ class KagiNewsApiService {
       final response = await _dioClient.get<Map<String, dynamic>>('/$fileName');
       return NewsCategoryDetailsResponse.fromJson(response.data!);
     } catch (e) {
-      print("GOT ERROR IN API CALL $e");
-      print(e);
       throw _mapError(e, t.errors.failedToLoadCategoryDetails);
     }
   }

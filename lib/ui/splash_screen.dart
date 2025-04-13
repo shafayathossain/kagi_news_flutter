@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kagi_news/di/injector.dart';
+import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/routes/app_router.dart';
 import 'package:kagi_news/ui/kagi_news_controller.dart';
 
@@ -74,9 +75,8 @@ class _SplashScreenState extends State<SplashScreen>
                 width: 200,
                 height: 200,
               ),
-
               Text(
-                "News. Elevated.",
+                t.app.tagLine,
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                       fontWeight: FontWeight.bold,
                       letterSpacing: 1.2,
