@@ -22,52 +22,65 @@ class CategoryDetailsTab extends StatefulWidget {
 }
 
 class _CategoryDetailsTabState extends State<CategoryDetailsTab> {
+  final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
+      GlobalKey<RefreshIndicatorState>();
+
   @override
   void initState() {
     super.initState();
     widget.controller.fetchCategoryDetails(widget.fileName);
   }
 
+  Future<void> _refreshCategoryDetails() async {
+    await widget.controller.fetchCategoryDetails(
+      widget.fileName,
+      forceRefresh: true,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     if (widget.controller.categoryDetailsNotifiers[widget.fileName] == null) {
-      return getEmptyClustersWidget();
+      return _buildScrollableEmptyState();
     } else {
-      return ValueListenableBuilder(
-        valueListenable:
-            widget.controller.categoryDetailsNotifiers[widget.fileName]!,
-        builder: (context, snapshot, _) {
-          if (snapshot == null) {
-            return const Center(child: CircularProgressIndicator());
-          }
+      return RefreshIndicator(
+        key: _refreshIndicatorKey,
+        onRefresh: _refreshCategoryDetails,
+        child: ValueListenableBuilder(
+          valueListenable:
+              widget.controller.categoryDetailsNotifiers[widget.fileName]!,
+          builder: (context, snapshot, _) {
+            if (snapshot == null) {
+              return _buildLoadingState();
+            }
 
-          if (snapshot.error != null) {
-            return Center(
-              child: Text(snapshot.error!),
-            );
-          }
+            if (snapshot.error != null) {
+              return _buildErrorState(snapshot.error!);
+            }
 
-          final detailsResponse = snapshot.data!;
-          final clusters = detailsResponse.clusters;
-          final onThisDayItems = detailsResponse.onThisDayItems;
+            final detailsResponse = snapshot.data!;
+            final clusters = detailsResponse.clusters;
+            final onThisDayItems = detailsResponse.onThisDayItems;
 
-          if (clusters?.isEmpty ??
-              true && onThisDayItems != null && onThisDayItems.isNotEmpty) {
-            return buildOnThisDayList(onThisDayItems!);
-          }
+            if (clusters?.isEmpty ??
+                true && onThisDayItems != null && onThisDayItems.isNotEmpty) {
+              return buildOnThisDayList(onThisDayItems!);
+            }
 
-          if (clusters != null && clusters.isNotEmpty) {
-            return buildClustersList(clusters);
-          }
+            if (clusters != null && clusters.isNotEmpty) {
+              return buildClustersList(clusters);
+            }
 
-          return getEmptyClustersWidget();
-        },
+            return _buildScrollableEmptyState();
+          },
+        ),
       );
     }
   }
 
   Widget buildClustersList(List<NewsCluster> clusters) {
     return ListView.builder(
+      physics: const AlwaysScrollableScrollPhysics(),
       itemCount: clusters.length,
       itemBuilder: (context, index) {
         final cluster = clusters[index];
@@ -94,10 +107,6 @@ class _CategoryDetailsTabState extends State<CategoryDetailsTab> {
   Widget buildOnThisDayList(List<OnThisDayItem> items) {
     final theme = Theme.of(context);
 
-    // Sort items by sortYear (oldest to newest)
-    final sortedItems = List<OnThisDayItem>.from(items)
-      ..sort((a, b) => a.sortYear.compareTo(b.sortYear));
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -113,11 +122,78 @@ class _CategoryDetailsTabState extends State<CategoryDetailsTab> {
         ),
         Expanded(
           child: ListView.builder(
-            itemCount: sortedItems.length,
+            physics: const AlwaysScrollableScrollPhysics(),
+            itemCount: items.length,
             itemBuilder: (context, index) {
-              final item = sortedItems[index];
+              final item = items[index];
               return _buildHistoricalEventCard(item, theme);
             },
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildLoadingState() {
+    return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 2 - 50,
+          child: const Center(
+            child: CircularProgressIndicator(),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildErrorState(String errorMessage) {
+    return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 2 - 50,
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.error_outline, size: 48, color: Colors.red),
+                SizedBox(height: 16),
+                Text(errorMessage),
+                SizedBox(height: 24),
+                Text(
+                  'Pull down to refresh',
+                  style: TextStyle(color: Colors.grey),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildScrollableEmptyState() {
+    return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 2 - 50,
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.inbox_outlined, size: 48, color: Colors.grey),
+                SizedBox(height: 16),
+                Text('No news available for ${widget.categoryName}'),
+                SizedBox(height: 24),
+                Text(
+                  'Pull down to refresh',
+                  style: TextStyle(color: Colors.grey),
+                ),
+              ],
+            ),
           ),
         ),
       ],
@@ -132,7 +208,7 @@ class _CategoryDetailsTabState extends State<CategoryDetailsTab> {
 
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-      elevation: 2,
+      elevation: 0,
       color: cardColor,
       child: IntrinsicHeight(
         child: Row(
@@ -215,12 +291,6 @@ class _CategoryDetailsTabState extends State<CategoryDetailsTab> {
       isScrollControlled: true,
       backgroundColor: Colors.transparent,
       builder: (context) => NewsDetailBottomSheet(cluster: cluster),
-    );
-  }
-
-  Center getEmptyClustersWidget() {
-    return Center(
-      child: Text('No news available for ${widget.categoryName}'),
     );
   }
 }

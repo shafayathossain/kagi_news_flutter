@@ -12,7 +12,7 @@ import 'package:mockito/mockito.dart';
 
 import '../../test/mocks/mock_injector.dart';
 import '../../test/mocks/repository_mocks.mocks.dart';
-import '../../test/data/datasource/network/model/news_category_details_test_data_client.dart';
+import 'news_category_details_test_data_client.dart';
 
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();

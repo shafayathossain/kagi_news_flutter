@@ -35,7 +35,8 @@ class NewsCategoryDetailsResponse {
           clusters: null,
           onThisDayItems: (json['events'] as List)
               .map((item) => OnThisDayItem.fromJson(item))
-              .toList(),
+              .toList()
+              ..sort((a, b) => b.sortYear.compareTo(a.sortYear)),
         );
       } else {
         return NewsCategoryDetailsResponse(

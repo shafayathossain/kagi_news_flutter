@@ -22,6 +22,9 @@ class KagiNewsPage extends StatefulWidget {
 }
 
 class _KagiNewsPageState extends State<KagiNewsPage> {
+  final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
+      GlobalKey<RefreshIndicatorState>();
+
   @override
   void dispose() {
     widget._controller.categoriesNotifier.dispose();
@@ -31,56 +34,125 @@ class _KagiNewsPageState extends State<KagiNewsPage> {
     super.dispose();
   }
 
+  Future<void> _refreshData() async {
+    await widget._controller.fetchCategories(forceRefresh: true);
+
+    final result = widget._controller.categoriesNotifier.value;
+    if (result != null && result.isSuccess) {
+      await Future.wait(result.data!.categories
+          .map((category) => widget._controller.fetchCategoryDetails(
+                category.file,
+                forceRefresh: true,
+              )));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(t.app.title),
       ),
-      body: ValueListenableBuilder<Result<KagiNewsCategoriesResponse>?>(
-        valueListenable: widget._controller.categoriesNotifier,
-        builder: (context, result, _) {
-          if (result == null) {
-            return const Center(child: CircularProgressIndicator());
-          }
+      body: RefreshIndicator(
+        key: _refreshIndicatorKey,
+        onRefresh: _refreshData,
+        child: ValueListenableBuilder<Result<KagiNewsCategoriesResponse>?>(
+          valueListenable: widget._controller.categoriesNotifier,
+          builder: (context, result, _) {
+            if (result == null) {
+              return const Center(child: CircularProgressIndicator());
+            }
 
-          if (result.error != null) {
-            return Center(child: Text('${result.error}'));
-          }
+            if (result.error != null) {
+              return _buildErrorWidget('${result.error}');
+            }
 
-          final categoriesResponse = result.data!;
-          final categories = categoriesResponse.categories;
-          if (categories.isEmpty) {
-            return Center(child: Text(t.app.noCategoriesAvailable));
-          }
+            final categoriesResponse = result.data!;
+            final categories = categoriesResponse.categories;
+            if (categories.isEmpty) {
+              return _buildEmptyWidget(t.app.noCategoriesAvailable);
+            }
 
-          return DefaultTabController(
-            length: categories.length,
-            child: Column(
-              children: [
-                TabBar(
-                  isScrollable: true,
-                  tabAlignment: TabAlignment.start,
-                  tabs: categories.map((cat) => Tab(text: cat.name)).toList(),
-                ),
-                Expanded(
-                  child: TabBarView(
-                    children: categories.map(
-                      (category) {
-                        return CategoryDetailsTab(
-                          controller: widget._controller,
-                          fileName: category.file,
-                          categoryName: category.name,
-                        );
-                      },
-                    ).toList(),
+            return DefaultTabController(
+              length: categories.length,
+              child: Column(
+                children: [
+                  TabBar(
+                    isScrollable: true,
+                    tabAlignment: TabAlignment.start,
+                    tabs: categories.map((cat) => Tab(text: cat.name)).toList(),
                   ),
+                  Expanded(
+                    child: TabBarView(
+                      children: categories.map(
+                        (category) {
+                          return CategoryDetailsTab(
+                            controller: widget._controller,
+                            fileName: category.file,
+                            categoryName: category.name,
+                          );
+                        },
+                      ).toList(),
+                    ),
+                  ),
+                ],
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+
+  Widget _buildErrorWidget(String message) {
+    return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 2 - 50,
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.error_outline, size: 48, color: Colors.red),
+                SizedBox(height: 16),
+                Text(message, textAlign: TextAlign.center),
+                SizedBox(height: 24),
+                Text(
+                  'Pull down to refresh',
+                  style: TextStyle(color: Colors.grey),
                 ),
               ],
             ),
-          );
-        },
-      ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildEmptyWidget(String message) {
+    return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 2 - 50,
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.inbox_outlined, size: 48, color: Colors.grey),
+                SizedBox(height: 16),
+                Text(message, textAlign: TextAlign.center),
+                SizedBox(height: 24),
+                Text(
+                  'Pull down to refresh',
+                  style: TextStyle(color: Colors.grey),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
