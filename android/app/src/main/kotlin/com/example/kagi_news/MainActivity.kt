@@ -1,4 +1,4 @@
-package com.example.kagi_news.kagi_news
+package com.example.kagi_news
 
 import io.flutter.embedding.android.FlutterActivity
 

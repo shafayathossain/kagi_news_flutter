@@ -3,12 +3,15 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/routes/app_router.dart';
+import 'package:kagi_news/services/background_fetch_service.dart';
 import 'package:kagi_news/ui/theme.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   Injector.setup();
+
+  await BackgroundFetchService.initialize();
 
   LocaleSettings.useDeviceLocale();
   runApp(TranslationProvider(child: const MyApp()));
