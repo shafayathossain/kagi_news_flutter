@@ -3,6 +3,7 @@ import 'package:kagi_news/data/datasource/local/kagi_news_local_data_source.dart
 import 'package:kagi_news/data/datasource/network/kagi_news_api_service.dart';
 import 'package:kagi_news/data/datasource/network/model/news_categories_response.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
+import 'package:kagi_news/data/datasource/repository/kagi_news_repository_impl.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
@@ -18,7 +19,7 @@ void main() {
   setUp(() {
     mockLocalDataSource = MockKagiNewsLocalDataSource();
     mockApiService = MockKagiNewsApiService();
-    repository = KagiNewsRepository(
+    repository = KagiNewsRepositoryImpl(
       localDataSource: mockLocalDataSource,
       apiService: mockApiService,
     );

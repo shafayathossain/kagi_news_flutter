@@ -1,8 +1,9 @@
 import 'package:flutter/foundation.dart';
 import 'package:kagi_news/data/datasource/network/model/news_categories_response.dart';
 import 'package:kagi_news/data/datasource/network/model/news_category_details_response.dart';
-import 'package:kagi_news/data/datasource/repository/result.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
+import 'package:kagi_news/data/datasource/repository/result.dart';
+import 'package:kagi_news/data/datasource/repository/kagi_news_repository_impl.dart';
 
 class KagiNewsController {
   late final KagiNewsRepository _repository;

@@ -1,5 +1,6 @@
 import 'package:background_fetch/background_fetch.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
+import 'package:kagi_news/data/datasource/repository/kagi_news_repository_impl.dart';
 import 'package:kagi_news/di/injector.dart';
 
 @pragma('vm:entry-point')
