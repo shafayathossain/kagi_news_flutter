@@ -542,6 +542,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
                                 theme.colorScheme.onSurface.withValues(alpha: 0.6)),
                         const SizedBox(width: 4),
                         Expanded(
+                          flex: 3,
                           child: Text(
                             article.domain,
                             style: theme.textTheme.bodySmall?.copyWith(
@@ -553,8 +554,10 @@ class NewsDetailBottomSheet extends StatelessWidget {
                       const Spacer(),
                       if (!article.image.isNotEmpty)
                         Expanded(
+                          flex: 5,
                           child: Text(
                             article.date,
+                            textAlign: TextAlign.end,
                             style: theme.textTheme.bodySmall?.copyWith(
                               color: theme.colorScheme.onSurface.withValues(alpha: 0.7),
                             ),
