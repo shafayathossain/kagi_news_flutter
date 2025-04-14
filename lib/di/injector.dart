@@ -6,7 +6,7 @@ import 'package:kagi_news/data/datasource/local/kagi_news_local_data_source.dart
 import 'package:kagi_news/data/datasource/network/dio_client.dart';
 import 'package:kagi_news/data/datasource/network/kagi_news_api_service.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository_impl.dart';
-import 'package:kagi_news/ui/kagi_news_controller.dart';
+import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
 
 class Injector {
   static final KiwiContainer container = KiwiContainer();

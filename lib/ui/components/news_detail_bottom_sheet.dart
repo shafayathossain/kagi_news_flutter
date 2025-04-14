@@ -6,10 +6,8 @@ import 'package:url_launcher/url_launcher.dart';
 class NewsDetailBottomSheet extends StatelessWidget {
   final NewsCluster cluster;
 
-  const NewsDetailBottomSheet({
-    Key? key,
-    required this.cluster,
-  }) : super(key: key);
+  const NewsDetailBottomSheet({Key? key, required this.cluster})
+    : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,8 +25,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 8),
               decoration: BoxDecoration(
                 color: theme.colorScheme.surface,
-                borderRadius:
-                    const BorderRadius.vertical(top: Radius.circular(20)),
+                borderRadius: const BorderRadius.vertical(
+                  top: Radius.circular(20),
+                ),
                 boxShadow: [
                   BoxShadow(
                     color: Colors.black.withValues(alpha: 0.1),
@@ -91,9 +90,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
               backgroundColor: theme.colorScheme.scrim.withValues(alpha: 0.0),
               elevation: 2,
             ),
-            child: Text(t.app.close, style: TextStyle(fontSize: 14),),
+            child: Text(t.app.close, style: TextStyle(fontSize: 14)),
           ),
-        )
+        ),
       ],
     );
   }
@@ -134,8 +133,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
                   Chip(
                     materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                     padding: EdgeInsets.zero,
-                    backgroundColor:
-                        theme.colorScheme.secondary.withValues(alpha: 0.2),
+                    backgroundColor: theme.colorScheme.secondary.withValues(
+                      alpha: 0.2,
+                    ),
                     label: Text(
                       cluster.category,
                       style: TextStyle(
@@ -154,8 +154,11 @@ class NewsDetailBottomSheet extends StatelessWidget {
           const SizedBox(height: 12),
           Row(
             children: [
-              Icon(Icons.location_on_outlined,
-                  size: 16, color: theme.colorScheme.primary),
+              Icon(
+                Icons.location_on_outlined,
+                size: 16,
+                color: theme.colorScheme.primary,
+              ),
               const SizedBox(width: 4),
               Text(
                 cluster.location,
@@ -180,10 +183,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
       children: [
         _buildSectionTitle(context, t.app.summary),
         const SizedBox(height: 8),
-        Text(
-          cluster.shortSummary,
-          style: theme.textTheme.bodyLarge,
-        ),
+        Text(cluster.shortSummary, style: theme.textTheme.bodyLarge),
         const SizedBox(height: 16),
       ],
     );
@@ -205,9 +205,10 @@ class NewsDetailBottomSheet extends StatelessWidget {
             padding: const EdgeInsets.all(16),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: cluster.talkingPoints
-                  .map((point) => _buildKeyPointItem(context, point))
-                  .toList(),
+              children:
+                  cluster.talkingPoints
+                      .map((point) => _buildKeyPointItem(context, point))
+                      .toList(),
             ),
           ),
         ),
@@ -223,11 +224,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Icon(
-            Icons.arrow_right,
-            color: theme.colorScheme.secondary,
-            size: 20,
-          ),
+          Icon(Icons.arrow_right, color: theme.colorScheme.secondary, size: 20),
           const SizedBox(width: 4),
           Expanded(child: Text(point)),
         ],
@@ -244,12 +241,13 @@ class NewsDetailBottomSheet extends StatelessWidget {
         _buildSectionTitle(context, t.app.differentPerspectives),
         const SizedBox(height: 8),
         SizedBox(
-          height: 210, // Increased height for perspective cards
+          height: 210,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: cluster.perspectives.length,
-            itemBuilder: (context, index) =>
-                _PerspectiveCard(perspective: cluster.perspectives[index]),
+            itemBuilder:
+                (context, index) =>
+                    _PerspectiveCard(perspective: cluster.perspectives[index]),
           ),
         ),
         const SizedBox(height: 16),
@@ -291,9 +289,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8,
-                          ),
+                          padding: const EdgeInsets.symmetric(horizontal: 8),
                           child: _buildQuoteAttribution(context),
                         ),
                       ),
@@ -333,9 +329,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
 
     return Text(
       '— ${cluster.quoteAuthor}',
-      style: theme.textTheme.bodyMedium?.copyWith(
-        fontWeight: FontWeight.w500,
-      ),
+      style: theme.textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.w500),
     );
   }
 
@@ -391,8 +385,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
                   const SizedBox(height: 12),
                   const Divider(),
                   const SizedBox(height: 8),
-                  ...cluster.businessAnglePoints
-                      .map((point) => _buildBusinessPoint(context, point)),
+                  ...cluster.businessAnglePoints.map(
+                    (point) => _buildBusinessPoint(context, point),
+                  ),
                 ],
               ],
             ),
@@ -430,7 +425,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
           itemCount: cluster.internationalReactions.length,
           itemBuilder: (context, index) {
             return _buildReactionCard(
-                context, cluster.internationalReactions[index]);
+              context,
+              cluster.internationalReactions[index],
+            );
           },
         ),
         const SizedBox(height: 16),
@@ -444,15 +441,10 @@ class NewsDetailBottomSheet extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 8),
       elevation: 0,
       color: theme.colorScheme.tertiaryContainer.withValues(alpha: 0.3),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
       child: Padding(
         padding: const EdgeInsets.all(12),
-        child: Text(
-          reaction,
-          style: theme.textTheme.bodyMedium,
-        ),
+        child: Text(reaction, style: theme.textTheme.bodyMedium),
       ),
     );
   }
@@ -465,8 +457,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
       children: [
         _buildSectionTitle(context, t.app.relatedArticles),
         const SizedBox(height: 12),
-        ...cluster.articles
-            .map((article) => buildArticleCard(context, article)),
+        ...cluster.articles.map(
+          (article) => buildArticleCard(context, article),
+        ),
         const SizedBox(height: 16),
       ],
     );
@@ -485,8 +478,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
         ),
         const SizedBox(width: 8),
         Expanded(
-          child:
-              Divider(color: theme.colorScheme.primary.withValues(alpha: 0.3)),
+          child: Divider(
+            color: theme.colorScheme.primary.withValues(alpha: 0.3),
+          ),
         ),
       ],
     );
@@ -499,9 +493,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 16),
       clipBehavior: Clip.antiAlias,
       elevation: 1,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: InkWell(
         onTap: () async {
           final Uri url = Uri.parse(article.link);
@@ -527,7 +519,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
                     right: 8,
                     child: Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 4),
+                        horizontal: 8,
+                        vertical: 4,
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.black.withValues(alpha: 0.7),
                         borderRadius: BorderRadius.circular(4),
@@ -558,18 +552,22 @@ class NewsDetailBottomSheet extends StatelessWidget {
                   Row(
                     children: [
                       if (article.domain.isNotEmpty) ...[
-                        Icon(Icons.public,
-                            size: 14,
-                            color: theme.colorScheme.onSurface
-                                .withValues(alpha: 0.6)),
+                        Icon(
+                          Icons.public,
+                          size: 14,
+                          color: theme.colorScheme.onSurface.withValues(
+                            alpha: 0.6,
+                          ),
+                        ),
                         const SizedBox(width: 4),
                         Expanded(
                           flex: 3,
                           child: Text(
                             article.domain,
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.7),
+                              color: theme.colorScheme.onSurface.withValues(
+                                alpha: 0.7,
+                              ),
                             ),
                           ),
                         ),
@@ -582,8 +580,9 @@ class NewsDetailBottomSheet extends StatelessWidget {
                             article.date,
                             textAlign: TextAlign.end,
                             style: theme.textTheme.bodySmall?.copyWith(
-                              color: theme.colorScheme.onSurface
-                                  .withValues(alpha: 0.7),
+                              color: theme.colorScheme.onSurface.withValues(
+                                alpha: 0.7,
+                              ),
                             ),
                           ),
                         ),
@@ -639,8 +638,9 @@ class _PerspectiveCard extends StatelessWidget {
                     Expanded(
                       child: TextButton(
                         onPressed: () async {
-                          final Uri url =
-                              Uri.parse(perspective.sources.first.url);
+                          final Uri url = Uri.parse(
+                            perspective.sources.first.url,
+                          );
                           if (await canLaunchUrl(url)) {
                             await launchUrl(url);
                           }
@@ -658,12 +658,13 @@ class _PerspectiveCard extends StatelessWidget {
                           perspective.sources.first.name,
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,
-                          style: perspective.sources.first.url.isNotEmpty
-                              ? TextStyle(
-                                  color: theme.colorScheme.primary,
-                                  decoration: TextDecoration.underline,
-                                )
-                              : null,
+                          style:
+                              perspective.sources.first.url.isNotEmpty
+                                  ? TextStyle(
+                                    color: theme.colorScheme.primary,
+                                    decoration: TextDecoration.underline,
+                                  )
+                                  : null,
                         ),
                       ),
                     ),

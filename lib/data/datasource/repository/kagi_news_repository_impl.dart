@@ -49,7 +49,6 @@ class KagiNewsRepositoryImpl extends KagiNewsRepository {
 
       return Result.success(false);
     } catch (e) {
-      print('Error syncing data: $e');
       return Result.error(e.toString());
     }
   }

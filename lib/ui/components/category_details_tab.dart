@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:kagi_news/data/datasource/network/model/news_category_details_response.dart';
-import 'package:kagi_news/ui/kagi_news_controller.dart';
-import 'package:kagi_news/ui/news_detail_bottom_sheet.dart';
+import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
+import 'package:kagi_news/ui/components/news_detail_bottom_sheet.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CategoryDetailsTab extends StatefulWidget {
@@ -79,9 +79,14 @@ class _CategoryDetailsTabState extends State<CategoryDetailsTab> {
   }
 
   Widget buildClustersList(List<NewsCluster> clusters) {
-    return ListView.builder(
+    return ListView.separated(
       physics: const AlwaysScrollableScrollPhysics(),
       itemCount: clusters.length,
+      separatorBuilder: (context, index) => Divider(
+        height: 1,
+        thickness: 0.5,
+        color: Colors.grey.withOpacity(0.5),
+      ),
       itemBuilder: (context, index) {
         final cluster = clusters[index];
         return ListTile(

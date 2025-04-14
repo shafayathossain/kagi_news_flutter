@@ -6,8 +6,8 @@ import 'package:kagi_news/data/datasource/network/model/news_category_details_re
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:kagi_news/data/datasource/repository/result.dart';
 import 'package:kagi_news/di/injector.dart';
-import 'package:kagi_news/ui/kagi_news_controller.dart';
-import 'package:kagi_news/ui/kagi_news_page.dart';
+import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
+import 'package:kagi_news/ui/screens/kagi_news_page.dart';
 import 'package:mockito/mockito.dart';
 
 import '../../test/mocks/mock_injector.dart';

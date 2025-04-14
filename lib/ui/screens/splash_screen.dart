@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/routes/app_router.dart';
-import 'package:kagi_news/ui/kagi_news_controller.dart';
+import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

@@ -4,7 +4,7 @@ import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/routes/app_router.dart';
 import 'package:kagi_news/services/background_fetch_service.dart';
-import 'package:kagi_news/ui/theme.dart';
+import 'package:kagi_news/ui/common/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

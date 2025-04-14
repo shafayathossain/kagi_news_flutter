@@ -1,7 +1,7 @@
 import 'package:kiwi/kiwi.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:kagi_news/di/injector.dart';
-import 'package:kagi_news/ui/kagi_news_controller.dart';
+import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
 import '../mocks/repository_mocks.mocks.dart';
 
 class MockInjector {
