@@ -8,7 +8,7 @@ part 'category_details_dao.g.dart';
 class CategoryDetailsDao extends DatabaseAccessor<AppDatabase>
     with _$CategoryDetailsDaoMixin {
 
-  CategoryDetailsDao(AppDatabase db) : super(db);
+  CategoryDetailsDao(super.db);
 
   Future<List<CategoryDetail>> getAll() => select(categoryDetailsEntity).get();
 
@@ -22,6 +22,6 @@ class CategoryDetailsDao extends DatabaseAccessor<AppDatabase>
       into(categoryDetailsEntity).insertOnConflictUpdate(detail);
 
   Future<void> deleteAll() {
-    return (delete(categoryDetailsEntity)).go();
+    return delete(categoryDetailsEntity).go();
   }
 }

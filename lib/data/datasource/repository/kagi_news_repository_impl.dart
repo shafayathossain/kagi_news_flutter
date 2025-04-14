@@ -62,6 +62,7 @@ class KagiNewsRepositoryImpl extends KagiNewsRepository {
       if (cachedCategories == null || forceRefresh) {
         final networkCategories = await _apiService.getCategories();
         await _localDataSource.saveCategories(networkCategories);
+
         return Result.success(networkCategories);
       } else {
         return Result.success(cachedCategories);
@@ -71,6 +72,7 @@ class KagiNewsRepositoryImpl extends KagiNewsRepository {
       if (cachedCategories != null) {
         return Result.success(cachedCategories);
       }
+
       return Result.error(e.toString());
     }
   }
@@ -89,6 +91,7 @@ class KagiNewsRepositoryImpl extends KagiNewsRepository {
           networkDetails.category ?? fileName.replaceAll('.json', ''),
           networkDetails,
         );
+
         return Result.success(networkDetails);
       } else {
         return Result.success(cachedDetails);
@@ -98,6 +101,7 @@ class KagiNewsRepositoryImpl extends KagiNewsRepository {
       if (cachedDetails != null) {
         return Result.success(cachedDetails);
       }
+
       return Result.error(e.toString());
     }
   }

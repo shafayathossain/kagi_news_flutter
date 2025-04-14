@@ -6,8 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 class NewsDetailBottomSheet extends StatelessWidget {
   final NewsCluster cluster;
 
-  const NewsDetailBottomSheet({Key? key, required this.cluster})
-    : super(key: key);
+  const NewsDetailBottomSheet({required this.cluster, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -75,7 +74,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
           child: Container(
             width: 40,
             height: 4,
-            margin: EdgeInsets.symmetric(vertical: 24),
+            margin: const EdgeInsets.symmetric(vertical: 24),
             decoration: BoxDecoration(
               color: theme.colorScheme.onSurface.withValues(alpha: 0.3),
               borderRadius: BorderRadius.circular(2),
@@ -90,7 +89,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
               backgroundColor: theme.colorScheme.scrim.withValues(alpha: 0.0),
               elevation: 2,
             ),
-            child: Text(t.app.close, style: TextStyle(fontSize: 14)),
+            child: Text(t.app.close, style: const TextStyle(fontSize: 14)),
           ),
         ),
       ],
@@ -178,6 +177,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     if (cluster.shortSummary.isEmpty) return const SizedBox.shrink();
 
     final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -193,6 +193,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     if (cluster.talkingPoints.isEmpty) return const SizedBox.shrink();
 
     final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -219,6 +220,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
 
   Widget _buildKeyPointItem(BuildContext context, String point) {
     final theme = Theme.of(context);
+
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
       child: Row(
@@ -246,7 +248,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             itemCount: cluster.perspectives.length,
             itemBuilder:
-                (context, index) =>
+                (_, index) =>
                     _PerspectiveCard(perspective: cluster.perspectives[index]),
           ),
         ),
@@ -259,6 +261,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     if (cluster.quote.isEmpty) return const SizedBox.shrink();
 
     final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -285,7 +288,6 @@ class NewsDetailBottomSheet extends StatelessWidget {
                 if (cluster.quoteAuthor.isNotEmpty) ...[
                   const SizedBox(height: 12),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       Expanded(
                         child: Padding(
@@ -337,6 +339,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     if (cluster.historicalBackground.isEmpty) return const SizedBox.shrink();
 
     final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -363,6 +366,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     if (cluster.businessAngleText.isEmpty) return const SizedBox.shrink();
 
     final theme = Theme.of(context);
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -398,7 +402,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
     );
   }
 
-  Widget _buildBusinessPoint(BuildContext context, String point) {
+  Widget _buildBusinessPoint(BuildContext _, String point) {
     return Padding(
       padding: const EdgeInsets.only(bottom: 8),
       child: Row(
@@ -437,6 +441,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
 
   Widget _buildReactionCard(BuildContext context, String reaction) {
     final theme = Theme.of(context);
+
     return Card(
       margin: const EdgeInsets.only(bottom: 8),
       elevation: 0,
@@ -467,6 +472,7 @@ class NewsDetailBottomSheet extends StatelessWidget {
 
   Widget _buildSectionTitle(BuildContext context, String title) {
     final theme = Theme.of(context);
+
     return Row(
       children: [
         Text(
@@ -608,7 +614,7 @@ class _PerspectiveCard extends StatelessWidget {
     final theme = Theme.of(context);
 
     return Container(
-      width: 280, // Fixed width
+      width: 280,
       margin: const EdgeInsets.only(right: 12),
       child: Card(
         elevation: 1,
@@ -616,15 +622,13 @@ class _PerspectiveCard extends StatelessWidget {
           padding: const EdgeInsets.all(12),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min, // Take minimum height needed
+            mainAxisSize: MainAxisSize.min,
             children: [
               Expanded(
                 child: SingleChildScrollView(
-                  // Allow scrolling within the card if needed
                   child: Text(
                     perspective.text,
                     style: theme.textTheme.bodyMedium,
-                    // Remove maxLines constraint
                   ),
                 ),
               ),
@@ -647,7 +651,7 @@ class _PerspectiveCard extends StatelessWidget {
                         },
                         style: TextButton.styleFrom(
                           padding: EdgeInsets.zero,
-                          minimumSize: const Size(0, 0),
+                          minimumSize: Size.zero,
                           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                           alignment: Alignment.centerLeft,
                           backgroundColor: Colors.transparent,

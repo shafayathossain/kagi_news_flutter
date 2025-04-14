@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:kagi_news/data/datasource/network/model/news_category_details_response.dart';
 import 'package:kagi_news/ui/screens/kagi_news_page.dart';
-import 'package:kagi_news/ui/components/news_detail_bottom_sheet.dart';
 import 'package:kagi_news/ui/screens/splash_screen.dart';
 
 class AppRoutes {
@@ -20,17 +18,16 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: AppRoutes.splash,
       name: 'splash',
-      builder: (context, state) => const SplashScreen(),
+      builder: (_, _) => const SplashScreen(),
     ),
     GoRoute(
       path: AppRoutes.home,
       name: 'news',
-      builder: (context, state) => KagiNewsPage(),
+      builder: (_, _) => KagiNewsPage(),
     ),
   ],
-  errorBuilder: (context, state) => Scaffold(
-    body: Center(
-      child: Text('Page not found: ${state.uri.path}'),
-    ),
-  ),
+  errorBuilder:
+      (_, state) => Scaffold(
+        body: Center(child: Text('Page not found: ${state.uri.path}')),
+      ),
 );

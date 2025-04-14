@@ -9,56 +9,45 @@ import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
 class KagiNewsPage extends StatefulWidget {
   late final KagiNewsController _controller;
 
-  KagiNewsPage({
-    super.key,
-    KagiNewsController? controller,
-  }) {
+  KagiNewsPage({super.key, KagiNewsController? controller}) {
     _controller =
         controller ?? Injector.container.resolve<KagiNewsController>();
   }
 
   @override
-  _KagiNewsPageState createState() => _KagiNewsPageState();
+  KagiNewsPageState createState() => KagiNewsPageState();
 }
 
-class _KagiNewsPageState extends State<KagiNewsPage> {
+class KagiNewsPageState extends State<KagiNewsPage> {
   final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
       GlobalKey<RefreshIndicatorState>();
-
-  @override
-  void dispose() {
-    widget._controller.categoriesNotifier.dispose();
-    widget._controller.categoryDetailsNotifiers.forEach((key, notifier) {
-      notifier.dispose();
-    });
-    super.dispose();
-  }
 
   Future<void> _refreshData() async {
     await widget._controller.fetchCategories(forceRefresh: true);
 
     final result = widget._controller.categoriesNotifier.value;
     if (result != null && result.isSuccess) {
-      await Future.wait(result.data!.categories
-          .map((category) => widget._controller.fetchCategoryDetails(
-                category.file,
-                forceRefresh: true,
-              )));
+      await Future.wait(
+        result.data!.categories.map(
+          (category) => widget._controller.fetchCategoryDetails(
+            category.file,
+            forceRefresh: true,
+          ),
+        ),
+      );
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(t.app.title),
-      ),
+      appBar: AppBar(title: Text(t.app.title)),
       body: RefreshIndicator(
         key: _refreshIndicatorKey,
         onRefresh: _refreshData,
         child: ValueListenableBuilder<Result<KagiNewsCategoriesResponse>?>(
           valueListenable: widget._controller.categoriesNotifier,
-          builder: (context, result, _) {
+          builder: (_, result, _) {
             if (result == null) {
               return const Center(child: CircularProgressIndicator());
             }
@@ -84,15 +73,14 @@ class _KagiNewsPageState extends State<KagiNewsPage> {
                   ),
                   Expanded(
                     child: TabBarView(
-                      children: categories.map(
-                        (category) {
-                          return CategoryDetailsTab(
-                            controller: widget._controller,
-                            fileName: category.file,
-                            categoryName: category.name,
-                          );
-                        },
-                      ).toList(),
+                      children:
+                          categories.map((category) {
+                            return CategoryDetailsTab(
+                              controller: widget._controller,
+                              fileName: category.file,
+                              categoryName: category.name,
+                            );
+                          }).toList(),
                     ),
                   ),
                 ],
@@ -102,6 +90,16 @@ class _KagiNewsPageState extends State<KagiNewsPage> {
         ),
       ),
     );
+  }
+
+
+  @override
+  void dispose() {
+    widget._controller.categoriesNotifier.dispose();
+    widget._controller.categoryDetailsNotifiers.forEach((_, notifier) {
+      notifier.dispose();
+    });
+    super.dispose();
   }
 
   Widget _buildErrorWidget(String message) {
@@ -114,11 +112,11 @@ class _KagiNewsPageState extends State<KagiNewsPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.error_outline, size: 48, color: Colors.red),
-                SizedBox(height: 16),
+                const Icon(Icons.error_outline, size: 48, color: Colors.red),
+                const SizedBox(height: 16),
                 Text(message, textAlign: TextAlign.center),
-                SizedBox(height: 24),
-                Text(
+                const SizedBox(height: 24),
+                const Text(
                   'Pull down to refresh',
                   style: TextStyle(color: Colors.grey),
                 ),
@@ -140,11 +138,11 @@ class _KagiNewsPageState extends State<KagiNewsPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.inbox_outlined, size: 48, color: Colors.grey),
-                SizedBox(height: 16),
+                const Icon(Icons.inbox_outlined, size: 48, color: Colors.grey),
+                const SizedBox(height: 16),
                 Text(message, textAlign: TextAlign.center),
-                SizedBox(height: 24),
-                Text(
+                const SizedBox(height: 24),
+                const Text(
                   'Pull down to refresh',
                   style: TextStyle(color: Colors.grey),
                 ),

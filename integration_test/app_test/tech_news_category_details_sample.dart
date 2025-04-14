@@ -1,4 +1,4 @@
-const String techNewsCategoryDetailsSample = """
+const String techNewsCategoryDetailsSample = r"""
 {
   "category": "Technology",
   "timestamp": 1744043244,
@@ -13,9 +13,9 @@ const String techNewsCategoryDetailsSample = """
       "short_summary": "Apple is facing potential significant price increases on its products due to new tariffs imposed by the Trump administration, which range from 20% to 54% across Apple's global manufacturing hubs including China, India, and Vietnam. The company has been rushing inventory into the US before the tariffs take effect, with reports of five planeloads of iPhones and other products flown in during the final week of March to mitigate immediate price hikes.",
       "did_you_know": "Despite years of efforts to diversify production away from China, Apple still assembles approximately 90% of its iPhones in China, making it particularly vulnerable to the new tariffs.",
       "talking_points": [
-        "Price implications: Analysts suggest Apple products could see price hikes of more than 40%, potentially pushing some iPhone models over \$2,000.",
+        "Price implications: Analysts suggest Apple products could see price hikes of more than 40%, potentially pushing some iPhone models over $2,000.",
         "Strategic stockpiling: Apple has been building inventory in US warehouses that could delay the need for immediate price increases until the next product cycle.",
-        "Market reaction: Wedbush has slashed Apple's stock price target by \$75 to \$250, describing the situation as a \\"tariff economic Armageddon.\\"",
+        "Market reaction: Wedbush has slashed Apple's stock price target by $75 to $250, describing the situation as a \"tariff economic Armageddon.\"",
         "Global manufacturing: The tariffs affect not just China but all countries Apple has diversified into, including India (26% tariff) and Vietnam (46% tariff).",
         "Consumer options: Experts suggest buying Apple products now if needed, but caution against going into debt just to beat potential price increases."
       ],
@@ -26,7 +26,7 @@ const String techNewsCategoryDetailsSample = """
       "location": "Cupertino, CA, United States",
       "perspectives": [
         {
-          "text": "Wedbush analysts: Apple is hit worst by tariffs because 90% of iPhones are assembled in China, creating a \\"complete disaster\\" for the company.",
+          "text": "Wedbush analysts: Apple is hit worst by tariffs because 90% of iPhones are assembled in China, creating a \"complete disaster\" for the company.",
           "sources": [
             {
               "name": "AppleInsider",
@@ -71,14 +71,14 @@ const String techNewsCategoryDetailsSample = """
       "timeline": [
         "Late March 2025:: Apple flies five planes of products from India to US to beat tariff implementation",
         "April 2, 2025:: Trump administration announces tariffs ranging from 26% to 54% on key Apple production countries",
-        "April 7, 2025:: Wedbush slashes Apple stock price target by \$75 due to tariff concerns",
+        "April 7, 2025:: Wedbush slashes Apple stock price target by $75 due to tariff concerns",
         "Expected September 2025:: Potential iPhone 17 launch when price increases might take full effect"
       ],
       "future_outlook": "",
       "key_players": [],
       "technical_details": [
         "Tariff structure: Varies by country with China facing up to 54%, India 26%, and Vietnam 46%, affecting different parts of Apple's supply chain",
-        "iPhone cost breakdown: The iPhone 16 Pro costs Apple approximately \$518 to produce before the new tariffs, which will significantly increase manufacturing costs",
+        "iPhone cost breakdown: The iPhone 16 Pro costs Apple approximately $518 to produce before the new tariffs, which will significantly increase manufacturing costs",
         "Inventory stockpiling: Products already in the US before tariffs take effect are exempt, giving Apple a temporary buffer against price increases"
       ],
       "business_angle_text": "Apple's diversification strategy, while prudent long-term, has ironically left it more exposed as tariffs hit virtually all its manufacturing locations. The real question for investors is whether Apple can maintain its premium pricing power amid these cost increases. The company's 45% hardware profit margin gives it some room to absorb costs, but any significant margin compression could hurt long-term value. The stockpiling strategy buys time, but doesn't solve the fundamental challenge that will eventually hit the balance sheet. Long-term investors should watch how Apple balances pricing, margins, and market share in response to these pressures.",
@@ -123,7 +123,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": "A hand holding three smartphones with triple camera systems, colored in gold, gray, and silver, against a gray textured background."
         },
         {
-          "title": "Is the iPhone Really Going to Cost More Than \$2,000 After Tariffs?",
+          "title": "Is the iPhone Really Going to Cost More Than $2,000 After Tariffs?",
           "link": "https://www.cnet.com/personal-finance/banking/should-you-buy-a-new-iphone-this-weekend-before-tariffs-send-prices-soaring/#ftag=CAD590a51e",
           "domain": "cnet.com",
           "date": "2025-04-07T15:00:00+00:00",
@@ -131,7 +131,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": ""
         },
         {
-          "title": "Devastating tariffs force Wedbush to slash Apple stock target by \$75 to \$250",
+          "title": "Devastating tariffs force Wedbush to slash Apple stock target by $75 to $250",
           "link": "https://appleinsider.com/articles/25/04/07/devastating-tariffs-force-wedbush-to-slash-apple-stock-target-by-75-to-250",
           "domain": "appleinsider.com",
           "date": "2025-04-07T12:16:07+00:00",
@@ -203,7 +203,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": ""
         },
         {
-          "title": "Apple's US\$500 billion investment pledge fails to secure tariff exemptions",
+          "title": "Apple's US$500 billion investment pledge fails to secure tariff exemptions",
           "link": "https://www.digitimes.com/news/a20250407PD225/apple-investment-ceo-manufacturing-supply-chain.html",
           "domain": "digitimes.com",
           "date": "2025-04-07T08:03:06+00:00",
@@ -292,16 +292,16 @@ const String techNewsCategoryDetailsSample = """
       "number_of_titles": 13,
       "category": "Gaming",
       "title": "Nintendo assessing tariff impact on Switch 2 launch",
-      "short_summary": "Nintendo is \\"actively assessing\\" how potential U.S. tariffs might affect the upcoming Switch 2 console launch planned for June 5. Nintendo of America president Doug Bowser confirmed that these tariffs weren't factored into the original \$399 pricing strategy, leading to a delay in U.S. pre-orders while the company evaluates its options. The uncertainty has already caused Nintendo's shares to drop by 10% as the gaming giant navigates this unexpected challenge.",
-      "did_you_know": "The Nintendo Switch 2 is priced at \$399, making it Nintendo's most expensive console at launch in recent history.",
+      "short_summary": "Nintendo is \"actively assessing\" how potential U.S. tariffs might affect the upcoming Switch 2 console launch planned for June 5. Nintendo of America president Doug Bowser confirmed that these tariffs weren't factored into the original $399 pricing strategy, leading to a delay in U.S. pre-orders while the company evaluates its options. The uncertainty has already caused Nintendo's shares to drop by 10% as the gaming giant navigates this unexpected challenge.",
+      "did_you_know": "The Nintendo Switch 2 is priced at $399, making it Nintendo's most expensive console at launch in recent history.",
       "talking_points": [
         "Pre-order delay: Nintendo has specifically postponed U.S. pre-orders while international markets remain unaffected by the tariff concerns.",
         "Market reaction: Nintendo's share price dropped 10% following news of the potential tariff impact and pre-order delay.",
-        "Pricing strategy: The potential tariffs weren't considered when Nintendo set the \$399 price point for the Switch 2.",
+        "Pricing strategy: The potential tariffs weren't considered when Nintendo set the $399 price point for the Switch 2.",
         "Release timeline: Despite the pre-order complications, the Switch 2 is still scheduled for a June 5, 2025 release date.",
-        "Tutorial controversy: A separate discussion involves Nintendo charging \$10 for the Switch 2 tutorial game rather than including it as a free pack-in."
+        "Tutorial controversy: A separate discussion involves Nintendo charging $10 for the Switch 2 tutorial game rather than including it as a free pack-in."
       ],
-      "quote": "\\"We're actively assessing that right now. The announcement was made after we'd announced our plans for Nintendo Switch, so it wasn't factored into our decision making.\\"",
+      "quote": "\"We're actively assessing that right now. The announcement was made after we'd announced our plans for Nintendo Switch, so it wasn't factored into our decision making.\"",
       "quote_author": "Doug Bowser, Nintendo of America President",
       "quote_source_url": "https://www.wired.com/story/nintendo-is-actively-assessing-what-trade-war-means-for-switch-2/",
       "quote_source_domain": "wired.com",
@@ -351,7 +351,7 @@ const String techNewsCategoryDetailsSample = """
       "humanitarian_impact": "",
       "economic_implications": "",
       "timeline": [
-        "March 26, 2025:: Nintendo officially unveils the Switch 2 with a \$399 price point",
+        "March 26, 2025:: Nintendo officially unveils the Switch 2 with a $399 price point",
         "April 7, 2025:: Nintendo announces delay of U.S. pre-orders due to tariff concerns",
         "June 5, 2025:: Planned global release date for Nintendo Switch 2"
       ],
@@ -360,7 +360,7 @@ const String techNewsCategoryDetailsSample = """
       "technical_details": [
         "Tariff implications: The proposed tariffs would add a significant percentage to manufacturing costs, potentially requiring Nintendo to either raise prices or accept lower profit margins.",
         "Global supply chain: Nintendo primarily manufactures its consoles in China, making U.S. sales particularly vulnerable to the proposed tariff structure.",
-        "Pricing strategy: The \$399 price point represents a careful balance between covering costs, maintaining profitability, and keeping the console affordable for Nintendo's target family market."
+        "Pricing strategy: The $399 price point represents a careful balance between covering costs, maintaining profitability, and keeping the console affordable for Nintendo's target family market."
       ],
       "business_angle_text": "",
       "business_angle_points": [
@@ -380,11 +380,11 @@ const String techNewsCategoryDetailsSample = """
       "user_experience_impact": [
         "Availability concerns: U.S. customers may face delayed availability or higher prices compared to other regions where tariffs don't apply.",
         "Pre-order uncertainty: The indefinite delay of pre-orders creates frustration for eager fans who planned to secure their console early.",
-        "Value perception: If prices increase beyond the announced \$399, it may shift consumer perception of whether the Switch 2 delivers sufficient value compared to competitors."
+        "Value perception: If prices increase beyond the announced $399, it may shift consumer perception of whether the Switch 2 delivers sufficient value compared to competitors."
       ],
       "gameplay_mechanics": [],
       "industry_impact": [
-        "Console pricing precedent: If Nintendo raises the Switch 2's price above \$399 due to tariffs, it could establish a new pricing ceiling for \\"family-friendly\\" consoles that competitors might follow.",
+        "Console pricing precedent: If Nintendo raises the Switch 2's price above $399 due to tariffs, it could establish a new pricing ceiling for \"family-friendly\" consoles that competitors might follow.",
         "Supply chain reconsideration: Gaming hardware companies may accelerate plans to diversify manufacturing locations to mitigate tariff risks in key markets.",
         "Market timing challenges: The tariff situation creates uncertainty around a critical launch window, potentially affecting game developers who time their releases to coincide with new console availability."
       ],
@@ -423,7 +423,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": ""
         },
         {
-          "title": "Nintendo of America President Doug Bowser says the company is \\"actively assessing\\" the impact of US tariffs, which \\"weren't factored into\\" its Switch 2 pricing (Megan Farokhmanesh/Wired)",
+          "title": "Nintendo of America President Doug Bowser says the company is \"actively assessing\" the impact of US tariffs, which \"weren't factored into\" its Switch 2 pricing (Megan Farokhmanesh/Wired)",
           "link": "http://www.techmeme.com/250407/p15#a250407p15",
           "domain": "techmeme.com",
           "date": "2025-04-07T13:40:01+00:00",
@@ -505,12 +505,12 @@ const String techNewsCategoryDetailsSample = """
       "category": "Tariffs",
       "title": "Trump signals trade talks amid tariff escalation",
       "short_summary": "President Trump has threatened to impose additional 50% tariffs on China effective April 9, pushing the total to 104%, unless China withdraws its 34% retaliatory tariffs by April 8. Despite the escalating trade tensions that have caused significant market turbulence, Trump has opened a window for negotiations with other countries, signaling a potential diplomatic path forward alongside his aggressive tariff strategy.",
-      "did_you_know": "According to the Yale Budget Lab's analysis, Trump's tariffs could reduce the average American household's income by nearly \$3,800 this year.",
+      "did_you_know": "According to the Yale Budget Lab's analysis, Trump's tariffs could reduce the average American household's income by nearly $3,800 this year.",
       "talking_points": [
-        "Market reaction: Global stock markets have tumbled dramatically, with approximately \$6 trillion in market value wiped out in just two days of trading last week.",
+        "Market reaction: Global stock markets have tumbled dramatically, with approximately $6 trillion in market value wiped out in just two days of trading last week.",
         "Supply chain disruption: Some companies are pausing ocean freight bookings from Asia due to tariff uncertainty, potentially creating supply chain chaos and product shortages.",
         "Congressional response: Senators from both parties have introduced legislation that would permit Congress to overrule tariff increases imposed by the president.",
-        "International concerns: Mexico's President Claudia Sheinbaum indicated she \\"does not rule out\\" reciprocal tariffs on US goods, preferring dialogue but keeping options open."
+        "International concerns: Mexico's President Claudia Sheinbaum indicated she \"does not rule out\" reciprocal tariffs on US goods, preferring dialogue but keeping options open."
       ],
       "quote": "We are in the process of destroying confidence in our country as a trading partner, as a place to do business, and as a market to invest capital.",
       "quote_author": "Bill Ackman",
@@ -519,7 +519,7 @@ const String techNewsCategoryDetailsSample = """
       "location": "",
       "perspectives": [
         {
-          "text": "White House position: The administration frames the tariffs as necessary leverage against China, calling it \\"the biggest abuser of them all\\" on tariffs and demanding China withdraw its retaliatory measures.",
+          "text": "White House position: The administration frames the tariffs as necessary leverage against China, calling it \"the biggest abuser of them all\" on tariffs and demanding China withdraw its retaliatory measures.",
           "sources": [
             {
               "name": "Insider Paper",
@@ -528,7 +528,7 @@ const String techNewsCategoryDetailsSample = """
           ]
         },
         {
-          "text": "Economic critics: Billionaire hedge fund manager Bill Ackman, despite being a Trump supporter, has characterized the tariffs as \\"economic nuclear war\\" that could halt business investment and damage America's global reputation.",
+          "text": "Economic critics: Billionaire hedge fund manager Bill Ackman, despite being a Trump supporter, has characterized the tariffs as \"economic nuclear war\" that could halt business investment and damage America's global reputation.",
           "sources": [
             {
               "name": "Fast Company",
@@ -559,7 +559,7 @@ const String techNewsCategoryDetailsSample = """
       "geopolitical_context": "",
       "historical_background": "The current tariff escalation represents a return to Trump's aggressive trade policy approach from his first term, when he engaged in a trade war with China that resulted in retaliatory measures from Beijing. The pattern of imposing tariffs and then offering negotiations mirrors his previous strategy of creating leverage through economic pressure before pursuing diplomatic solutions.",
       "international_reactions": [
-        "🇲🇽 Mexico: President Claudia Sheinbaum stated she \\"does not rule out\\" reciprocal tariffs on US goods but prefers continued dialogue.",
+        "🇲🇽 Mexico: President Claudia Sheinbaum stated she \"does not rule out\" reciprocal tariffs on US goods but prefers continued dialogue.",
         "🇨🇳 China: Has already imposed 34% retaliatory tariffs on US goods and shows no signs of backing down before the April 8 deadline.",
         "🇪🇺 European Union: According to reports, the EU is considering targeting US online services in response to Trump's tariffs."
       ],
@@ -614,7 +614,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": "Trump threatens economic force against Canada"
         },
         {
-          "title": "Trump stops golfing to ridicule reporter asking about tariffs: \\"Your question is so stupid\\" (video)",
+          "title": "Trump stops golfing to ridicule reporter asking about tariffs: \"Your question is so stupid\" (video)",
           "link": "https://boingboing.net/2025/04/07/trump-stops-golfing-to-ridicule-reporter-asking-about-tariffs-your-question-is-so-stupid-video.html",
           "domain": "boingboing.net",
           "date": "2025-04-07T14:04:38+00:00",
@@ -702,7 +702,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": ""
         },
         {
-          "title": "\\"Oil Prices Are Down, There Is No Inflation\\": Trump Doubles Down On Tariffs",
+          "title": "\"Oil Prices Are Down, There Is No Inflation\": Trump Doubles Down On Tariffs",
           "link": "https://www.ndtv.com/world-news/oil-prices-are-down-there-is-no-inflation-trump-doubles-down-on-tariffs-8108355",
           "domain": "ndtv.com",
           "date": "2025-04-07T13:51:00+00:00",
@@ -982,12 +982,12 @@ const String techNewsCategoryDetailsSample = """
       "number_of_titles": 12,
       "category": "Privacy",
       "title": "Court rules Apple-UK encryption battle must be public",
-      "short_summary": "A UK tribunal has rejected the government's attempt to keep its legal battle with Apple over encryption backdoors secret. The Investigatory Powers Tribunal ruled that the Home Office's request for secrecy would be \\"a fundamental interference with the principle of open justice,\\" confirming Apple is appealing against a UK order to create a backdoor to its encrypted cloud storage systems.",
+      "short_summary": "A UK tribunal has rejected the government's attempt to keep its legal battle with Apple over encryption backdoors secret. The Investigatory Powers Tribunal ruled that the Home Office's request for secrecy would be \"a fundamental interference with the principle of open justice,\" confirming Apple is appealing against a UK order to create a backdoor to its encrypted cloud storage systems.",
       "did_you_know": "Apple responded to the UK's backdoor demands earlier this year by removing its Advanced Data Protection feature from the UK rather than compromising its security standards.",
       "talking_points": [
-        "Open justice: The tribunal judges stated it would be \\"truly extraordinary\\" to conduct a hearing entirely in secret without public knowledge.",
+        "Open justice: The tribunal judges stated it would be \"truly extraordinary\" to conduct a hearing entirely in secret without public knowledge.",
         "National security claims: The UK government argued that publicizing details of the case could damage national security, but the tribunal rejected this assertion.",
-        "User privacy: The case centers on the UK's demand for Apple to create a \\"backdoor\\" to access encrypted user data stored in iCloud worldwide.",
+        "User privacy: The case centers on the UK's demand for Apple to create a \"backdoor\" to access encrypted user data stored in iCloud worldwide.",
         "Potential consequences: If Apple refuses to comply with backdoor requests, more iCloud features beyond Advanced Data Protection might be removed from the UK."
       ],
       "quote": "It would have been a truly extraordinary step to conduct a hearing entirely in secret without any public revelation of the fact that a hearing was taking place",
@@ -1108,7 +1108,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": ""
         },
         {
-          "title": "Filing: the UK Investigatory Powers Tribunal confirms Apple is appealing against a UK order to create an encryption \\"back door\\", and says the case can be public (Sam Tobin/Reuters)",
+          "title": "Filing: the UK Investigatory Powers Tribunal confirms Apple is appealing against a UK order to create an encryption \"back door\", and says the case can be public (Sam Tobin/Reuters)",
           "link": "http://www.techmeme.com/250407/p9#a250407p9",
           "domain": "techmeme.com",
           "date": "2025-04-07T11:10:03+00:00",
@@ -1455,7 +1455,7 @@ const String techNewsCategoryDetailsSample = """
       "talking_points": [
         "Expanded access: Google is rolling out AI Mode to millions more Labs users across the US beyond the initial Google One AI Premium subscribers.",
         "Multimodal capabilities: The new feature combines Google Lens image recognition with Gemini AI to analyze and answer complex questions about visual content.",
-        "Technical approach: Google uses a \\"query fan-out technique\\" where AI Mode issues multiple queries about the whole image and individual objects to access more comprehensive information.",
+        "Technical approach: Google uses a \"query fan-out technique\" where AI Mode issues multiple queries about the whole image and individual objects to access more comprehensive information.",
         "User experience: Users can now upload photos or take pictures with their camera directly in AI Mode to ask questions about what they see.",
         "Quality improvements: Google claims that Gemini 2.0-powered AI search now produces higher-quality responses compared to earlier versions."
       ],
@@ -1616,14 +1616,14 @@ const String techNewsCategoryDetailsSample = """
       "number_of_titles": 8,
       "category": "Entertainment",
       "title": "Minecraft Movie breaks video game adaptation box office records",
-      "short_summary": "A Minecraft Movie has set a new record for the biggest opening weekend for a video game adaptation, earning \$157 million domestically and \$301 million globally. The film, starring Jack Black, Jason Momoa, and others, surpassed the previous record held by The Super Mario Bros. Movie, which earned \$146 million in its U.S. opening. Despite an early unfinished version leaking online, the movie has become a major commercial success.",
+      "short_summary": "A Minecraft Movie has set a new record for the biggest opening weekend for a video game adaptation, earning $157 million domestically and $301 million globally. The film, starring Jack Black, Jason Momoa, and others, surpassed the previous record held by The Super Mario Bros. Movie, which earned $146 million in its U.S. opening. Despite an early unfinished version leaking online, the movie has become a major commercial success.",
       "did_you_know": "The Minecraft video game, on which the movie is based, is already the best-selling video game of all time.",
       "talking_points": [
         "Star-studded cast: The film features popular actors including Jack Black, Jason Momoa, Emma Myers, and Jennifer Coolidge.",
-        "Production investment: Warner Bros. and Legendary Pictures invested \$150 million in the production, which has already been recouped in the opening weekend.",
+        "Production investment: Warner Bros. and Legendary Pictures invested $150 million in the production, which has already been recouped in the opening weekend.",
         "Critical reception: Despite initial low expectations based on trailers, reviewers found it to be a quality kids' movie with a positive message about creativity.",
         "Security concern: An unfinished version of the film with incomplete visual effects leaked online prior to release, though it was quickly removed from most platforms.",
-        "Box office revival: The film's success is being credited with \\"bringing the box office back alive\\" after a slower period for theatrical releases."
+        "Box office revival: The film's success is being credited with \"bringing the box office back alive\" after a slower period for theatrical releases."
       ],
       "quote": "It delivers a decent message about championing creativity in a world that wants to beat down free-thinking non-conformists.",
       "quote_author": "Devindra Hardawar, Engadget reviewer",
@@ -1632,7 +1632,7 @@ const String techNewsCategoryDetailsSample = """
       "location": "",
       "perspectives": [
         {
-          "text": "Warner Bros. executive: The movie's success represents \\"lightning in a bottle\\" and reflects their mandate to celebrate the world of Minecraft in a joyful way while showcasing the unique theatrical experience.",
+          "text": "Warner Bros. executive: The movie's success represents \"lightning in a bottle\" and reflects their mandate to celebrate the world of Minecraft in a joyful way while showcasing the unique theatrical experience.",
           "sources": [
             {
               "name": "Slashdot",
@@ -1650,7 +1650,7 @@ const String techNewsCategoryDetailsSample = """
           ]
         },
         {
-          "text": "Industry analysts: The film exceeded box office expectations, which were initially around \$75 million domestically, suggesting strong audience interest in gaming adaptations.",
+          "text": "Industry analysts: The film exceeded box office expectations, which were initially around $75 million domestically, suggesting strong audience interest in gaming adaptations.",
           "sources": [
             {
               "name": "TechSpot",
@@ -1671,7 +1671,7 @@ const String techNewsCategoryDetailsSample = """
       "technical_details": "",
       "business_angle_text": "",
       "business_angle_points": [
-        "The Minecraft film's instant profitability (earning \$301M globally on a \$150M budget in just the opening weekend) demonstrates the untapped potential in high-quality video game adaptations when executed well.",
+        "The Minecraft film's instant profitability (earning $301M globally on a $150M budget in just the opening weekend) demonstrates the untapped potential in high-quality video game adaptations when executed well.",
         "Warner Bros' success here represents a significant pivot in their content strategy, potentially leading to more emphasis on family-friendly gaming IPs with global recognition rather than riskier original properties.",
         "The continued box office dominance of adaptations from established gaming franchises suggests a reliable formula for studios seeking predictable returns in an increasingly unpredictable theatrical landscape."
       ],
@@ -1697,7 +1697,7 @@ const String techNewsCategoryDetailsSample = """
       "technical_specifications": "",
       "articles": [
         {
-          "title": "A Minecraft Movie hits \$301M global opening for first two days (updated)",
+          "title": "A Minecraft Movie hits $301M global opening for first two days (updated)",
           "link": "https://venturebeat.com/games/a-minecraft-movie-hits-110m-global-opening-weekend-and-headed-higher/",
           "domain": "venturebeat.com",
           "date": "2025-04-06T14:30:00+00:00",
@@ -1705,7 +1705,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": "Updates are coming for A Minecraft Movie."
         },
         {
-          "title": "A Minecraft Movie hits \$157m seam at U.S. Box Office",
+          "title": "A Minecraft Movie hits $157m seam at U.S. Box Office",
           "link": "https://boingboing.net/2025/04/07/a-minecraft-movie-hits-157m-seam-at-u-s-box-office.html",
           "domain": "boingboing.net",
           "date": "2025-04-07T14:24:37+00:00",
@@ -1753,7 +1753,7 @@ const String techNewsCategoryDetailsSample = """
           "image_caption": ""
         },
         {
-          "title": "‘A Minecraft Movie’ at \$157M a record opening for videogame pic, toppling ‘Super Mario Bros’; Warner Bros brings the box office back alive",
+          "title": "‘A Minecraft Movie’ at $157M a record opening for videogame pic, toppling ‘Super Mario Bros’; Warner Bros brings the box office back alive",
           "link": "https://deadline.com/2025/04/box-office-a-minecraft-movie-1236359247/",
           "domain": "deadline.com",
           "date": "2025-04-06T20:03:14+00:00",
@@ -1802,14 +1802,14 @@ const String techNewsCategoryDetailsSample = """
       "number_of_titles": 8,
       "category": "AI",
       "title": "Meta unveils powerful new Llama 4 AI models",
-      "short_summary": "Meta has launched its new Llama 4 family of AI models, introducing Scout and Maverick with a third model called Behemoth on the way. These advanced multimodal models use \\"mixture of experts\\" technology for greater efficiency, with Meta claiming they outperform competitors like GPT-4o and Google's Gemini on various benchmarks while being positioned as open-source solutions to make AI more accessible.",
-      "did_you_know": "Llama 4 Scout features an impressive 10-million-token context window, giving it an extensive \\"memory\\" capacity that Meta describes as \\"nearly infinite.\\"",
+      "short_summary": "Meta has launched its new Llama 4 family of AI models, introducing Scout and Maverick with a third model called Behemoth on the way. These advanced multimodal models use \"mixture of experts\" technology for greater efficiency, with Meta claiming they outperform competitors like GPT-4o and Google's Gemini on various benchmarks while being positioned as open-source solutions to make AI more accessible.",
+      "did_you_know": "Llama 4 Scout features an impressive 10-million-token context window, giving it an extensive \"memory\" capacity that Meta describes as \"nearly infinite.\"",
       "talking_points": [
         "Model specifications: Llama 4 Scout has 17 billion parameters with 16 experts, while Maverick uses 128 experts with the same parameter count.",
-        "Technical innovation: The \\"mixture of experts\\" approach activates only necessary parts of the model for each task, significantly improving efficiency.",
+        "Technical innovation: The \"mixture of experts\" approach activates only necessary parts of the model for each task, significantly improving efficiency.",
         "Upcoming powerhouse: Llama 4 Behemoth will feature over 2 trillion parameters with 288 billion active parameters, potentially becoming the largest AI model available.",
-        "Open source debate: Despite Meta's \\"open source\\" claims, companies with over 700 million users need Meta's permission for commercial use, raising questions about true open-source status.",
-        "Future roadmap: A fourth model called Llama 4 Reasoning is in development, with more details expected at \\"LlamaCon\\" on April 29."
+        "Open source debate: Despite Meta's \"open source\" claims, companies with over 700 million users need Meta's permission for commercial use, raising questions about true open-source status.",
+        "Future roadmap: A fourth model called Llama 4 Reasoning is in development, with more details expected at \"LlamaCon\" on April 29."
       ],
       "quote": "I've said for a while that I think open source AI is going to become the leading models. And with Llama 4 this is starting to happen.",
       "quote_author": "Mark Zuckerberg",
@@ -1818,7 +1818,7 @@ const String techNewsCategoryDetailsSample = """
       "location": "",
       "perspectives": [
         {
-          "text": "Meta's position: Llama 4 represents \\"a milestone for Meta AI and for open source\\" with models that outperform competitors while being more accessible.",
+          "text": "Meta's position: Llama 4 represents \"a milestone for Meta AI and for open source\" with models that outperform competitors while being more accessible.",
           "sources": [
             {
               "name": "SlashDot",
@@ -1857,7 +1857,7 @@ const String techNewsCategoryDetailsSample = """
       "technical_details": [
         "Mixture of experts (MoE): A system that activates only relevant parts of the model for specific tasks, dramatically improving computational efficiency and performance.",
         "Multimodal capabilities: Allows the models to understand and process multiple types of inputs like text, images, and potentially audio in a unified system.",
-        "Context window: The 10-million-token window in Scout enables the model to \\"remember\\" and process vastly more information in a single conversation than previous models."
+        "Context window: The 10-million-token window in Scout enables the model to \"remember\" and process vastly more information in a single conversation than previous models."
       ],
       "business_angle_text": "",
       "business_angle_points": [
@@ -1992,7 +1992,7 @@ const String techNewsCategoryDetailsSample = """
       "short_summary": "Google has officially rolled out camera and screen sharing capabilities to Gemini Live, enabling users to have visual conversations with the AI assistant. Starting April 7, 2025, these features are available to all Pixel 9 series and Samsung Galaxy S25 series users for free, while other Android users can access them through a Google One AI Premium subscription. The update allows users to show Gemini what they're looking at through their camera or on their screen for real-time visual assistance.",
       "did_you_know": "These new Gemini Live capabilities were first previewed by Google during Mobile World Congress in March 2025, making today's rollout the fulfillment of that announcement.",
       "talking_points": [
-        "Free accessibility: Pixel 9 series (including Pixel 9a) and Galaxy S25 series users can access these features at no additional cost, while other Android users need a \$20/month Google One AI Premium plan.",
+        "Free accessibility: Pixel 9 series (including Pixel 9a) and Galaxy S25 series users can access these features at no additional cost, while other Android users need a $20/month Google One AI Premium plan.",
         "Visual assistance: Users can now have their AI assistant analyze and respond to what it sees through the camera or on the screen, bringing multi-modal capabilities to conversational AI.",
         "Practical applications: The technology enables personalized fashion advice, real-time troubleshooting, and brainstorming assistance based on visual input.",
         "Activation method: Galaxy S25 users can simply press and hold the side button to show Gemini Live what their camera sees while maintaining a live conversation."
@@ -2013,7 +2013,7 @@ const String techNewsCategoryDetailsSample = """
           ]
         },
         {
-          "text": "Samsung's: This feature represents a \\"bold step toward the future of mobile AI\\" that delivers more natural interactions aligned with how people communicate.",
+          "text": "Samsung's: This feature represents a \"bold step toward the future of mobile AI\" that delivers more natural interactions aligned with how people communicate.",
           "sources": [
             {
               "name": "Android Headlines",
@@ -2182,13 +2182,13 @@ const String techNewsCategoryDetailsSample = """
       "short_summary": "The European Union is considering targeting US tech giants as part of its response to new sweeping tariffs imposed by the United States. French officials have suggested potentially strengthening regulations on data use by American technology companies or implementing new taxes on digital services. Meanwhile, US tech stocks have fallen for a third consecutive session as major companies like Apple, Microsoft, and Nvidia face significant challenges from the tariffs.",
       "did_you_know": "Morgan Stanley estimates that for companies like Dell and HP, losses from Trump's tariffs could approach nearly the entirety of their expected net income in 2025.",
       "talking_points": [
-        "Market impact: US tech stocks have plunged significantly, with Apple losing over \$311 billion in market value in its worst single-day performance in five years.",
+        "Market impact: US tech stocks have plunged significantly, with Apple losing over $311 billion in market value in its worst single-day performance in five years.",
         "EU strategy: The European Union is considering targeting digital services that are currently undertaxed, potentially leveraging its €109 billion trade deficit in services.",
         "Corporate response: Tech executives were reportedly caught by surprise by the magnitude of the tariffs and may attempt to lobby the current administration for changes.",
         "Manufacturing concerns: With 90% of iPhones made in China, the tariffs could significantly disrupt global supply chains that underpin modern technology production.",
-        "International trade: The EU will vote on \$28 billion in retaliatory tariffs on Wednesday, which would enter force in two stages starting April 15."
+        "International trade: The EU will vote on $28 billion in retaliatory tariffs on Wednesday, which would enter force in two stages starting April 15."
       ],
-      "quote": "\\"We may strengthen certain administrative requirements or regulate the use of data,\\" Lombard said in an interview with Le Journal Du Dimanche. He added that another option could be to \\"tax certain activities.\\"",
+      "quote": "\"We may strengthen certain administrative requirements or regulate the use of data,\" Lombard said in an interview with Le Journal Du Dimanche. He added that another option could be to \"tax certain activities.\"",
       "quote_author": "France's Economy and Finance Minister",
       "quote_source_url": "https://www.reddit.com/r/technology/comments/1jt0oe4/eu_answer_to_trump_may_involve_data_use_by_big/",
       "quote_source_domain": "reddit.com",
@@ -2222,7 +2222,7 @@ const String techNewsCategoryDetailsSample = """
           ]
         },
         {
-          "text": "Wedbush analyst: Warns that tariffs could be a \\"gut punch\\" to Apple's supply chain and margins, with US production being costly and time-consuming to implement.",
+          "text": "Wedbush analyst: Warns that tariffs could be a \"gut punch\" to Apple's supply chain and margins, with US production being costly and time-consuming to implement.",
           "sources": [
             {
               "name": "Fudzilla",
@@ -2237,13 +2237,13 @@ const String techNewsCategoryDetailsSample = """
       "international_reactions": [
         "🇫🇷 France: Suggesting strengthened administrative requirements or regulation of data use by US tech companies",
         "🇮🇪 Ireland: Opposing targeted measures against tech companies that could affect their economy",
-        "🇪🇺 European Union: Planning to vote on \$28 billion in retaliatory tariffs on April 10"
+        "🇪🇺 European Union: Planning to vote on $28 billion in retaliatory tariffs on April 10"
       ],
       "humanitarian_impact": "",
       "economic_implications": "",
       "timeline": [
         "Recently:: US implements sweeping new tariff plan with 10% baseline on all imports",
-        "April 10, 2025:: EU scheduled to vote on \$28 billion in retaliatory tariffs",
+        "April 10, 2025:: EU scheduled to vote on $28 billion in retaliatory tariffs",
         "April 15, 2025:: First stage of potential EU tariffs would take effect",
         "May 15, 2025:: Second stage of EU tariffs would be implemented"
       ],

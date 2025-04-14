@@ -12,20 +12,21 @@ class KagiNewsLocalDataSource {
 
   final CategoryDetailsDao _categoryDetailsDao;
 
-  KagiNewsLocalDataSource({
-    required CategoryDetailsDao categoryDetailsDao,
-  }) : _categoryDetailsDao = categoryDetailsDao;
+  KagiNewsLocalDataSource({required CategoryDetailsDao categoryDetailsDao})
+    : _categoryDetailsDao = categoryDetailsDao;
 
   factory KagiNewsLocalDataSource.withDefaultDb() {
     final database = AppDatabase();
+
     return KagiNewsLocalDataSource(
       categoryDetailsDao: database.categoryDetailsDao,
     );
   }
 
   Future<int?> getLastSavedTimestamp() {
-    return SharedPreferences.getInstance()
-        .then((prefs) => prefs.getInt(_timestampKey));
+    return SharedPreferences.getInstance().then(
+      (prefs) => prefs.getInt(_timestampKey),
+    );
   }
 
   Future<void> saveTimestamp(int timestamp) {
@@ -38,26 +39,25 @@ class KagiNewsLocalDataSource {
     return SharedPreferences.getInstance().then((prefs) async {
       final jsonString = prefs.getString(_categoriesKey);
       if (jsonString == null) return null;
-      return KagiNewsCategoriesResponse.fromJson(jsonDecode(jsonString));
+
+      return KagiNewsCategoriesResponse.fromJson(
+        jsonDecode(jsonString) as Map<String, dynamic>,
+      );
     });
   }
 
   Future<void> saveCategories(KagiNewsCategoriesResponse categories) {
     return SharedPreferences.getInstance().then((prefs) async {
-      await prefs.setString(
-        _categoriesKey,
-        jsonEncode(categories.toJson()),
-      );
+      await prefs.setString(_categoriesKey, jsonEncode(categories.toJson()));
     });
   }
 
-  Future<NewsCategoryDetailsResponse?> getCategoryDetails(
-    String fileName,
-  ) {
+  Future<NewsCategoryDetailsResponse?> getCategoryDetails(String fileName) {
     return _categoryDetailsDao.getByFileName(fileName).then((categoryDetail) {
       if (categoryDetail == null) return null;
+
       return NewsCategoryDetailsResponse.fromJson(
-        jsonDecode(categoryDetail.jsonData),
+        jsonDecode(categoryDetail.jsonData) as Map<String, dynamic>,
       );
     });
   }
@@ -81,9 +81,7 @@ class KagiNewsLocalDataSource {
     return _categoryDetailsDao.getAll().then((categoryDetails) {
       return categoryDetails.map((categoryDetail) {
         return NewsCategoryDetailsResponse.fromJson(
-          jsonDecode(
-            categoryDetail.jsonData,
-          ),
+          jsonDecode(categoryDetail.jsonData) as Map<String, dynamic>,
         );
       }).toList();
     });
@@ -92,12 +90,13 @@ class KagiNewsLocalDataSource {
   Future<NewsCategoryDetailsResponse?> getCategoryDetailsByName(
     String categoryName,
   ) {
-    return _categoryDetailsDao
-        .getByFileName(categoryName)
-        .then((categoryDetail) {
+    return _categoryDetailsDao.getByFileName(categoryName).then((
+      categoryDetail,
+    ) {
       if (categoryDetail == null) return null;
+
       return NewsCategoryDetailsResponse.fromJson(
-        jsonDecode(categoryDetail.jsonData),
+        jsonDecode(categoryDetail.jsonData) as Map<String, dynamic>,
       );
     });
   }

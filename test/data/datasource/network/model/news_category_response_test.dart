@@ -5,10 +5,7 @@ import 'package:kagi_news/data/datasource/network/model/news_categories_response
 void main() {
   group('NewsCategory', () {
     test('toJson converts NewsCategory to correct map', () {
-      final category = NewsCategory(
-        name: 'Technology',
-        file: 'tech.json',
-      );
+      final category = NewsCategory(name: 'Technology', file: 'tech.json');
 
       final json = category.toJson();
 
@@ -55,7 +52,7 @@ void main() {
         'categories': [
           {'name': 'Sports', 'file': 'sports.json'},
           {'name': 'Health', 'file': 'health.json'},
-        ]
+        ],
       };
 
       final response = KagiNewsCategoriesResponse.fromJson(originalJson);
@@ -90,7 +87,8 @@ void main() {
 
       expect(
         jsonString,
-        '{"timestamp":1644048227,"categories":[{"name":"Tech","file":"tech.json"}]}',
+        '{"timestamp":1644048227,"categories":'
+        '[{"name":"Tech","file":"tech.json"}]}',
       );
     });
   });

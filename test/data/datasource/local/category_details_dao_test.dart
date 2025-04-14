@@ -3,7 +3,6 @@ import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kagi_news/data/datasource/local/app_database.dart';
 import 'package:kagi_news/data/datasource/local/category_details_dao.dart';
-import 'package:kagi_news/data/datasource/local/model/category_details_entity.dart';
 
 void main() {
   late AppDatabase database;
@@ -29,14 +28,13 @@ void main() {
   });
 
   test('getAll returns all inserted items', () async {
-
-    final details1 = CategoryDetail(
+    const details1 = CategoryDetail(
       fileName: 'world.json',
       category: 'World',
       timestamp: 1744048227,
       jsonData: '{"articles": []}',
     );
-    final details2 = CategoryDetail(
+    const details2 = CategoryDetail(
       fileName: 'usa.json',
       category: 'USA',
       timestamp: 1744048227,
@@ -49,8 +47,10 @@ void main() {
     final result = await categoryDetailsDao.getAll();
 
     expect(result.length, 2);
-    expect(result.map((e) => e.fileName).toList()..sort(),
-        ['usa.json', 'world.json']);
+    expect(result.map((e) => e.fileName).toList()..sort(), [
+      'usa.json',
+      'world.json',
+    ]);
   });
 
   test('getByFileName returns null when item does not exist', () async {
@@ -59,8 +59,7 @@ void main() {
   });
 
   test('getByFileName returns correct item', () async {
-
-    final details = CategoryDetail(
+    const details = CategoryDetail(
       fileName: 'world.json',
       category: 'World',
       timestamp: 1744048227,
@@ -77,7 +76,7 @@ void main() {
   });
 
   test('insertOrUpdate inserts new record and returns id', () async {
-    final details = CategoryDetail(
+    const details = CategoryDetail(
       fileName: 'tech.json',
       category: 'Technology',
       timestamp: 1744048227,
@@ -93,8 +92,7 @@ void main() {
   });
 
   test('insertOrUpdate updates existing record', () async {
-
-    final details = CategoryDetail(
+    const details = CategoryDetail(
       fileName: 'health.json',
       category: 'Health',
       timestamp: 1744048227,
@@ -102,15 +100,13 @@ void main() {
     );
     await categoryDetailsDao.insertOrUpdate(details);
 
-
-    final updatedDetails = CategoryDetail(
+    const updatedDetails = CategoryDetail(
       fileName: 'health.json',
       category: 'Health & Wellness',
       timestamp: 1744048300,
       jsonData: '{"articles": [{"title": "Updated"}]}',
     );
     await categoryDetailsDao.insertOrUpdate(updatedDetails);
-
 
     final result = await categoryDetailsDao.getByFileName('health.json');
     expect(result, isNotNull);
@@ -120,21 +116,20 @@ void main() {
   });
 
   test('insertOrUpdate handles multiple records', () async {
-
     final categories = [
-      CategoryDetail(
+      const CategoryDetail(
         fileName: 'sports.json',
         category: 'Sports',
         timestamp: 1744048227,
         jsonData: '{"articles": [{"id": 1}]}',
       ),
-      CategoryDetail(
+      const CategoryDetail(
         fileName: 'finance.json',
         category: 'Finance',
         timestamp: 1744048227,
         jsonData: '{"articles": [{"id": 2}]}',
       ),
-      CategoryDetail(
+      const CategoryDetail(
         fileName: 'politics.json',
         category: 'Politics',
         timestamp: 1744048227,
@@ -142,16 +137,13 @@ void main() {
       ),
     ];
 
-
-    for (var detail in categories) {
+    for (final detail in categories) {
       await categoryDetailsDao.insertOrUpdate(detail);
     }
-
 
     final allResults = await categoryDetailsDao.getAll();
     expect(allResults.length, 3);
 
-    // Check specific records
     final sports = await categoryDetailsDao.getByFileName('sports.json');
     final finance = await categoryDetailsDao.getByFileName('finance.json');
 
@@ -159,64 +151,55 @@ void main() {
     expect(finance?.category, 'Finance');
   });
 
-  test('insertOrUpdate with duplicate primary key updates the record without creating duplicates', () async {
-    final details = CategoryDetail(
-      fileName: 'duplicate.json',
-      category: 'Initial',
-      timestamp: 1000,
-      jsonData: '{"articles": []}',
-    );
-    await categoryDetailsDao.insertOrUpdate(details);
+  test(
+    'insertOrUpdate with duplicate primary key updates the record without creating duplicates',
+    () async {
+      const details = CategoryDetail(
+        fileName: 'duplicate.json',
+        category: 'Initial',
+        timestamp: 1000,
+        jsonData: '{"articles": []}',
+      );
+      await categoryDetailsDao.insertOrUpdate(details);
 
-    final updatedDetails = CategoryDetail(
-      fileName: 'duplicate.json',
-      category: 'Updated',
-      timestamp: 2000,
-      jsonData: '{"articles": [{"title": "Updated"}]}',
-    );
-    await categoryDetailsDao.insertOrUpdate(updatedDetails);
+      const updatedDetails = CategoryDetail(
+        fileName: 'duplicate.json',
+        category: 'Updated',
+        timestamp: 2000,
+        jsonData: '{"articles": [{"title": "Updated"}]}',
+      );
+      await categoryDetailsDao.insertOrUpdate(updatedDetails);
 
-    final allRecords = await categoryDetailsDao.getAll();
-    expect(allRecords.length, equals(1));
-    final result = await categoryDetailsDao.getByFileName('duplicate.json');
-    expect(result, isNotNull);
-    expect(result!.category, equals('Updated'));
-    expect(result.timestamp, equals(2000));
+      final allRecords = await categoryDetailsDao.getAll();
+      expect(allRecords.length, equals(1));
+      final result = await categoryDetailsDao.getByFileName('duplicate.json');
+      expect(result, isNotNull);
+      expect(result!.category, equals('Updated'));
+      expect(result.timestamp, equals(2000));
+    },
+  );
+
+  test('deleteAll removes all records from the table', () async {
+    await categoryDetailsDao.insertOrUpdate(
+      const CategoryDetail(
+        fileName: 'a.json',
+        category: 'A',
+        timestamp: 123,
+        jsonData: '{"articles": []}',
+      ),
+    );
+
+    await categoryDetailsDao.insertOrUpdate(
+      const CategoryDetail(
+        fileName: 'b.json',
+        category: 'B',
+        timestamp: 456,
+        jsonData: '{"articles": []}',
+      ),
+    );
+
+    await categoryDetailsDao.deleteAll();
+    final result = await categoryDetailsDao.getAll();
+    expect(result, isEmpty);
   });
-
-
-// test('deleteByFileName removes the specified record', () async {
-//   final details = CategoryDetail(
-//     fileName: 'delete_me.json',
-//     category: 'ToDelete',
-//     timestamp: 1234567890,
-//     jsonData: '{"articles": []}',
-//   );
-//   await categoryDetailsDao.insertOrUpdate(details);
-//   await categoryDetailsDao.deleteByFileName('delete_me.json');
-//   final result = await categoryDetailsDao.getByFileName('delete_me.json');
-//   expect(result, isNull);
-// });
-
-test('deleteAll removes all records from the table', () async {
-
-  await categoryDetailsDao.insertOrUpdate(CategoryDetail(
-    fileName: 'a.json',
-    category: 'A',
-    timestamp: 123,
-    jsonData: '{"articles": []}',
-  ));
-
-  await categoryDetailsDao.insertOrUpdate(CategoryDetail(
-    fileName: 'b.json',
-    category: 'B',
-    timestamp: 456,
-    jsonData: '{"articles": []}',
-  ));
-
-  await categoryDetailsDao.deleteAll();
-  final result = await categoryDetailsDao.getAll();
-  expect(result, isEmpty);
-});
-
 }

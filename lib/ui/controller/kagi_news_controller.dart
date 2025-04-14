@@ -15,7 +15,6 @@ class KagiNewsController {
 
   KagiNewsController({required KagiNewsRepository repository}) {
     _repository = repository;
-    _repository.sync();
     fetchCategories();
   }
 
@@ -36,7 +35,7 @@ class KagiNewsController {
         forceRefresh: forceRefresh,
       );
       if (result.isSuccess) {
-        for (var category in result.data!.categories) {
+        for (final category in result.data!.categories) {
           if (!categoryDetailsNotifiers.containsKey(category.file)) {
             categoryDetailsNotifiers[category.file] = ValueNotifier(null);
           }

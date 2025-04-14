@@ -4,7 +4,7 @@ import 'package:kagi_news/di/injector.dart';
 import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/routes/app_router.dart';
 import 'package:kagi_news/services/background_fetch_service.dart';
-import 'package:kagi_news/ui/common/theme.dart';
+import 'package:kagi_news/ui/common/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,14 +29,13 @@ class MyApp extends StatelessWidget {
       supportedLocales: AppLocaleUtils.supportedLocales,
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       theme: ThemeData(
-        colorScheme: MaterialTheme.lightScheme(),
+        colorScheme: AppTheme.lightScheme(),
         useMaterial3: true,
       ),
       darkTheme: ThemeData(
-        colorScheme: MaterialTheme.darkScheme(),
+        colorScheme: AppTheme.darkScheme(),
         useMaterial3: true,
       ),
-      themeMode: ThemeMode.system,
       routerConfig: appRouter,
     );
   }

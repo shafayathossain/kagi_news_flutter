@@ -1,4 +1,4 @@
-const String businessNewsCategoryDetailsSample = '''
+const String businessNewsCategoryDetailsSample = r'''
 {
   "category": "Business",
   "timestamp": 1744043225,
@@ -14,7 +14,7 @@ const String businessNewsCategoryDetailsSample = '''
       "did_you_know": "The newly announced tariffs have raised the weighted average US tariff to 29% – its highest rate since 1900.",
       "talking_points": [
         "Market volatility: Global stock markets have experienced significant turbulence with Hong Kong's Hang Seng index plunging over 13% and Wall Street indexes entering bear market territory.",
-        "China's response: Beijing has already retaliated with 34% tariffs on US products and President Xi Jinping has vowed to \\"fully unleash\\" China's consumption potential to counter the impact.",
+        "China's response: Beijing has already retaliated with 34% tariffs on US products and President Xi Jinping has vowed to \"fully unleash\" China's consumption potential to counter the impact.",
         "Business concerns: Small business owners across America are doing alarming calculations as they face higher costs on imported goods with many unable to shift manufacturing to the US.",
         "Economic debate: Federal Reserve Governor Adriana Kugler noted that the tariffs currently have more pressing implications for inflation than for economic growth.",
         "Negotiation uncertainty: World leaders have been attempting to make offers to lower tariffs across the board, but many are unsure if Trump is actually interested in making deals."
@@ -66,14 +66,14 @@ const String businessNewsCategoryDetailsSample = '''
       "geopolitical_context": "",
       "historical_background": "The current tariff escalation echoes aspects of the Smoot-Hawley tariffs of 1930, which many economists believe contributed to the deepening of the Great Depression by reducing global trade. This marks the second major trade confrontation between the US and China under Trump's leadership, following the initial trade disputes during his first administration.",
       "international_reactions": [
-        "🇨🇳 China: Immediately implemented 34% retaliatory tariffs on US products and accused the US of \\"economic bullying\\"",
-        "🇩🇪 Germany: Economy Minister Robert Habeck called the premise of the tariffs \\"nonsense\\" and stated Europe should remain united in its response",
+        "🇨🇳 China: Immediately implemented 34% retaliatory tariffs on US products and accused the US of \"economic bullying\"",
+        "🇩🇪 Germany: Economy Minister Robert Habeck called the premise of the tariffs \"nonsense\" and stated Europe should remain united in its response",
         "🇻🇳 Vietnam: Urged the United States to delay imposing tariffs as the country has been working to forge stronger strategic and economic links with the US"
       ],
       "humanitarian_impact": "",
       "economic_implications": "",
       "timeline": [
-        "April 3, 2025:: Trump announces \\"Liberation Day\\" sweeping tariffs on global imports",
+        "April 3, 2025:: Trump announces \"Liberation Day\" sweeping tariffs on global imports",
         "April 5, 2025:: China retaliates with 34% tariffs on US products",
         "April 7, 2025:: Trump threatens additional 50% tariffs on China if they don't withdraw retaliatory measures"
       ],
@@ -623,7 +623,7 @@ const String businessNewsCategoryDetailsSample = '''
           "image_caption": ""
         },
         {
-          "title": "Trump tells Americans to \\"hang tough\\" as 10% universal tariffs take effect",
+          "title": "Trump tells Americans to \"hang tough\" as 10% universal tariffs take effect",
           "link": "https://www.cbsnews.com/news/trump-universal-tariff-take-effect/",
           "domain": "cbsnews.com",
           "date": "2025-04-06T23:50:33+00:00",
@@ -856,16 +856,16 @@ const String businessNewsCategoryDetailsSample = '''
       "number_of_titles": 50,
       "category": "Markets",
       "title": "Markets recover after initial plunge from Trump tariffs",
-      "short_summary": "Global stock markets experienced extreme volatility on Monday following President Trump's sweeping tariff announcements, with initial losses wiping out approximately \$5 trillion in market value. After falling sharply during early trading, with some Asian markets seeing their worst drops since 2008, US markets showed signs of resilience by rebounding from early lows in a session marked by wild swings. The turbulence was further intensified by conflicting reports about a potential pause in tariff implementation, which the White House later dismissed as \\"fake news.\\"",
+      "short_summary": "Global stock markets experienced extreme volatility on Monday following President Trump's sweeping tariff announcements, with initial losses wiping out approximately $5 trillion in market value. After falling sharply during early trading, with some Asian markets seeing their worst drops since 2008, US markets showed signs of resilience by rebounding from early lows in a session marked by wild swings. The turbulence was further intensified by conflicting reports about a potential pause in tariff implementation, which the White House later dismissed as \"fake news.\"",
       "did_you_know": "The market reaction to Trump's tariff announcement has been the fourth-worst two-day decline for stocks since World War II, according to Deutsche Bank researchers.",
       "talking_points": [
         "Global impact: Asian markets were hit particularly hard with Hong Kong's Hang Seng Index dropping over 13% and Japan's Nikkei falling nearly 8%, their worst performances in decades.",
         "Tariff specifics: Trump's plan includes at least 10% tariffs on goods from almost all foreign nations, with some duties exceeding 50%, particularly targeting China.",
         "Market volatility: Wall Street experienced extraordinary swings, with the Dow Jones briefly erasing a 1,700-point loss before turning negative again.",
         "Economic concerns: Economists and analysts have raised recession warnings, suggesting the tariffs could lead to higher inflation, weaker demand, and decreased consumer confidence.",
-        "Presidential stance: Trump has characterized the tariffs as necessary \\"medicine\\" to fix trade imbalances, stating he won't back down despite market turmoil."
+        "Presidential stance: Trump has characterized the tariffs as necessary \"medicine\" to fix trade imbalances, stating he won't back down despite market turmoil."
       ],
-      "quote": "\\"Sometimes you have to take medicine to fix something.\\"",
+      "quote": "\"Sometimes you have to take medicine to fix something.\"",
       "quote_author": "President Donald Trump",
       "quote_source_url": "https://apnews.com/article/trump-tariffs-stock-market-52a00ea2bb92a067ee72343941b02cd4",
       "quote_source_domain": "apnews.com",
@@ -881,7 +881,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Financial institutions: Deutsche Bank researchers described Trump's tariff rollout as the \\"biggest shock to the global trading system\\" since the 1970s and the \\"largest tax increase for the US consumer\\" since the Vietnam War.",
+          "text": "Financial institutions: Deutsche Bank researchers described Trump's tariff rollout as the \"biggest shock to the global trading system\" since the 1970s and the \"largest tax increase for the US consumer\" since the Vietnam War.",
           "sources": [
             {
               "name": "Business Insider",
@@ -890,7 +890,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Federal Reserve: Chair Jerome Powell warned that the tariffs could increase inflation, noting \\"there's a lot of waiting and seeing going on, including by us\\" before any decisions on interest rates would be made.",
+          "text": "Federal Reserve: Chair Jerome Powell warned that the tariffs could increase inflation, noting \"there's a lot of waiting and seeing going on, including by us\" before any decisions on interest rates would be made.",
           "sources": [
             {
               "name": "AP News",
@@ -912,8 +912,8 @@ const String businessNewsCategoryDetailsSample = '''
       "geopolitical_context": "",
       "historical_background": "President Trump has long criticized foreign trade deals as unfair to the United States, dating back to his first presidential term when he initiated trade conflicts with China and other trading partners. The current tariff announcement represents a fulfillment of campaign promises made during the 2024 election, where he pledged to use tariffs as a tool to reshape global trade relationships.",
       "international_reactions": [
-        "🇨🇳 China: Quickly announced retaliatory tariffs, with Trump threatening an \\"additional 50% tariff\\" if Beijing doesn't remove these countermeasures.",
-        "🇪🇺 European Union: Political leaders urged calm while markets experienced what some called a \\"stock market earthquake,\\" with Germany's DAX falling as much as 6.5%.",
+        "🇨🇳 China: Quickly announced retaliatory tariffs, with Trump threatening an \"additional 50% tariff\" if Beijing doesn't remove these countermeasures.",
+        "🇪🇺 European Union: Political leaders urged calm while markets experienced what some called a \"stock market earthquake,\" with Germany's DAX falling as much as 6.5%.",
         "🇯🇵 Japan: The Nikkei 225 index suffered its worst drop since 2008, closing down 7.8% after briefly having futures trading suspended."
       ],
       "humanitarian_impact": "",
@@ -944,7 +944,7 @@ const String businessNewsCategoryDetailsSample = '''
       "technical_specifications": "",
       "articles": [
         {
-          "title": "How Trump’s tariffs are affecting the market: The stampede that wiped \$5 trillion off Wall Street",
+          "title": "How Trump’s tariffs are affecting the market: The stampede that wiped $5 trillion off Wall Street",
           "link": "https://english.elpais.com/economy-and-business/2025-04-07/how-trumps-tariffs-are-affecting-the-market-the-stampede-that-wiped-5-trillion-off-wall-street.html",
           "domain": "elpais.com",
           "date": "2025-04-07T08:29:54+00:00",
@@ -1439,10 +1439,10 @@ const String businessNewsCategoryDetailsSample = '''
         "Stagflation concerns: Dimon referenced 1970s-style stagflation as a potential scenario if current economic trends continue unchecked.",
         "Market reaction: Financial markets have already responded negatively to the tariff announcements, with recent stock sell-offs reflecting investor concerns.",
         "Long-term outlook: Despite immediate concerns, Dimon did not definitively predict a recession but rather outlined factors that could contribute to economic challenges.",
-        "Interest rate implications: Ongoing inflation pressures could create a \\"tug-of-war\\" over interest rate direction, with Dimon suggesting rates may trend higher long-term.",
-        "Global considerations: The fragmentation of America's economic alliances could have potentially \\"disastrous\\" consequences beyond just the immediate economic impact."
+        "Interest rate implications: Ongoing inflation pressures could create a \"tug-of-war\" over interest rate direction, with Dimon suggesting rates may trend higher long-term.",
+        "Global considerations: The fragmentation of America's economic alliances could have potentially \"disastrous\" consequences beyond just the immediate economic impact."
       ],
-      "quote": "\\"Whether or not the menu of tariffs causes a recession remains in question, but it will slow down growth.\\"",
+      "quote": "\"Whether or not the menu of tariffs causes a recession remains in question, but it will slow down growth.\"",
       "quote_author": "Jamie Dimon, JPMorgan Chase CEO",
       "quote_source_url": "https://www.businessinsider.com/jpmorgan-ceo-jamie-dimons-annual-letter-to-investors-stagflation-2025-4",
       "quote_source_domain": "businessinsider.com",
@@ -1478,7 +1478,7 @@ const String businessNewsCategoryDetailsSample = '''
       ],
       "emoji": "📉",
       "geopolitical_context": "",
-      "historical_background": "The term \\"stagflation\\" that Dimon references gained prominence in the 1970s when the U.S. economy experienced the painful combination of high inflation, high unemployment, and slow economic growth. This historical period saw interest rates climb significantly despite economic weakness, a pattern Dimon suggests could potentially repeat.",
+      "historical_background": "The term \"stagflation\" that Dimon references gained prominence in the 1970s when the U.S. economy experienced the painful combination of high inflation, high unemployment, and slow economic growth. This historical period saw interest rates climb significantly despite economic weakness, a pattern Dimon suggests could potentially repeat.",
       "international_reactions": "",
       "humanitarian_impact": "",
       "economic_implications": "",
@@ -1607,11 +1607,11 @@ const String businessNewsCategoryDetailsSample = '''
       "number_of_titles": 7,
       "category": "Tariffs",
       "title": "Prominent business leaders voice concern over tariffs",
-      "short_summary": "Billionaire investor Bill Ackman and other Wall Street leaders are publicly expressing concern over President Trump's recently announced sweeping tariffs. Ackman, who supported Trump during the election, warned that the country is heading toward a \\"self-induced, economic nuclear winter\\" if the administration doesn't scale back the tariffs immediately, suggesting a 90-day pause to allow for negotiations on trade inequities.",
+      "short_summary": "Billionaire investor Bill Ackman and other Wall Street leaders are publicly expressing concern over President Trump's recently announced sweeping tariffs. Ackman, who supported Trump during the election, warned that the country is heading toward a \"self-induced, economic nuclear winter\" if the administration doesn't scale back the tariffs immediately, suggesting a 90-day pause to allow for negotiations on trade inequities.",
       "did_you_know": "Since the tariff announcement on April 2, the S&P 500 has dropped more than 10% and the Dow Jones has fallen more than 9%, pushing markets into bear territory.",
       "talking_points": [
         "Market reaction: Global markets have entered a tailspin since the announcement, with the S&P 500 declining over 15% and entering bear market territory.",
-        "Business confidence: Ackman warned that \\"business runs on confidence, and the president is rapidly losing the trust of global business leaders.\\\"",
+        "Business confidence: Ackman warned that \"business runs on confidence, and the president is rapidly losing the trust of global business leaders.\"",
         "Broad opposition: Multiple prominent financial leaders including Jamie Dimon, Howard Marks, and Stanley Druckenmiller have joined in expressing concern about the tariffs.",
         "Alternative proposal: Ackman suggested a 90-day timeout on tariffs to allow for negotiation and resolution of trade inequities."
       ],
@@ -1640,7 +1640,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Jamie Dimon: The JPMorgan Chase CEO has warned that the tariff policy \\"may be disastrous in the long run.\\".",
+          "text": "Jamie Dimon: The JPMorgan Chase CEO has warned that the tariff policy \"may be disastrous in the long run.\".",
           "sources": [
             {
               "name": "Bloomberg",
@@ -1954,9 +1954,9 @@ const String businessNewsCategoryDetailsSample = '''
       "talking_points": [
         "Global response: Stock indices in Japan, Taiwan, and Hong Kong were hardest hit, with each falling over 8% in early trading.",
         "Economic concerns: JPMorgan estimates the risk of a recession at 60% if the disruptive trade policies are sustained.",
-        "Market losses: Last week's market turmoil erased nearly \$6 trillion in global market value before Monday's additional declines.",
+        "Market losses: Last week's market turmoil erased nearly $6 trillion in global market value before Monday's additional declines.",
         "Rate cut expectations: Futures markets quickly moved to price in earlier US interest rate cuts, possibly beginning as soon as May.",
-        "Oil impact: Crude oil prices also fell significantly, with Brent dropping to \$63.46 a barrel amid concerns about reduced global growth."
+        "Oil impact: Crude oil prices also fell significantly, with Brent dropping to $63.46 a barrel amid concerns about reduced global growth."
       ],
       "quote": "We continue to expect a first Fed easing in June. However, we now think the Committee cuts at every meeting through January, bringing the top of the funds rate target range down to 3.0%.",
       "quote_author": "Bruce Kasman, head of economics at JPMorgan",
@@ -1974,7 +1974,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Trump administration: Markets will have to \\"take their medicine\\" as the President indicated he would not do a deal with China until the US trade deficit is addressed.",
+          "text": "Trump administration: Markets will have to \"take their medicine\" as the President indicated he would not do a deal with China until the US trade deficit is addressed.",
           "sources": [
             {
               "name": "Reuters",
@@ -2024,7 +2024,7 @@ const String businessNewsCategoryDetailsSample = '''
         "Financial markets: The selloff is accelerating across asset classes, suggesting potential systemic concerns beyond just trade tensions.",
         "International trade: Companies with global supply chains face significant uncertainty and potential cost increases due to expanding tariff policies.",
         "Central banking: Federal Reserve officials likely facing increased pressure to respond with monetary policy adjustments sooner than previously planned.",
-        "Wealth effect: The \$6 trillion market value loss could impact consumer spending and business investment decisions in coming quarters."
+        "Wealth effect: The $6 trillion market value loss could impact consumer spending and business investment decisions in coming quarters."
       ],
       "technical_specifications": "",
       "articles": [
@@ -2292,8 +2292,8 @@ const String businessNewsCategoryDetailsSample = '''
       "unique_domains": 7,
       "number_of_titles": 9,
       "category": "Oil",
-      "title": "Oil prices drop below \$60, creating consumer opportunity",
-      "short_summary": "Global oil prices have plummeted below \$60 per barrel, reaching a four-year low amid growing concerns about a potential global recession triggered by escalating US-China trade tensions. The significant price drop follows President Trump's announcement of sweeping tariffs and Saudi Arabia's decision to cut prices for its biggest buyers in Asia, creating a combination of demand concerns and supply pressures in the market.",
+      "title": "Oil prices drop below $60, creating consumer opportunity",
+      "short_summary": "Global oil prices have plummeted below $60 per barrel, reaching a four-year low amid growing concerns about a potential global recession triggered by escalating US-China trade tensions. The significant price drop follows President Trump's announcement of sweeping tariffs and Saudi Arabia's decision to cut prices for its biggest buyers in Asia, creating a combination of demand concerns and supply pressures in the market.",
       "did_you_know": "Oil prices are now 15 percent lower than they were before President Trump revealed his plans to impose new tariffs on imports from most countries.",
       "talking_points": [
         "Tariff impact: Trump's proposed global tariff plan has fueled fears of economic slowdown, putting significant downward pressure on oil demand expectations.",
@@ -2318,7 +2318,7 @@ const String businessNewsCategoryDetailsSample = '''
         "Late March 2025:: Trump announces plans for sweeping tariffs on imports from most countries",
         "Early April 2025:: US-China trade tensions escalate, triggering broader market sell-off",
         "April 6, 2025:: Saudi Aramco announces price cuts for Asian buyers for May deliveries",
-        "April 7, 2025:: Oil prices fall below \$60 per barrel, reaching lowest point since 2021"
+        "April 7, 2025:: Oil prices fall below $60 per barrel, reaching lowest point since 2021"
       ],
       "future_outlook": "",
       "key_players": [],
@@ -2401,7 +2401,7 @@ const String businessNewsCategoryDetailsSample = '''
           "image_caption": ""
         },
         {
-          "title": "U.S. crude oil falls below \$60 a barrel to lowest since 2021 on tariff-fueled recession fears",
+          "title": "U.S. crude oil falls below $60 a barrel to lowest since 2021 on tariff-fueled recession fears",
           "link": "https://www.cnbc.com/2025/04/06/us-crude-oil-falls-below-60-a-barrel-to-lowest-since-2021-on-tariff-fueled-recession-fears.html",
           "domain": "cnbc.com",
           "date": "2025-04-07T15:50:27+00:00",
@@ -2450,8 +2450,8 @@ const String businessNewsCategoryDetailsSample = '''
       "did_you_know": "More than a fifth of cars sold in the US are built in Mexico and Canada, according to S&P Global estimates.",
       "talking_points": [
         "Global impact: Shares in Japanese and European automakers have tumbled, with Nissan falling 9.3% and Stellantis dropping nearly 6% as markets react to the tariffs.",
-        "UK response: Prime Minister Starmer told automakers \\"we have your back\\" while announcing measures to support the car industry including reinstating the 2030 ban on new petrol and diesel vehicles.",
-        "Economic concerns: Analysts describe the tariffs as \\"a debacle of epic proportions\\" that could result in demand destruction of 15-20% for new auto purchases in 2025.",
+        "UK response: Prime Minister Starmer told automakers \"we have your back\" while announcing measures to support the car industry including reinstating the 2030 ban on new petrol and diesel vehicles.",
+        "Economic concerns: Analysts describe the tariffs as \"a debacle of epic proportions\" that could result in demand destruction of 15-20% for new auto purchases in 2025.",
         "Consumer effects: The tariffs are expected to drive up both vehicle prices and insurance rates in the US, making car ownership more expensive.",
         "Community impact: Small towns like Kanda, Japan, which are heavily dependent on automotive manufacturing for their local economy, face particular uncertainty."
       ],
@@ -2462,7 +2462,7 @@ const String businessNewsCategoryDetailsSample = '''
       "location": "",
       "perspectives": [
         {
-          "text": "UK government: The measures announced will help protect the car industry while maintaining climate goals, with the transport secretary claiming changes to EV rules will have a \\"negligible\\" impact on emissions.",
+          "text": "UK government: The measures announced will help protect the car industry while maintaining climate goals, with the transport secretary claiming changes to EV rules will have a \"negligible\" impact on emissions.",
           "sources": [
             {
               "name": "The Guardian",
@@ -2471,7 +2471,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Industry analysts: The tariffs represent a fundamental misunderstanding of the global supply chain reality, with Wedbush pointing out that a wholly US-made car is a \\"fairy tale fictional narrative.\\".",
+          "text": "Industry analysts: The tariffs represent a fundamental misunderstanding of the global supply chain reality, with Wedbush pointing out that a wholly US-made car is a \"fairy tale fictional narrative.\".",
           "sources": [
             {
               "name": "Business Insider",
@@ -2502,7 +2502,7 @@ const String businessNewsCategoryDetailsSample = '''
       "geopolitical_context": "",
       "historical_background": "The automotive industry has increasingly globalized its supply chains over the past decades, with components and assembly often crossing multiple international borders before a vehicle reaches consumers. Even before the latest tariffs, the UK car industry was already struggling with Brexit-related challenges and the transition to electric vehicles.",
       "international_reactions": [
-        "🇬🇧 United Kingdom: Prime Minister Starmer announced support measures for the auto industry, warning of an \\"age of insecurity\\" and describing a \\"changing and completely new world\\" after Trump's tariffs.",
+        "🇬🇧 United Kingdom: Prime Minister Starmer announced support measures for the auto industry, warning of an \"age of insecurity\" and describing a \"changing and completely new world\" after Trump's tariffs.",
         "🇯🇵 Japan: Growing concern about the impact on major manufacturers like Nissan and Toyota, with share prices dropping significantly and communities reliant on auto manufacturing facing economic uncertainty."
       ],
       "humanitarian_impact": "",
@@ -2686,7 +2686,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Small business owners: Local specialty retailers like Economy Candy fear returning to \\"hyperinflation\\" on products just as supplier prices were beginning to stabilize.",
+          "text": "Small business owners: Local specialty retailers like Economy Candy fear returning to \"hyperinflation\" on products just as supplier prices were beginning to stabilize.",
           "sources": [
             {
               "name": "Chicago Tribune",
@@ -2695,7 +2695,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "International manufacturers: Jaguar Land Rover described the US as \\"an important market\\" for its luxury brands while pausing shipments to process the impact of the new 25% auto tariffs.",
+          "text": "International manufacturers: Jaguar Land Rover described the US as \"an important market\" for its luxury brands while pausing shipments to process the impact of the new 25% auto tariffs.",
           "sources": [
             {
               "name": "CNBC",
@@ -2833,12 +2833,12 @@ const String businessNewsCategoryDetailsSample = '''
       "number_of_titles": 6,
       "category": "Cryptocurrency",
       "title": "Bitcoin faces temporary dip amid global market reaction",
-      "short_summary": "Bitcoin has dropped below the \$80,000 mark, falling approximately 10% following President Trump's global tariff announcement. The cryptocurrency, along with other digital assets, joined a broader market sell-off as investors responded to concerns about potential economic impacts from new tariff policies. Despite the current volatility, this movement demonstrates that cryptocurrencies remain connected to traditional market forces while maintaining significant value above previous years' levels.",
-      "did_you_know": "Despite the recent 10% drop, Bitcoin is still trading significantly higher than its price from early 2023 when it was below \$20,000.",
+      "short_summary": "Bitcoin has dropped below the $80,000 mark, falling approximately 10% following President Trump's global tariff announcement. The cryptocurrency, along with other digital assets, joined a broader market sell-off as investors responded to concerns about potential economic impacts from new tariff policies. Despite the current volatility, this movement demonstrates that cryptocurrencies remain connected to traditional market forces while maintaining significant value above previous years' levels.",
+      "did_you_know": "Despite the recent 10% drop, Bitcoin is still trading significantly higher than its price from early 2023 when it was below $20,000.",
       "talking_points": [
         "Market correlation: Cryptocurrencies have joined traditional financial markets in responding to economic policy news, dispelling the notion they are completely independent assets.",
-        "Liquidation volume: The broader crypto market has recorded over \$1.38 billion in liquidations as investors adjust positions.",
-        "Investor sentiment: Cryptocurrency holders appear to be in \\"sell mode\\" according to analysts, though this follows a significant bull run earlier in the year.",
+        "Liquidation volume: The broader crypto market has recorded over $1.38 billion in liquidations as investors adjust positions.",
+        "Investor sentiment: Cryptocurrency holders appear to be in \"sell mode\" according to analysts, though this follows a significant bull run earlier in the year.",
         "Recovery potential: Historical patterns suggest volatile crypto assets often rebound following political or economic news-driven price corrections."
       ],
       "quote": "Cryptocurrency investors appear to be in full 'sell mode'",
@@ -2857,7 +2857,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Market analyst: Bitcoin's movement is part of a broader market reaction where investors are \\"bracing for further carnage\\" after Trump's tariffs raised global recession fears.",
+          "text": "Market analyst: Bitcoin's movement is part of a broader market reaction where investors are \"bracing for further carnage\" after Trump's tariffs raised global recession fears.",
           "sources": [
             {
               "name": "CNBC",
@@ -2877,14 +2877,14 @@ const String businessNewsCategoryDetailsSample = '''
       ],
       "emoji": "📉",
       "geopolitical_context": "",
-      "historical_background": "Bitcoin has experienced several significant price corrections throughout its history, often in response to regulatory news or macroeconomic factors. The cryptocurrency reached an all-time high above \$85,000 earlier in 2025 before this current correction, demonstrating its continued volatility despite growing mainstream adoption.",
+      "historical_background": "Bitcoin has experienced several significant price corrections throughout its history, often in response to regulatory news or macroeconomic factors. The cryptocurrency reached an all-time high above $85,000 earlier in 2025 before this current correction, demonstrating its continued volatility despite growing mainstream adoption.",
       "international_reactions": "",
       "humanitarian_impact": "",
       "economic_implications": "",
       "timeline": [
-        "Early 2025:: Bitcoin reached new all-time highs above \$85,000",
+        "Early 2025:: Bitcoin reached new all-time highs above $85,000",
         "April 2025:: Trump announces new global tariff policies",
-        "April 6, 2025:: Bitcoin drops below \$80,000 mark amid market selloff"
+        "April 6, 2025:: Bitcoin drops below $80,000 mark amid market selloff"
       ],
       "future_outlook": "",
       "key_players": [],
@@ -2950,7 +2950,7 @@ const String businessNewsCategoryDetailsSample = '''
           "image_caption": ""
         },
         {
-          "title": "Bitcoin drops below \$80,000 as cryptocurrencies join global market rout",
+          "title": "Bitcoin drops below $80,000 as cryptocurrencies join global market rout",
           "link": "https://www.cnbc.com/2025/04/06/bitcoin-drops-sunday-evening-as-cryptocurrencies-join-global-market-rout.html",
           "domain": "cnbc.com",
           "date": "2025-04-07T14:50:10+00:00",
@@ -3000,15 +3000,15 @@ const String businessNewsCategoryDetailsSample = '''
       "category": "IPOs",
       "title": "IPO revival hopes stall amid market turbulence",
       "short_summary": "The anticipated comeback of initial public offerings (IPOs) in 2025 has been derailed by recent market turbulence, with companies like Klarna and StubHub shelving their plans. The market selloff, triggered by President Trump's new tariff announcements, has pushed the Nasdaq into bear market territory and created uncertainty for companies looking to go public, extending the IPO slump into its fourth consecutive year.",
-      "did_you_know": "2021 was a record-breaking year for deals with over 62,000 announced mergers globally and publicly disclosed deal values reaching \$5.1 trillion.",
+      "did_you_know": "2021 was a record-breaking year for deals with over 62,000 announced mergers globally and publicly disclosed deal values reaching $5.1 trillion.",
       "talking_points": [
         "Market reaction: The tech-heavy Nasdaq has dropped 20% from its December high, officially entering bear market territory following tariff announcements.",
-        "Economic concerns: Analysts and executives are expressing fears about potential recession as Trump's \\"Liberation Day\\" tariffs cause market volatility.",
+        "Economic concerns: Analysts and executives are expressing fears about potential recession as Trump's \"Liberation Day\" tariffs cause market volatility.",
         "Long-term impact: The ongoing IPO drought means average Americans have fewer opportunities to participate in wealth creation from successful private companies.",
         "Revised expectations: IPO analysts now estimate only about 150 deals could happen this year, far below what was expected for market recovery.",
         "Global effect: The market turbulence has affected IPO plans beyond the US, with Commerzbank confirming some European companies have halted public offering preparations."
       ],
-      "quote": "\\"All signs were pointing to 2025 as the year when we would finally get some IPOs\\"",
+      "quote": "\"All signs were pointing to 2025 as the year when we would finally get some IPOs\"",
       "quote_author": "Matt Kennedy, Senior Strategist at Renaissance Capital",
       "quote_source_url": "https://www.businessinsider.com/ipo-slump-market-sell-off-silicon-valley-klarna-stubhub-facebook-2025-4",
       "quote_source_domain": "businessinsider.com",
@@ -3024,7 +3024,7 @@ const String businessNewsCategoryDetailsSample = '''
           ]
         },
         {
-          "text": "Private equity executive: The current situation is described as \\"Trump is out of control,\\" indicating that deals are being put on hold due to market uncertainty.",
+          "text": "Private equity executive: The current situation is described as \"Trump is out of control,\" indicating that deals are being put on hold due to market uncertainty.",
           "sources": [
             {
               "name": "Fortune",
@@ -3044,7 +3044,7 @@ const String businessNewsCategoryDetailsSample = '''
       ],
       "emoji": "📉",
       "geopolitical_context": "",
-      "historical_background": "The current IPO drought follows an exceptional period of market activity in 2021, which saw record numbers of public offerings and mergers. Many investors and Wall Street professionals had anticipated a \\"Trump bump\\" to revitalize the IPO market in 2025, but that expected resurgence has failed to materialize.",
+      "historical_background": "The current IPO drought follows an exceptional period of market activity in 2021, which saw record numbers of public offerings and mergers. Many investors and Wall Street professionals had anticipated a \"Trump bump\" to revitalize the IPO market in 2025, but that expected resurgence has failed to materialize.",
       "international_reactions": "",
       "humanitarian_impact": "",
       "economic_implications": "",
@@ -3052,7 +3052,7 @@ const String businessNewsCategoryDetailsSample = '''
         "December 2024:: Stock markets reach record highs; IPO forecasts for 2025 look promising",
         "January 2025:: Trump inauguration creates dealmaker optimism for market revival",
         "Early 2025:: Companies like Klarna and StubHub prepare for potential public offerings",
-        "April 2025:: \\"Liberation Day\\" tariffs announced, triggering major market selloff"
+        "April 2025:: \"Liberation Day\" tariffs announced, triggering major market selloff"
       ],
       "future_outlook": "",
       "key_players": [],
@@ -3088,7 +3088,7 @@ const String businessNewsCategoryDetailsSample = '''
           "domain": "fortune.com",
           "date": "2025-04-07T16:03:59+00:00",
           "image": "https://kagiproxy.com/img/DjErmUO5Rlx8PXTEBO6fEsm0K3WN4-Gn2A3R2XweUQH8GaeV80Xtrn65kBG0jawcdzh1vAEH8DgyvRWh-29glOBHlEA9z5H8ShBqGnGb0HVnqTxQhrTugS7Mek0FVT9v5CzbsRGk9uGpAVnx6c4NGPQ",
-          "image_caption": "President Donald Trump announced the \\"Liberation Day tariffs\\" on April 2. (Courtesy of Chip Somodevilla / Getty Images)"
+          "image_caption": "President Donald Trump announced the \"Liberation Day tariffs\" on April 2. (Courtesy of Chip Somodevilla / Getty Images)"
         },
         {
           "title": "Commerzbank Says Some IPO Candidates Have Shelved Their Plans",

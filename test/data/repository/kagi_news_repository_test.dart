@@ -35,27 +35,33 @@ void main() {
     );
 
     final techDetails =
-        NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
+        NewsCategoryDetailsTestDataClient
+            .getTechNewsCategoryDetailsResponse();
 
-    final businessDetails = NewsCategoryDetailsTestDataClient
-        .getBusinessNewsCategoryDetailsResponse();
+    final businessDetails =
+        NewsCategoryDetailsTestDataClient
+            .getBusinessNewsCategoryDetailsResponse();
 
-    test(
-        'when timestamp differs, should fetch all category details and return true',
-        () async {
-      when(mockApiService.getCategories())
-          .thenAnswer((_) async => categoriesResponse);
-      when(mockLocalDataSource.getLastSavedTimestamp())
-          .thenAnswer((_) async => 12340);
+    test('when timestamp differs, should fetch all category details and '
+        'return true', () async {
+      when(
+        mockApiService.getCategories(),
+      ).thenAnswer((_) async => categoriesResponse);
+      when(
+        mockLocalDataSource.getLastSavedTimestamp(),
+      ).thenAnswer((_) async => 12340);
       when(mockLocalDataSource.saveCategories(any)).thenAnswer((_) async => {});
       when(mockLocalDataSource.saveTimestamp(any)).thenAnswer((_) async => {});
 
-      when(mockApiService.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => techDetails);
-      when(mockApiService.getCategoryDetails('business.json'))
-          .thenAnswer((_) async => businessDetails);
-      when(mockLocalDataSource.saveCategoryDetails(any, any, any))
-          .thenAnswer((_) async => {});
+      when(
+        mockApiService.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => techDetails);
+      when(
+        mockApiService.getCategoryDetails('business.json'),
+      ).thenAnswer((_) async => businessDetails);
+      when(
+        mockLocalDataSource.saveCategoryDetails(any, any, any),
+      ).thenAnswer((_) async => {});
 
       final result = await repository.sync();
 
@@ -65,52 +71,64 @@ void main() {
       verify(mockLocalDataSource.saveCategories(categoriesResponse)).called(1);
       verify(mockApiService.getCategoryDetails('tech.json')).called(1);
       verify(mockApiService.getCategoryDetails('business.json')).called(1);
-      verify(mockLocalDataSource.saveCategoryDetails(
-              'tech.json', 'Tech', techDetails))
-          .called(1);
-      verify(mockLocalDataSource.saveCategoryDetails(
-              'business.json', 'Business', businessDetails))
-          .called(1);
+      verify(
+        mockLocalDataSource.saveCategoryDetails(
+          'tech.json',
+          'Tech',
+          techDetails,
+        ),
+      ).called(1);
+      verify(
+        mockLocalDataSource.saveCategoryDetails(
+          'business.json',
+          'Business',
+          businessDetails,
+        ),
+      ).called(1);
       verify(mockLocalDataSource.saveTimestamp(12345)).called(1);
     });
 
-    test(
-      'when timestamp is null, should fetch all category details and return true',
-      () async {
-        when(mockApiService.getCategories())
-            .thenAnswer((_) async => categoriesResponse);
-        when(mockLocalDataSource.getLastSavedTimestamp())
-            .thenAnswer((_) async => null);
-        when(mockLocalDataSource.saveCategories(any))
-            .thenAnswer((_) async => {});
-        when(mockLocalDataSource.saveTimestamp(any))
-            .thenAnswer((_) async => {});
+    test('when timestamp is null, should fetch all category details and '
+        'return true', () async {
+      when(
+        mockApiService.getCategories(),
+      ).thenAnswer((_) async => categoriesResponse);
+      when(
+        mockLocalDataSource.getLastSavedTimestamp(),
+      ).thenAnswer((_) async => null);
+      when(mockLocalDataSource.saveCategories(any)).thenAnswer((_) async => {});
+      when(mockLocalDataSource.saveTimestamp(any)).thenAnswer((_) async => {});
 
-        when(mockApiService.getCategoryDetails('tech.json'))
-            .thenAnswer((_) async => techDetails);
-        when(mockApiService.getCategoryDetails('business.json'))
-            .thenAnswer((_) async => businessDetails);
-        when(mockLocalDataSource.saveCategoryDetails(any, any, any))
-            .thenAnswer((_) async => {});
+      when(
+        mockApiService.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => techDetails);
+      when(
+        mockApiService.getCategoryDetails('business.json'),
+      ).thenAnswer((_) async => businessDetails);
+      when(
+        mockLocalDataSource.saveCategoryDetails(any, any, any),
+      ).thenAnswer((_) async => {});
 
-        final result = await repository.sync();
+      final result = await repository.sync();
 
-        expect(result.isSuccess, true);
-        expect(result.data, true);
-        verify(mockApiService.getCategoryDetails('tech.json')).called(1);
-        verify(mockApiService.getCategoryDetails('business.json')).called(1);
-      },
-    );
+      expect(result.isSuccess, true);
+      expect(result.data, true);
+      verify(mockApiService.getCategoryDetails('tech.json')).called(1);
+      verify(mockApiService.getCategoryDetails('business.json')).called(1);
+    });
 
     test(
       'when timestamp is the same, should not fetch details and return false',
       () async {
-        when(mockApiService.getCategories())
-            .thenAnswer((_) async => categoriesResponse);
-        when(mockLocalDataSource.getLastSavedTimestamp())
-            .thenAnswer((_) async => 12345); // Same timestamp
-        when(mockLocalDataSource.saveCategories(any))
-            .thenAnswer((_) async => {});
+        when(
+          mockApiService.getCategories(),
+        ).thenAnswer((_) async => categoriesResponse);
+        when(
+          mockLocalDataSource.getLastSavedTimestamp(),
+        ).thenAnswer((_) async => 12345); // Same timestamp
+        when(
+          mockLocalDataSource.saveCategories(any),
+        ).thenAnswer((_) async => {});
 
         final result = await repository.sync();
 
@@ -123,8 +141,9 @@ void main() {
     );
 
     test('when api throws error, should return error result', () async {
-      when(mockApiService.getCategories())
-          .thenThrow(Exception('Network error'));
+      when(
+        mockApiService.getCategories(),
+      ).thenThrow(Exception('Network error'));
 
       final result = await repository.sync();
 
@@ -144,23 +163,28 @@ void main() {
       categories: [NewsCategory(name: 'Tech', file: 'tech.json')],
     );
 
-    test('with cache and no forced refresh, should return cached data',
-        () async {
-      when(mockLocalDataSource.getCategories())
-          .thenAnswer((_) async => cachedCategories);
+    test(
+      'with cache and no forced refresh, should return cached data',
+      () async {
+        when(
+          mockLocalDataSource.getCategories(),
+        ).thenAnswer((_) async => cachedCategories);
 
-      final result = await repository.getCategories();
+        final result = await repository.getCategories();
 
-      expect(result.isSuccess, true);
-      expect(result.data, cachedCategories);
-      verifyNever(mockApiService.getCategories());
-    });
+        expect(result.isSuccess, true);
+        expect(result.data, cachedCategories);
+        verifyNever(mockApiService.getCategories());
+      },
+    );
 
     test('with cache and forced refresh, should fetch from network', () async {
-      when(mockLocalDataSource.getCategories())
-          .thenAnswer((_) async => cachedCategories);
-      when(mockApiService.getCategories())
-          .thenAnswer((_) async => networkCategories);
+      when(
+        mockLocalDataSource.getCategories(),
+      ).thenAnswer((_) async => cachedCategories);
+      when(
+        mockApiService.getCategories(),
+      ).thenAnswer((_) async => networkCategories);
       when(mockLocalDataSource.saveCategories(any)).thenAnswer((_) async => {});
 
       final result = await repository.getCategories(forceRefresh: true);
@@ -173,8 +197,9 @@ void main() {
 
     test('without cache, should fetch from network', () async {
       when(mockLocalDataSource.getCategories()).thenAnswer((_) async => null);
-      when(mockApiService.getCategories())
-          .thenAnswer((_) async => networkCategories);
+      when(
+        mockApiService.getCategories(),
+      ).thenAnswer((_) async => networkCategories);
       when(mockLocalDataSource.saveCategories(any)).thenAnswer((_) async => {});
 
       final result = await repository.getCategories();
@@ -186,10 +211,12 @@ void main() {
     });
 
     test('error handling with cache, should fall back to cache', () async {
-      when(mockLocalDataSource.getCategories())
-          .thenAnswer((_) async => cachedCategories);
-      when(mockApiService.getCategories())
-          .thenThrow(Exception('Network error'));
+      when(
+        mockLocalDataSource.getCategories(),
+      ).thenAnswer((_) async => cachedCategories);
+      when(
+        mockApiService.getCategories(),
+      ).thenThrow(Exception('Network error'));
 
       final result = await repository.getCategories(forceRefresh: true);
 
@@ -199,8 +226,9 @@ void main() {
 
     test('error handling without cache, should return error', () async {
       when(mockLocalDataSource.getCategories()).thenAnswer((_) async => null);
-      when(mockApiService.getCategories())
-          .thenThrow(Exception('Network error'));
+      when(
+        mockApiService.getCategories(),
+      ).thenThrow(Exception('Network error'));
 
       final result = await repository.getCategories();
 
@@ -211,51 +239,66 @@ void main() {
 
   group('getCategoryDetails', () {
     final cachedDetails =
-        NewsCategoryDetailsTestDataClient.getTechNewsCategoryDetailsResponse();
+        NewsCategoryDetailsTestDataClient
+            .getTechNewsCategoryDetailsResponse();
 
-    final networkDetails = NewsCategoryDetailsTestDataClient
-        .getBusinessNewsCategoryDetailsResponse();
+    final networkDetails =
+        NewsCategoryDetailsTestDataClient
+            .getBusinessNewsCategoryDetailsResponse();
 
-    test('with cache and no forced refresh, should return cached data',
-        () async {
-      when(mockLocalDataSource.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => cachedDetails);
+    test(
+      'with cache and no forced refresh, should return cached data',
+      () async {
+        when(
+          mockLocalDataSource.getCategoryDetails('tech.json'),
+        ).thenAnswer((_) async => cachedDetails);
 
-      final result = await repository.getCategoryDetails('tech.json');
+        final result = await repository.getCategoryDetails('tech.json');
 
-      expect(result.isSuccess, true);
-      expect(result.data, cachedDetails);
-      verifyNever(mockApiService.getCategoryDetails(any));
-    });
+        expect(result.isSuccess, true);
+        expect(result.data, cachedDetails);
+        verifyNever(mockApiService.getCategoryDetails(any));
+      },
+    );
 
     test('with cache and forced refresh, should fetch from network', () async {
-      when(mockLocalDataSource.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => cachedDetails);
-      when(mockApiService.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => networkDetails);
-      when(mockLocalDataSource.saveCategoryDetails(any, any, any))
-          .thenAnswer((_) async => {});
+      when(
+        mockLocalDataSource.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => cachedDetails);
+      when(
+        mockApiService.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => networkDetails);
+      when(
+        mockLocalDataSource.saveCategoryDetails(any, any, any),
+      ).thenAnswer((_) async => {});
 
-      final result =
-          await repository.getCategoryDetails('tech.json', forceRefresh: true);
+      final result = await repository.getCategoryDetails(
+        'tech.json',
+        forceRefresh: true,
+      );
 
       expect(result.isSuccess, true);
       expect(result.data, networkDetails);
       verify(mockApiService.getCategoryDetails('tech.json')).called(1);
-      verify(mockLocalDataSource.saveCategoryDetails(
-        'tech.json',
-        networkDetails.category,
-        networkDetails,
-      )).called(1);
+      verify(
+        mockLocalDataSource.saveCategoryDetails(
+          'tech.json',
+          networkDetails.category,
+          networkDetails,
+        ),
+      ).called(1);
     });
 
     test('without cache, should fetch from network', () async {
-      when(mockLocalDataSource.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => null);
-      when(mockApiService.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => networkDetails);
-      when(mockLocalDataSource.saveCategoryDetails(any, any, any))
-          .thenAnswer((_) async => {});
+      when(
+        mockLocalDataSource.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => null);
+      when(
+        mockApiService.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => networkDetails);
+      when(
+        mockLocalDataSource.saveCategoryDetails(any, any, any),
+      ).thenAnswer((_) async => {});
 
       final result = await repository.getCategoryDetails('tech.json');
 
@@ -265,23 +308,29 @@ void main() {
     });
 
     test('error handling with cache, should fall back to cache', () async {
-      when(mockLocalDataSource.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => cachedDetails);
-      when(mockApiService.getCategoryDetails('tech.json'))
-          .thenThrow(Exception('Network error'));
+      when(
+        mockLocalDataSource.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => cachedDetails);
+      when(
+        mockApiService.getCategoryDetails('tech.json'),
+      ).thenThrow(Exception('Network error'));
 
-      final result =
-          await repository.getCategoryDetails('tech.json', forceRefresh: true);
+      final result = await repository.getCategoryDetails(
+        'tech.json',
+        forceRefresh: true,
+      );
 
       expect(result.isSuccess, true);
       expect(result.data, cachedDetails);
     });
 
     test('error handling without cache, should return error', () async {
-      when(mockLocalDataSource.getCategoryDetails('tech.json'))
-          .thenAnswer((_) async => null);
-      when(mockApiService.getCategoryDetails('tech.json'))
-          .thenThrow(Exception('Network error'));
+      when(
+        mockLocalDataSource.getCategoryDetails('tech.json'),
+      ).thenAnswer((_) async => null);
+      when(
+        mockApiService.getCategoryDetails('tech.json'),
+      ).thenThrow(Exception('Network error'));
 
       final result = await repository.getCategoryDetails('tech.json');
 
@@ -291,8 +340,9 @@ void main() {
   });
 
   test('clearCache should call clearAllCategoryDetails', () async {
-    when(mockLocalDataSource.clearAllCategoryDetails())
-        .thenAnswer((_) async => {});
+    when(
+      mockLocalDataSource.clearAllCategoryDetails(),
+    ).thenAnswer((_) async => {});
 
     await repository.clearCache();
 

@@ -11,7 +11,7 @@ class KagiNewsCategoriesResponse {
     return KagiNewsCategoriesResponse(
       timestamp: json['timestamp'] as int,
       categories: (json['categories'] as List)
-          .map((item) => NewsCategory.fromJson(item))
+          .map((item) => NewsCategory.fromJson(item as Map<String, dynamic>))
           .toList(),
     );
   }

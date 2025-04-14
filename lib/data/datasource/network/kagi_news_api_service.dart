@@ -12,6 +12,7 @@ class KagiNewsApiService {
   Future<KagiNewsCategoriesResponse> getCategories() async {
     try {
       final response = await _dioClient.get<Map<String, dynamic>>('/kite.json');
+
       return KagiNewsCategoriesResponse.fromJson(response.data!);
     } catch (e) {
       throw _mapError(e, t.errors.failedToLoadCategories);
@@ -23,6 +24,7 @@ class KagiNewsApiService {
   ) async {
     try {
       final response = await _dioClient.get<Map<String, dynamic>>('/$fileName');
+
       return NewsCategoryDetailsResponse.fromJson(response.data!);
     } catch (e) {
       throw _mapError(e, t.errors.failedToLoadCategoryDetails);
@@ -33,6 +35,7 @@ class KagiNewsApiService {
     if (error is Exception) {
       return error;
     }
+
     return Exception(defaultMessage);
   }
 }

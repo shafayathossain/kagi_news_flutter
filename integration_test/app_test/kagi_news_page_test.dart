@@ -6,6 +6,7 @@ import 'package:kagi_news/data/datasource/network/model/news_category_details_re
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:kagi_news/data/datasource/repository/result.dart';
 import 'package:kagi_news/di/injector.dart';
+import 'package:kagi_news/i18n/strings.g.dart';
 import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
 import 'package:kagi_news/ui/screens/kagi_news_page.dart';
 import 'package:mockito/mockito.dart';
@@ -107,7 +108,7 @@ void main() {
         (WidgetTester tester) async {
       await tester.pumpWidget(buildTestApp());
 
-      controller.fetchCategories();
+      await controller.fetchCategories();
       expect(find.byType(CircularProgressIndicator), findsOneWidget);
       await tester.pumpAndSettle();
 
@@ -129,11 +130,11 @@ void main() {
       if (techDetails.clusters != null && techDetails.clusters!.isNotEmpty) {
         // If there are clusters, scroll to find the title of the first tech article.
         await tester.scrollUntilVisible(
-          find.text(techDetails.clusters![0].title),
+          find.text(techDetails.clusters!.first.title),
           10.0,
           scrollable: find.byType(Scrollable).first,
         );
-        expect(find.text(techDetails.clusters![0].title), findsOneWidget);
+        expect(find.text(techDetails.clusters!.first.title), findsOneWidget);
       }
 
       // Navigate to Business Tab and verify content
@@ -145,11 +146,11 @@ void main() {
       if (businessDetails.clusters != null &&
           businessDetails.clusters!.isNotEmpty) {
         await tester.scrollUntilVisible(
-          find.text(businessDetails.clusters![0].title),
+          find.text(businessDetails.clusters!.first.title),
           10.0,
           scrollable: find.byType(Scrollable).first,
         );
-        expect(find.text(businessDetails.clusters![0].title), findsOneWidget);
+        expect(find.text(businessDetails.clusters!.first.title), findsOneWidget);
       }
 
       // Open a detail bottom sheet for an article
@@ -160,16 +161,16 @@ void main() {
 
         // Tap on the first tech article to open its detail.
         await tester.scrollUntilVisible(
-          find.text(techDetails.clusters![0].title),
+          find.text(techDetails.clusters!.first.title),
           10.0,
           scrollable: find.byType(Scrollable).first,
         );
-        await tester.tap(find.text(techDetails.clusters![0].title));
+        await tester.tap(find.text(techDetails.clusters!.first.title));
         await tester.pumpAndSettle();
         expect(find.byType(DraggableScrollableSheet), findsOneWidget);
 
         // Close the bottom sheet.
-        await tester.tap(find.byIcon(Icons.close).last);
+        await tester.tap(find.text(t.app.close).first);
         await tester.pumpAndSettle();
       }
 

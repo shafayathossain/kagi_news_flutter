@@ -1,12 +1,12 @@
-import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
-import 'package:kiwi/kiwi.dart';
 import 'package:kagi_news/data/datasource/local/app_database.dart';
 import 'package:kagi_news/data/datasource/local/category_details_dao.dart';
 import 'package:kagi_news/data/datasource/local/kagi_news_local_data_source.dart';
 import 'package:kagi_news/data/datasource/network/dio_client.dart';
 import 'package:kagi_news/data/datasource/network/kagi_news_api_service.dart';
+import 'package:kagi_news/data/datasource/repository/kagi_news_repository.dart';
 import 'package:kagi_news/data/datasource/repository/kagi_news_repository_impl.dart';
 import 'package:kagi_news/ui/controller/kagi_news_controller.dart';
+import 'package:kiwi/kiwi.dart';
 
 class Injector {
   static final KiwiContainer container = KiwiContainer();
@@ -19,7 +19,7 @@ class Injector {
   }
 
   static void _registerNetworkServices() {
-    container.registerSingleton((c) => DioClient());
+    container.registerSingleton((_) => DioClient());
 
     container.registerSingleton<KagiNewsApiService>(
       (c) => KagiNewsApiService(dioClient: c.resolve<DioClient>()),
@@ -27,7 +27,7 @@ class Injector {
   }
 
   static void _registerLocalServices() {
-    container.registerSingleton((c) => AppDatabase());
+    container.registerSingleton((_) => AppDatabase());
 
     container.registerSingleton<CategoryDetailsDao>(
       (c) => c.resolve<AppDatabase>().categoryDetailsDao,

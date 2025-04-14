@@ -22,9 +22,13 @@ class NewsCategoryDetailsResponse {
           category: json['category'] as String,
           timestamp: json['timestamp'] as int,
           read: json['read'] as int,
-          clusters: (json['clusters'] as List)
-              .map((item) => NewsCluster.fromJson(item))
-              .toList(),
+          clusters:
+              (json['clusters'] as List)
+                  .map(
+                    (item) =>
+                        NewsCluster.fromJson(item as Map<String, dynamic>),
+                  )
+                  .toList(),
           onThisDayItems: null,
         );
       } else if (json['events'] != null) {
@@ -33,10 +37,14 @@ class NewsCategoryDetailsResponse {
           timestamp: json['timestamp'] as int,
           read: null,
           clusters: null,
-          onThisDayItems: (json['events'] as List)
-              .map((item) => OnThisDayItem.fromJson(item))
-              .toList()
-              ..sort((a, b) => b.sortYear.compareTo(a.sortYear)),
+          onThisDayItems:
+              (json['events'] as List)
+                  .map(
+                    (item) =>
+                        OnThisDayItem.fromJson(item as Map<String, dynamic>),
+                  )
+                  .toList()
+                ..sort((a, b) => b.sortYear.compareTo(a.sortYear)),
         );
       } else {
         return NewsCategoryDetailsResponse(
@@ -48,7 +56,7 @@ class NewsCategoryDetailsResponse {
         );
       }
     } catch (e) {
-      print("Error parsing NewsCategoryDetailsResponse: $e  --> $json");
+      print(e);
       throw Exception("Failed to parse NewsCategoryDetailsResponse");
     }
   }
@@ -151,24 +159,13 @@ class NewsCluster {
     required this.userExperienceImpact,
   });
 
-  // Helper function that converts a JSON field into a List<String>.
-  // If the field is a string (possibly empty), it returns an empty list if the string is empty,
-  // or a singleton list if there is a non-empty value.
-  static List<String> _parseStringList(dynamic value) {
-    if (value is String) {
-      return value.isEmpty ? [] : [value];
-    } else if (value is List) {
-      return List<String>.from(value);
-    }
-    return [];
-  }
-
   factory NewsCluster.fromJson(Map<String, dynamic> json) {
     try {
       return NewsCluster(
-        articles: (json['articles'] as List)
-            .map((item) => Article.fromJson(item))
-            .toList(),
+        articles:
+            (json['articles'] as List)
+                .map((item) => Article.fromJson(item as Map<String, dynamic>))
+                .toList(),
         businessAnglePoints: _parseStringList(json['business_angle_points']),
         businessAngleText: json['business_angle_text'] as String,
         category: json['category'] as String,
@@ -178,9 +175,12 @@ class NewsCluster {
         destinationHighlights: json['destination_highlights'] as String,
         didYouKnow: json['did_you_know'] as String,
         diyTips: json['diy_tips'] as String,
-        domains: (json['domains'] as List)
-            .map((item) => NewsDomain.fromJson(item))
-            .toList(),
+        domains:
+            (json['domains'] as List)
+                .map(
+                  (item) => NewsDomain.fromJson(item as Map<String, dynamic>),
+                )
+                .toList(),
         economicImplications: json['economic_implications'] as String,
         emoji: json['emoji'] as String,
         futureOutlook: json['future_outlook'] as String,
@@ -189,22 +189,27 @@ class NewsCluster {
         historicalBackground: json['historical_background'] as String,
         humanitarianImpact: json['humanitarian_impact'] as String,
         industryImpact: _parseStringList(json['industry_impact']),
-        internationalReactions:
-            _parseStringList(json['international_reactions']),
+        internationalReactions: _parseStringList(
+          json['international_reactions'],
+        ),
         keyPlayers: _parseStringList(json['key_players']),
         leagueStandings: json['league_standings'] as String,
         location: json['location'] as String,
         numberOfTitles: json['number_of_titles'] as int,
         performanceStatistics: _parseStringList(json['performance_statistics']),
-        perspectives: (json['perspectives'] as List)
-            .map((item) => Perspective.fromJson(item))
-            .toList(),
+        perspectives:
+            (json['perspectives'] as List)
+                .map(
+                  (item) => Perspective.fromJson(item as Map<String, dynamic>),
+                )
+                .toList(),
         quote: json['quote'] as String,
         quoteAuthor: json['quote_author'] as String,
         quoteSourceDomain: json['quote_source_domain'] as String,
         quoteSourceUrl: json['quote_source_url'] as String,
-        scientificSignificance:
-            _parseStringList(json['scientific_significance']),
+        scientificSignificance: _parseStringList(
+          json['scientific_significance'],
+        ),
         shortSummary: json['short_summary'] as String,
         talkingPoints: _parseStringList(json['talking_points']),
         technicalDetails: _parseStringList(json['technical_details']),
@@ -217,9 +222,22 @@ class NewsCluster {
         userExperienceImpact: _parseStringList(json['user_experience_impact']),
       );
     } catch (e) {
-      print("Error parsing NewsCluster: $e  --> $json");
+      print(e);
       throw Exception("Failed to parse NewsCluster");
     }
+  }
+
+  // Helper function that converts a JSON field into a List<String>.
+  // If the field is a string (possibly empty), it returns an empty list if the string is empty,
+  // or a singleton list if there is a non-empty value.
+  static List<String> _parseStringList(dynamic value) {
+    if (value is String) {
+      return value.isEmpty ? [] : [value];
+    } else if (value is List) {
+      return List<String>.from(value);
+    }
+
+    return [];
   }
 
   Map<String, dynamic> toJson() {
@@ -273,17 +291,15 @@ class Perspective {
   final String text;
   final List<Source> sources;
 
-  Perspective({
-    required this.text,
-    required this.sources,
-  });
+  Perspective({required this.text, required this.sources});
 
   factory Perspective.fromJson(Map<String, dynamic> json) {
     return Perspective(
       text: json['text'] as String,
-      sources: (json['sources'] as List)
-          .map((item) => Source.fromJson(item))
-          .toList(),
+      sources:
+          (json['sources'] as List)
+              .map((item) => Source.fromJson(item as Map<String, dynamic>))
+              .toList(),
     );
   }
 
@@ -299,23 +315,14 @@ class Source {
   final String name;
   final String url;
 
-  Source({
-    required this.name,
-    required this.url,
-  });
+  Source({required this.name, required this.url});
 
   factory Source.fromJson(Map<String, dynamic> json) {
-    return Source(
-      name: json['name'] as String,
-      url: json['url'] as String,
-    );
+    return Source(name: json['name'] as String, url: json['url'] as String);
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      'name': name,
-      'url': url,
-    };
+    return {'name': name, 'url': url};
   }
 }
 
@@ -336,24 +343,6 @@ class Article {
     required this.imageCaption,
   });
 
-  static String _formatDateFromJson(String dateStr) {
-    try {
-      return DateFormat('dd MMM yyyy, hh.mm a')
-          .format(DateTime.parse(dateStr).toLocal());
-    } catch (e) {
-      return dateStr;
-    }
-  }
-
-  static String _formatDateToJson(String formattedDate) {
-    try {
-      return DateFormat("yyyy-MM-dd'T'HH:mm:ssZ").format(
-          DateFormat('dd MMM yyyy, hh.mm a').parse(formattedDate).toUtc());
-    } catch (e) {
-      return formattedDate;
-    }
-  }
-
   factory Article.fromJson(Map<String, dynamic> json) {
     return Article(
       title: json['title'] as String,
@@ -363,6 +352,26 @@ class Article {
       image: json['image'] as String,
       imageCaption: json['image_caption'] as String,
     );
+  }
+
+  static String _formatDateFromJson(String dateStr) {
+    try {
+      return DateFormat(
+        'dd MMM yyyy, hh.mm a',
+      ).format(DateTime.parse(dateStr).toLocal());
+    } catch (e) {
+      return dateStr;
+    }
+  }
+
+  static String _formatDateToJson(String formattedDate) {
+    try {
+      return DateFormat(
+        "yyyy-MM-dd'T'HH:mm:ssZ",
+      ).format(DateFormat('dd MMM yyyy, hh.mm a').parse(formattedDate).toUtc());
+    } catch (e) {
+      return formattedDate;
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -381,10 +390,7 @@ class NewsDomain {
   final String name;
   final String favicon;
 
-  NewsDomain({
-    required this.name,
-    required this.favicon,
-  });
+  NewsDomain({required this.name, required this.favicon});
 
   factory NewsDomain.fromJson(Map<String, dynamic> json) {
     return NewsDomain(
@@ -394,10 +400,7 @@ class NewsDomain {
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      'name': name,
-      'favicon': favicon,
-    };
+    return {'name': name, 'favicon': favicon};
   }
 }
 
@@ -418,9 +421,10 @@ class OnThisDayItem {
     return OnThisDayItem(
       year: json['year'] as String,
       htmlContent: json['content'] as String,
-      sortYear: json['sort_year'] is int
-          ? (json['sort_year'] as int).toDouble()
-          : json['sort_year'] as double,
+      sortYear:
+          json['sort_year'] is int
+              ? (json['sort_year'] as int).toDouble()
+              : json['sort_year'] as double,
       type: json['type'] as String,
     );
   }
